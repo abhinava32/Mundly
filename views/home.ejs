@@ -2,3 +2,27 @@
     Hi, Welcome to Social Services!!
 </h1>
 
+<section id="feed-posts">
+    <h4>Posts</h4>
+    <form action="users/new-post" id="new-post-form" method="post">
+        <textarea name="content" id="" cols="35" rows="3"></textarea>
+        <button type="submit">Post</button>
+    </form>
+
+    <div id="posts-list-container">
+        <ol>
+            <% for(post of posts){ %>
+            <p> 
+            <li>
+                <%= post.content %>
+                
+            </li>
+            <small>
+                <%= post.user.name %>
+            </small>
+            <% } %>
+        </p>
+        </ol>
+    </div>
+
+</section>
