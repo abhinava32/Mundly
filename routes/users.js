@@ -5,7 +5,7 @@ const usersController = require('../controllers/users_controller');
 const passport = require('passport');
 // const createProfileController = require('../controllers/createUserController')
 const profileController = require('../controllers/profileController');
-const postController = require('../controllers/postController');
+
 
 
 // router.post('/createProfile',createProfileController.createProfile);
@@ -22,6 +22,6 @@ router.get('/profile', passport.checkAuthentication ,profileController.showProfi
 
 router.get('/sign-out', usersController.signOut);
 
-router.post('/new-post', postController.newPost);
+
 
 module.exports = router;

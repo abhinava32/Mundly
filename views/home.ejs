@@ -4,24 +4,36 @@
 
 <section id="feed-posts">
     <h4>Posts</h4>
-    <form action="users/new-post" id="new-post-form" method="post">
+    
+    <form action="/posts/new-post" id="new-post-form" method="post">
         <textarea name="content" id="" cols="35" rows="3"></textarea>
-        <button type="submit">Post</button>
+        <input type="submit" value="Add Post">
     </form>
+    
 
     <div id="posts-list-container">
         <ol>
             <% for(post of posts){ %>
             <p> 
-            <li>
-                <%= post.content %>
-                
-            </li>
-            <small>
-                <%= post.user.name %>
-            </small>
+                <li>
+                    <%= post.content %>
+                    
+                </li>
+                <small>
+                    <%= post.user.name %>
+                </small>
+            
+            </p>
+        <div class="post-comments">
+            <% if(locals.user) { %>
+                <form action="/comments/create" method="POST">
+                    <input type="text" name="content" placeholder="add comment...">
+                    <input type="hidden" name="post" value=" <%= post._id %>">
+                    <input type="submit" value="Add Comment">
+                </form> 
             <% } %>
-        </p>
+        </div>
+        <% } %>
         </ol>
     </div>
 

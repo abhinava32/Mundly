@@ -41,9 +41,10 @@ passport.deserializeUser(async function(id,done){
 
 passport.checkAuthentication = function(req, res, next){
     if(req.isAuthenticated()){
+        console.log("authenticated user found");
         return next();
     }
-
+    console.log("Passing by");
     return res.redirect('/users/sign-in');
 }
 
