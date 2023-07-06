@@ -3,6 +3,10 @@ body{
     text-align: center;
 }
 
-input{
-    margin-bottom: 100px;
+#new-post-form{
+    margin-bottom: 50px;
+}
+
+ol{
+    margin-bottom: 50px;
 }
