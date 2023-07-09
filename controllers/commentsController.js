@@ -21,5 +21,10 @@ module.exports.create = async function(req, res){
     }
 }
 
+module.exports.destroy = async function(req, res){
+    await Comment.findByIdAndDelete(req.params.id);
+    res.redirect('/');
+}
+
 
 
