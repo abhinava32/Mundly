@@ -18,8 +18,8 @@ router.post('/create-session', passport.authenticate(
     ), 
     usersController.createSession);
 
-router.get('/profile', passport.checkAuthentication ,profileController.showProfile);
-
+router.get('/profile/:id', passport.checkAuthentication ,profileController.showProfile);
+router.post('/profile/update/:id', passport.checkAuthentication, profileController.updateProfile);
 router.get('/sign-out', usersController.signOut);
 
 

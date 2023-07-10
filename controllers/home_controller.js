@@ -1,5 +1,6 @@
 const post  = require('../models/post');
 // const Comments = require('../models/comments');
+const users = require('../models/users');
 
 console.log("home called");
 
@@ -13,5 +14,12 @@ module.exports.home = async function(req, res){
         }
     }).exec();
     // const comments = await comments.find({}).populate(posts).exec();
-    return res.render('home',{'title':'home page', posts:posts});
+    const usersList = await users.find({});
+    return res.render('home',
+                        {
+                            'title':'home page', 
+                            posts:posts,
+                            users: usersList  
+                        }
+                    );
 }

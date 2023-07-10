@@ -1,4 +1,11 @@
 <h1>Welcome</h1>
-
-<h3> <%= user.name %></h3>
-
+<% if(user.id == profile_user.id) { %> 
+    <form action="/users/profile/update/<%=user.id%> " method="post">
+        <input type="text" value="<%=profile_user.name%>" name="name" required>
+        <input type="text" value="<%=profile_user.email%>" name="email" required>  
+        <button type="submit">Update</button>      
+    </form>
+<%} else {%>
+    <h3> <%= profile_user.name %></h3>
+    <h4><%= profile_user.email %></h4> 
+<% } %> 

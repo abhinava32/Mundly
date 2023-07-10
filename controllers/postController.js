@@ -30,7 +30,11 @@ module.exports.newPost = async function(req, res){
 }
 
 module.exports.destroy = async function(req,res){
-    await post.findByIdAndDelete(req.params.id);
-    await Comment.deleteMany({post:req.params.id});
+    const Post = await post.findById(req.params.id);
+    if(Post.user == req.user.id){
+        await post.findByIdAndDelete(req.params.id);
+        await Comment.deleteMany({post:req.params.id});
+    }
+    
     return res.redirect('/');
 }
