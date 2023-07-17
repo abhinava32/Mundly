@@ -6,6 +6,7 @@ console.log("home called");
 
 module.exports.home = async function(req, res){    
     const posts = await post.find({})
+    .sort('-createdAt')
     .populate('user')
     .populate({
         path: 'comments',

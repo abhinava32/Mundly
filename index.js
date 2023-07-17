@@ -18,7 +18,7 @@ app.set('layout extractScripts', true);             // same as above for js
 //use express router
                 // redirecting to routes folder
 app.use(express.static('Static'));                  // setting the path for static files such as css, js and images
-
+app.use('/uploads', express.static(__dirname+'/uploads'));
 app.set('view engine', 'ejs');                      
 app.set('views',path.join(__dirname,'views'));
 
