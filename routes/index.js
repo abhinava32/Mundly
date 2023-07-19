@@ -10,6 +10,7 @@ router.get('/',homeController.home);
 router.use('/users',require('./users'));
 router.use('/posts',require('./posts'));
 router.use('/comments',require('./comments')); 
+router.use('/api', require('./API'));
 // router.get('/', (req, res) => {
 //     res.send('Birds home page')
 //   })

@@ -7,6 +7,7 @@ const expressLayouts = require('express-ejs-layouts');          //this import he
 const passport = require('passport');           
 const session = require('express-session'); 
 const passportLocal = require('./config/passport-local-strategy'); 
+const passportJWT = require('./config/passport-jwt-strategy');
 const db = require('./config/mongoose');
 const MongoStore = require('connect-mongo');
 
