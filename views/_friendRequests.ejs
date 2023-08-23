@@ -1,0 +1,9 @@
+<% if (locals.user) { %> 
+    <% for(request of requests){ %>
+        <ul>
+            <li>
+                <a href="/users/profile/<%=request.sender._id%>"><%= request.sender.name %></a>
+            </li>
+        </ul>
+    <% } %>    
+<% } %>

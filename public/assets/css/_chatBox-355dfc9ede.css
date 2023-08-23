@@ -1,0 +1,45 @@
+#container-div #third-col #chatContainer {
+  height: 400px;
+  width: 350px;
+  border: 1px solid grey;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+  position: fixed;
+  bottom: 0px;
+  background-color: #f8f1e9; }
+  #container-div #third-col #chatContainer #chatBox {
+    height: 350px;
+    width: 350px;
+    position: absolute;
+    top: 0px;
+    overflow: auto; }
+    #container-div #third-col #chatContainer #chatBox #chat-messages-list li {
+      list-style: none; }
+    #container-div #third-col #chatContainer #chatBox #chat-messages-list .other-message {
+      text-align: left;
+      position: relative;
+      left: 0px;
+      width: 250px;
+      margin: 10px; }
+    #container-div #third-col #chatContainer #chatBox #chat-messages-list .self-message {
+      text-align: right;
+      width: 250px;
+      position: relative;
+      right: 0px;
+      display: block;
+      margin: 10px; }
+  #container-div #third-col #chatContainer input {
+    height: 50px;
+    width: 270px;
+    background-color: white;
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    margin: 0px; }
+  #container-div #third-col #chatContainer button {
+    width: 80px;
+    margin: 0px;
+    height: 50px;
+    position: absolute;
+    bottom: 0px;
+    right: 0px; }

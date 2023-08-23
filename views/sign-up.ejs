@@ -1,7 +1,11 @@
-<form action="/users/create-profile" method="post">
+<form action="/users/create-profile" method="post" class="form-group">
     <input type="text" name="name" placeholder="your name" required>
     <input type="text" name="email" placeholder="email-id" required>
     <input type="password" name="password" placeholder="set password" required>
     <input type="password" name="confirm_password" placeholder="confirm password" required>
     <button type="submit"> Sign Up </button>
 </form>
+
+<p>
+    <a href="/users/auth/google">Sign in via google</a>
+</p>
