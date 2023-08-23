@@ -38,9 +38,9 @@ const development = {
 
 const production = {
     name: 'production',
-    static_path: process.env.STATIC_PATH,
-    sessionCookieKey: process.env.SESSION_COOKIE_KEY,
-    databasePath: process.env.DATABASE_PATH,
+    static_path: process.env.MUNDLY_STATIC_PATH,
+    sessionCookieKey: process.env.MUNDLY_SESSION_COOKIE_KEY,
+    databasePath: process.env.MUNDLY_DATABASE_PATH,
     hostDomain: 'http://localhost:8000',
     smtp: {
         service: 'gmail',
@@ -48,13 +48,13 @@ const production = {
         port: 587,
         secure: false,
         auth: {
-            user: process.env.EMAIL_ID,
-            pass: process.env.EMAIL_PASSWORD
+            user: process.env.MUNDLY_EMAIL_ID,
+            pass: process.env.MUNDLY_EMAIL_PASSWORD
         }
     },
-    clientID: process.env.GOOGLE_CLIENT_ID,
-    clientSecret: process.env.GOOGLE_CLIENT_SECRET, 
-    callbackURL: process.env.GOOGLE_CALL_BACK_URL,
+    clientID: process.env.MUNDLY_GOOGLE_CLIENT_ID,
+    clientSecret: process.env.MUNDLY_GOOGLE_CLIENT_SECRET, 
+    callbackURL: process.env.MUNDLY_GOOGLE_CALL_BACK_URL,
     morgan: {
         mode:'combined',
         options:{stream:accessLogStream}
