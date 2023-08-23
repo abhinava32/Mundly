@@ -54,8 +54,8 @@ module.exports.exceptRelation = async function(req, res){
 
     let sender = await users.findById(relation.sender);
 
-    console.log(sender);
-    console.log(receiver);
+    //console.log(sender);
+    //console.log(receiver);
 
     sender.friends.push(receiver._id);
     sender.save();

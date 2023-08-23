@@ -15,13 +15,13 @@ passport.use(new LocalStrategy({
 
             // }
         if(!user){
-            console.log("User not found");
+            //console.log("User not found");
             return done(null,false);
         }
 
         else{
             if(user.password != password){
-                console.log("password did not matched!!");
+                //console.log("password did not matched!!");
                 return done(null, false);
             }
             return done(null,user);
@@ -41,10 +41,10 @@ passport.deserializeUser(async function(id,done){
 
 passport.checkAuthentication = function(req, res, next){
     if(req.isAuthenticated()){
-        console.log("authenticated user found");
+        //console.log("authenticated user found");
         return next();
     }
-    console.log("Passing by");
+    //console.log("Passing by");
     return res.redirect('/users/sign-in');
 }
 

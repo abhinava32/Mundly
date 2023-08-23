@@ -12,7 +12,7 @@ exports.newComment = (comment) => {
         html: htmlString
     }, (err,info) => {
         if(err){ console.log("error in sending mail", err); return;}
-        console.log("message sent ", info);
+        // console.log("message sent ", info);
         return;
     });
 }

@@ -21,7 +21,7 @@ const { Console } = require('console');
 const chatServer = require('http').createServer(app);
     const chatSockets = require('./config/chatSocket').chatSocket(chatServer);
     chatServer.listen(5000); //port number can ne changed
-    console.log("chat server is listening on port number 5000");
+    //console.log("chat server is listening on port number 5000");
 
 if(env.name == "development"){
     app.use(sassMiddleware({
@@ -43,7 +43,7 @@ app.set('layout extractScripts', true);             // same as above for js
 //use express router
                 // redirecting to routes folder
 app.use(express.static(env.static_path));                  // setting the path for static files such as css, js and images
-console.log(env.static_path);
+//console.log(env.static_path);
 app.use('/uploads', express.static(__dirname+'/uploads'));
 app.use(logger(env.morgan.mode, env.morgan.options));
 
@@ -89,7 +89,7 @@ const server = app.listen(port, function(err){
         console.log(`Error while creating server: ${err}`);
         return;
     }
-    console.log(`Server is running on port: ${port}`);
+    //console.log(`Server is running on port: ${port}`);
     
 })
 

@@ -6,20 +6,20 @@ module.exports.signIn = function(req,res){
     if(req.isAuthenticated()){
         return res.redirect('/users/profile');
     }
-    return res.render('sign-in',{'title': 'Facelook | signIn' });
+    return res.render('sign-in',{'title': 'Mundly | signIn' });
 }
 
 module.exports.signUp = function(req,res){
     if(req.isAuthenticated()){
         return res.redirect('/users/profile');
     }
-    return res.render('sign-up',{'title': 'Facelook | signUp' });
+    return res.render('sign-up',{'title': 'Mundly | signUp' });
 }
 
 
 
 module.exports.createProfile = async function(req,res){
-    console.log(req.body);
+    //console.log(req.body);
     if(req.body.password != req.body.confirm_password){
         return res.redirect('back');
     }
@@ -27,10 +27,10 @@ module.exports.createProfile = async function(req,res){
     user = await Users.findOne({email: req.body.email});
     if(!user){
         await Users.create(req.body);
-        return res.render('sign-in',{'title': 'Facelook | signIn' });
+        return res.render('sign-in',{'title': 'Mundly | signIn' });
     }
 
-    console.log("user already present!!");
+    //console.log("user already present!!");
     return res.redirect('back');
 };
 

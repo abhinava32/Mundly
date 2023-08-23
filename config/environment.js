@@ -22,12 +22,12 @@ const development = {
         port: 587,
         secure: false,
         auth: {
-            user: 'alchemy.cod12@gmail.com',
-            pass: 'owphzyznflvkdxrf'
+            user: '<your eamil>', //put your email here
+            pass: '<password>'
         }
     },
-    clientID: "913160551182-rt5073e15va05rksp6ckvqeca0hsvj8i.apps.googleusercontent.com",
-    clientSecret: "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", 
+    clientID: "<Id>",
+    clientSecret: "<Secret>", 
     callbackURL: "http://localhost:8000/users/auth/google/callback",
     morgan:{
         mode: 'dev',

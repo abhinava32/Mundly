@@ -23,18 +23,18 @@ module.exports.create = async function(req, res){
         // commentsMailer.newComment(comment, user.email);
         comment = await comment.populate('user', 'name email');
         
-        console.log("added email as ", comment.user.email);
-        console.log("added ",comment);
+        //console.log("added email as ", comment.user.email);
+        //console.log("added ",comment);
 
         let job = queue.create('emails', comment).save(function(err){
             if(err){
                 console.log("error in sending to the queue", err);
                 return;
             }
-            console.log('job enqued ', job.id);
+            //console.log('job enqued ', job.id);
         })
 
-        console.log(user.name);
+        //console.log(user.name);
         // let user = await 
 
         if(req.xhr){
@@ -52,7 +52,7 @@ module.exports.create = async function(req, res){
         
     }
     else{
-        console.log("post not found!!");
+        //console.log("post not found!!");
     }
 }
 
@@ -68,7 +68,7 @@ module.exports.destroy = async function(req, res){
     }
 
     if(req.xhr){
-        console.log("xhr request found!!");
+        //console.log("xhr request found!!");
         return res.status(200).json({
             data: {
                 id : req.params.id

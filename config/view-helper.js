@@ -9,7 +9,7 @@ module.exports = (app) => {
         }
         
         const pathName = '/'+JSON.parse(fs.readFileSync(path.join(__dirname, '../public/assets/rev-manifest.json')))[filePath];
-        console.log("Path Name:",pathName);
+        //console.log("Path Name:",pathName);
         return pathName;
     }
 }
