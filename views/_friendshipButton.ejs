@@ -1,0 +1,28 @@
+
+
+<button type="button" class="btn btn-primary" 
+
+<% if(statusCode == 0) { %>
+
+    onclick="window.location.href='/users/remove-relation/<%= relation %>'">
+    Cancel Friend Request
+
+<% } else if( statusCode == 1 ){ %>
+    
+    onclick="window.location.href='/users/except-request/<%= relation %>'">
+    Except Friend Request
+
+<% } else if(statusCode ==  2) { %>
+
+    onclick="window.location.href='/users/remove-relation/<%= relation %>'">
+    Unfriend <%= profile_user.name %>
+
+<% } else {%>
+
+    onclick="window.location.href='/users/add-friend/<%= profile_user._id %>'">
+    Send Friend Request
+
+ <% } %>
+
+
+</button>

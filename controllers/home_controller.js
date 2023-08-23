@@ -1,13 +1,15 @@
 const post  = require('../models/post');
 // const Comments = require('../models/comments');
 const users = require('../models/users');
+const friendship = require('../models/friendships');
+const User = require('../models/users');
 
-console.log("home called");
+// console.log("home called");
 
 module.exports.home = async function(req, res){    
     const posts = await post.find({})
     .sort('-createdAt')
-    .populate('user')
+    .populate('user', 'name email avatar')
     .populate({
         path: 'comments',
         populate: {
@@ -15,12 +17,33 @@ module.exports.home = async function(req, res){
         }
     }).exec();
     // const comments = await comments.find({}).populate(posts).exec();
-    const usersList = await users.find({});
+    let usersList = await users.find({},'name email');
+
+    if(req.user){
+        const user = await User.findById(req.user._id)
+        .populate("friends")
+        .exec();
+        
+        // console.log(user);
+        const friends = user.friends;
+        // console.log(friends);
+
+        const requests = await friendship.find({$and: [{receiver: req.user.id}, {excepted: 'false'} ]}).populate('sender', 'name');
+        // console.log("friends>>"+friends);
+        return res.render('home',
+        {
+            'title':'home page', 
+            posts:posts,
+            users: usersList,
+            friends: friends ,
+            requests: requests
+        });
+    }
     return res.render('home',
                         {
                             'title':'home page', 
                             posts:posts,
-                            users: usersList  
+                            users: usersList 
                         }
                     );
 }

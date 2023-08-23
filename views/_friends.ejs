@@ -1,7 +1,9 @@
-<% for(userId of users){ %>
-    <ul>
-        <li>
-            <a href="/users/profile/<%=userId.id%>"><%= userId.name %></a>
-        </li>
-    </ul>
+<% if (locals.user) { %> 
+    <% for(friend of friends){ %>
+        <ul>
+            <li>
+                <a id="<%= friend.email %>"><%= friend.name %></a>
+            </li>
+        </ul>
+    <% } %>    
 <% } %>

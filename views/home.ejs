@@ -1,25 +1,113 @@
-<h1>
-    Hi, Welcome to Social Services!!
-</h1>
 
-<section id="feed-posts">
-    <h4>Posts</h4>
-    
-    <form action="/posts/new-post" id="new-post-form" method="post">
-        <textarea name="content" id="" cols="35" rows="3"></textarea>
-        <input type="submit" value="Add Post">
-    </form>
-    
-    <div id="posts-list-container">
-        <ul class="post-list"> 
-            <% for(post of posts){ %>
-                <%- include('_post') -%>
-            <% } %>
-        </ul>
+<link rel="stylesheet" href="<%= assetPath('css/home.css') %>">
+<link rel="stylesheet" href="<%= assetPath('css/_chatBox.css') %>">
+
+<div class="row" id="container-div">
+    <% if (locals.user) { %> 
+    <div class="col-3 friends-list border-right">
+        <div class="row h-50">
+            <section>
+                <h4>Requests</h4>
+                <%- include('_friendRequests') -%>
+            </section>
+        </div>
+        <div class="row ">
+            <div id="users">
+                <section>
+                    <h4>Users</h4>
+                    <%- include('_users') -%>
+                </section>
+            </div> 
+        </div>
+        
     </div>
-</section>
-<section>
-    <h4>Friends</h4>
-    <%- include('_friends') -%>
-</section>
-<script src="/js/homeScript.js"></script>
+    
+    <div class="col">
+        <section id="feed-posts" class="text-center" >
+            <h4 class="text-center">Posts</h4>
+            
+            <form action="/posts/new-post" id="new-post-form" method="post">
+                <textarea name="content" id="" cols="35" rows="3"></textarea>
+                <input type="submit" value="Add Post">
+            </form>
+            
+            <div id="posts-list-container">
+                <ul class="post-list"> 
+                    <% for(post of posts){ %>
+                        <%- include('_post') -%>
+                    <% } %>
+                </ul>
+            </div>
+        </section>
+    </div>
+    <div class="col-3 " id="third-col">
+        <div id="friends" class="row h-20 friends-list">
+            <section>
+                <h4>Friends</h4>
+                <%- include('_friends') -%>
+            </section>
+        </div>
+        <div id="chatContainer">
+            <div class="row" id="chatBox">
+                <ul id="chat-messages-list">
+                    <!-- <li class="other-message">
+                        <span>Other's Message</span>
+                    </li>
+                    <li class="self-message">
+                        <span>Self Message</span>
+                    </li> -->
+                </ul>
+            </div>
+            <div>
+                <input type="text" id="message-box" placeholder="type your message here">
+                <button id="send-message" class=" btn btn-primary">Send</button>
+            </div>
+        </div>
+    </div>
+    
+    <% } else { %>
+        <div class="col-3">
+        </div>
+        <div class="col">
+            <section id="feed-posts" class="text-center" >
+                <h4 class="text-center">Posts</h4>
+                
+                <form action="/posts/new-post" id="new-post-form" method="post">
+                    <textarea name="content" id="" cols="35" rows="3"></textarea>
+                    <input type="submit" value="Add Post">
+                </form>
+                
+                <div id="posts-list-container">
+                    <ul class="post-list"> 
+                        <% for(post of posts){ %>
+                            <%- include('_post') -%>
+                        <% } %>
+                    </ul>
+                </div>
+            </section>
+        </div>
+        <div class="col-3 friends-list">
+            <div id="users">
+                <section>
+                    <h4>Users</h4>
+                    <%- include('_users') -%>
+                </section>
+            </div> 
+        </div>
+
+    <% } %>
+
+
+</div>
+<div id="chatBox">
+
+</div>
+<script src="<%= assetPath('js/homeScript.js') %>"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.7.2/socket.io.js" integrity="sha512-zoJXRvW2gC8Z0Xo3lBbao5+AS3g6YWr5ztKqaicua11xHo+AvE1b0lT9ODgrHTmNUxeCw0Ry4BGRYZfXu70weg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="<%= assetPath('js/chat_engine.js') %>"></script>
+
+<% if (locals.user) { %> 
+    <script>
+        new chatEngine('chatBox', '<%= locals.user.email %>');
+    </script>    
+<% } %>

@@ -3,6 +3,7 @@ const { deleteMany } = require('../models/comments');
 const post = require('../models/post');
 const Comment = require('../models/comments');
 const User = require('../models/users');
+const Likes = require('../models/likes');
 
 
 module.exports.newPost = async function(req, res){
@@ -36,9 +37,11 @@ module.exports.newPost = async function(req, res){
 
 module.exports.destroy = async function(req,res){
     const Post = await post.findById(req.params.id);
+    // const Likes = await post.findById
     if(Post.user == req.user.id){
         await post.findByIdAndDelete(req.params.id);
         await Comment.deleteMany({post:req.params.id});
+        await Likes.deleteMany({likable:req.params.id});
     }
 
     if(req.xhr){

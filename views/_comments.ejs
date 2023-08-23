@@ -4,6 +4,10 @@
         <small>
             <a class="delete-comment-button" href="/comments/destroy/<%= comment.id %>" >X</a>
         </small>
+       
+    <% } %>
+    <% if(locals.user) { %> 
+        <small><a href="/likes/toggle/?type=Comment&id=<%= comment._id %>"><%= comment.likes.length %> Likes</a></small>    
     <% } %>
 </li>
 

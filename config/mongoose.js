@@ -1,5 +1,6 @@
 const mongoose = require('mongoose');
-mongoose.connect('mongodb://localhost/majorProject');
+const env = require('./environment');
+mongoose.connect(env.databasePath);
 
 const db = mongoose.connection;
 

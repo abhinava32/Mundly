@@ -35,7 +35,7 @@ passport.serializeUser(function(user,done){
 });
 
 passport.deserializeUser(async function(id,done){
-    const user = await User.findById(id);
+    const user = await User.findById(id, 'name email avatar');
     return done(null, user);
 });
 

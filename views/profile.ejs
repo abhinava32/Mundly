@@ -1,14 +1,27 @@
-<h1>Welcome</h1>
-<% if(user.id == profile_user.id) { %> 
+
+<% if(locals.user._id == profile_user.id) { %>
+    <div class="text-center container-fluid">
+
+    
+    <h1 class="text-center">Your Profile</h1> 
     <img src="<%= user.avatar %>" alt="profile picture" width="100">
     <form action="/users/profile/update/<%=user.id%> " enctype="multipart/form-data" method="post">
         <input type="text" value="<%=profile_user.name%>" name="name" required>
         
         <input type="text" value="<%=profile_user.email%>" name="email" required>  
         <input type="file" name="avatar" placeholder="profile picture" value="profile picture">
+        <br>
+        <br>
         <button type="submit">Update</button>      
     </form>
+</div>
 <%} else {%>
-    <h3> <%= profile_user.name %></h3>
-    <h4><%= profile_user.email %></h4> 
+    <div class="text-center">
+        <img src="<%= profile_user.avatar %>" alt="Profile Picture">
+        <h1> <%= profile_user.name %>'s Profile</h1>
+        <h4>Email: <%= profile_user.email %></h4>
+        <%- include('_friendshipButton') -%>
+        
+    </div>
+     
 <% } %> 

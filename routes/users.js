@@ -5,6 +5,7 @@ const usersController = require('../controllers/users_controller');
 const passport = require('passport');
 // const createProfileController = require('../controllers/createUserController')
 const profileController = require('../controllers/profileController');
+const friendshipController = require('../controllers/friendshipController');
 
 
 
@@ -21,6 +22,11 @@ router.post('/create-session', passport.authenticate(
 router.get('/profile/:id', passport.checkAuthentication ,profileController.showProfile);
 router.post('/profile/update/:id', passport.checkAuthentication, profileController.updateProfile);
 router.get('/sign-out', usersController.signOut);
+router.get('/add-friend/:id', passport.checkAuthentication ,friendshipController.addFriends);
+router.get('/remove-relation/:id', passport.checkAuthentication ,friendshipController.removeRelation);
+router.get('/except-request/:id', passport.checkAuthentication ,friendshipController.exceptRelation);
+router.get('/auth/google', passport.authenticate('google', {scope: ['profile','email']}));
+router.get('/auth/google/callback', passport.authenticate('google', {failureRedirect: '/users/sign-in'}), usersController.createSession);
 
 
 

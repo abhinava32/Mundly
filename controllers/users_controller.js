@@ -1,5 +1,6 @@
 const { redirect } = require('express/lib/response');
 const Users = require('../models/users');
+const friendships = require('../models/friendships');
 
 module.exports.signIn = function(req,res){
     if(req.isAuthenticated()){
@@ -45,3 +46,36 @@ module.exports.signOut = function(req,res){
     });
     return res.redirect('/');
 }
+
+module.exports.addFriends = async function(req, res){
+    const user1 = req.user.id;
+    const user2 = req.params.id;
+    
+    if(user1 == user2){
+        return res.redirect('/');
+    }
+
+    const exist = await friendships.findOne(
+        {$or: [
+                {
+                    $and:[{sender: user1},{receiver: user2}]
+                },
+                {
+                    $and:[{sender: user2},{receiver: user1}]
+                }
+            ]
+        });
+
+    // console.log(exist);
+
+    if(!exist){
+        const newFriendship = await friendships.create({
+            sender: user1,
+            receiver: user2,
+            excepted: false
+        });   
+    }
+
+    return res.redirect('/');
+}
+
