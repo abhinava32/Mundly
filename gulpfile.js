@@ -2,7 +2,7 @@
 const del = require('del');
 const gulp = require('gulp');
 // import gulp from 'gulp';
-const sass = require('gulp-sass')(require('node-sass'));
+const sass = require('gulp-sass')(require('sass'));
 // import sass from 'gulp-sass';
 const cssnano = require('gulp-cssnano');
 // import cssnano from 'gulp-cssnano'
