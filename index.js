@@ -15,7 +15,7 @@ const passportJWT = require('./config/passport-jwt-strategy');
 const passportGoogle = require('./config/passport-google-oauth2-startegy');
 const db = require('./config/mongoose');
 const MongoStore = require('connect-mongo');
-const sassMiddleware = require('node-sass-middleware');
+const sassMiddleware = require('sass-middleware');
 const { Console } = require('console');
 
 const chatServer = require('http').createServer(app);
