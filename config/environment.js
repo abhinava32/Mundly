@@ -52,7 +52,7 @@ const production = {
             pass: process.env.MUNDLY_EMAIL_PASSWORD
         }
     },
-    clientID: process.env.MUNDLY_GOOGLE_CLIENT_ID,
+    clientID: '913160551182-rt5073e15va05rksp6ckvqeca0hsvj8i.apps.googleusercontent.com',
     clientSecret: process.env.MUNDLY_GOOGLE_CLIENT_SECRET, 
     callbackURL: process.env.MUNDLY_GOOGLE_CALL_BACK_URL,
     morgan: {
