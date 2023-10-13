@@ -20,7 +20,8 @@ module.exports.newPost = async function(req, res){
             return res.status(200).json({
                 data: {
                     post: Post,
-                    user: user.name
+                    user: user.name,
+                    avatar: user.avatar
                 },
                 message: "Post Created!!"
             });

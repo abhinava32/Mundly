@@ -1,8 +1,9 @@
 
-<li id="post-<%= post._id%>" class="shadow"> 
+<li id="post-<%= post._id%>" class="shadow posts"> 
+    <img src="<%= post.user.avatar %>" alt="" style="float: left;">
     <p>
         <p>
-            <%= post.content %>    
+            <%= post.content %>  
         </p>
         <small>
             --<%= post.user.name %>
