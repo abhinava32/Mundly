@@ -1,0 +1,940 @@
+::1 - - [07/Oct/2023:11:10:04 +0000] "GET / HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36"
+::1 - - [07/Oct/2023:11:10:04 +0000] "GET /cssa/bootstrap.min.css HTTP/1.1" 200 232855 "http://localhost:8000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36"
+::1 - - [07/Oct/2023:11:10:04 +0000] "GET /js/bootstrap.min.js HTTP/1.1" 200 60582 "http://localhost:8000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36"
+::1 - - [12/Oct/2023:05:36:56 +0000] "GET / HTTP/1.1" 200 6944 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36"
+::1 - - [12/Oct/2023:05:36:56 +0000] "GET /cssa/bootstrap.min.css HTTP/1.1" 200 232855 "http://localhost:8000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36"
+::1 - - [12/Oct/2023:05:36:56 +0000] "GET /js/bootstrap.min.js HTTP/1.1" 200 60582 "http://localhost:8000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36"
+::1 - - [12/Oct/2023:05:36:56 +0000] "GET /favicon.ico HTTP/1.1" 404 150 "http://localhost:8000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36"
+::1 - - [12/Oct/2023:05:37:32 +0000] "GET / HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36"
+::1 - - [12/Oct/2023:05:37:32 +0000] "GET /cssa/bootstrap.min.css HTTP/1.1" 304 - "http://localhost:8000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36"
+::1 - - [12/Oct/2023:05:37:32 +0000] "GET /js/bootstrap.min.js HTTP/1.1" 304 - "http://localhost:8000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36"
+::1 - - [12/Oct/2023:05:37:34 +0000] "GET / HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36"
+::1 - - [12/Oct/2023:05:37:34 +0000] "GET /cssa/bootstrap.min.css HTTP/1.1" 304 - "http://localhost:8000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36"
+::1 - - [12/Oct/2023:05:37:34 +0000] "GET /js/bootstrap.min.js HTTP/1.1" 304 - "http://localhost:8000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36"
+::1 - - [12/Oct/2023:05:37:34 +0000] "GET / HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36"
+::1 - - [12/Oct/2023:05:37:34 +0000] "GET /cssa/bootstrap.min.css HTTP/1.1" 304 - "http://localhost:8000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36"
+::1 - - [12/Oct/2023:05:37:34 +0000] "GET /js/bootstrap.min.js HTTP/1.1" 304 - "http://localhost:8000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36"
+::1 - - [12/Oct/2023:05:37:35 +0000] "GET / HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36"
+::1 - - [12/Oct/2023:05:37:35 +0000] "GET /cssa/bootstrap.min.css HTTP/1.1" 304 - "http://localhost:8000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36"
+::1 - - [12/Oct/2023:05:37:35 +0000] "GET /js/bootstrap.min.js HTTP/1.1" 304 - "http://localhost:8000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36"
+::1 - - [12/Oct/2023:05:37:35 +0000] "GET / HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36"
+::1 - - [12/Oct/2023:05:37:35 +0000] "GET /cssa/bootstrap.min.css HTTP/1.1" 304 - "http://localhost:8000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36"
+::1 - - [12/Oct/2023:05:37:35 +0000] "GET /js/bootstrap.min.js HTTP/1.1" 304 - "http://localhost:8000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36"
+::1 - - [12/Oct/2023:05:54:13 +0000] "GET / HTTP/1.1" 200 7084 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36"
+::1 - - [12/Oct/2023:05:54:13 +0000] "GET /cssa/bootstrap.min.css HTTP/1.1" 304 - "http://localhost:8000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36"
+::1 - - [12/Oct/2023:05:54:13 +0000] "GET /js/bootstrap.min.js HTTP/1.1" 304 - "http://localhost:8000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36"
+::1 - - [12/Oct/2023:05:54:14 +0000] "GET / HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36"
+::1 - - [12/Oct/2023:05:54:14 +0000] "GET /cssa/bootstrap.min.css HTTP/1.1" 304 - "http://localhost:8000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36"
+::1 - - [12/Oct/2023:05:54:14 +0000] "GET /js/bootstrap.min.js HTTP/1.1" 304 - "http://localhost:8000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36"
+::1 - - [12/Oct/2023:05:54:16 +0000] "GET / HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36"
+::1 - - [12/Oct/2023:05:54:16 +0000] "GET /cssa/bootstrap.min.css HTTP/1.1" 304 - "http://localhost:8000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36"
+::1 - - [12/Oct/2023:05:54:16 +0000] "GET /js/bootstrap.min.js HTTP/1.1" 304 - "http://localhost:8000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36"
+::1 - - [12/Oct/2023:05:54:17 +0000] "GET / HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36"
+::1 - - [12/Oct/2023:05:54:17 +0000] "GET /cssa/bootstrap.min.css HTTP/1.1" 304 - "http://localhost:8000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36"
+::1 - - [12/Oct/2023:05:54:17 +0000] "GET /js/bootstrap.min.js HTTP/1.1" 304 - "http://localhost:8000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36"
+::1 - - [12/Oct/2023:05:55:44 +0000] "GET / HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36"
+::1 - - [12/Oct/2023:05:55:44 +0000] "GET /cssa/bootstrap.min.css HTTP/1.1" 304 - "http://localhost:8000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36"
+::1 - - [12/Oct/2023:05:55:44 +0000] "GET /js/bootstrap.min.js HTTP/1.1" 304 - "http://localhost:8000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36"
+::1 - - [12/Oct/2023:05:56:00 +0000] "GET / HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36"
+::1 - - [12/Oct/2023:05:56:00 +0000] "GET /cssa/bootstrap.min.css HTTP/1.1" 304 - "http://localhost:8000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36"
+::1 - - [12/Oct/2023:05:56:00 +0000] "GET /js/bootstrap.min.js HTTP/1.1" 304 - "http://localhost:8000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36"
+::1 - - [12/Oct/2023:05:56:01 +0000] "GET / HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36"
+::1 - - [12/Oct/2023:05:56:01 +0000] "GET /cssa/bootstrap.min.css HTTP/1.1" 304 - "http://localhost:8000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36"
+::1 - - [12/Oct/2023:05:56:01 +0000] "GET /js/bootstrap.min.js HTTP/1.1" 304 - "http://localhost:8000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36"
+::1 - - [12/Oct/2023:05:56:02 +0000] "GET / HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36"
+::1 - - [12/Oct/2023:05:56:02 +0000] "GET /cssa/bootstrap.min.css HTTP/1.1" 304 - "http://localhost:8000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36"
+::1 - - [12/Oct/2023:05:56:02 +0000] "GET /js/bootstrap.min.js HTTP/1.1" 304 - "http://localhost:8000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36"
+::1 - - [12/Oct/2023:05:56:03 +0000] "GET / HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36"
+::1 - - [12/Oct/2023:05:56:03 +0000] "GET /cssa/bootstrap.min.css HTTP/1.1" 304 - "http://localhost:8000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36"
+::1 - - [12/Oct/2023:05:56:03 +0000] "GET /js/bootstrap.min.js HTTP/1.1" 304 - "http://localhost:8000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36"
+::1 - - [12/Oct/2023:05:56:03 +0000] "GET / HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36"
+::1 - - [12/Oct/2023:05:56:03 +0000] "GET /cssa/bootstrap.min.css HTTP/1.1" 304 - "http://localhost:8000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36"
+::1 - - [12/Oct/2023:05:56:03 +0000] "GET /js/bootstrap.min.js HTTP/1.1" 304 - "http://localhost:8000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36"
+::1 - - [12/Oct/2023:05:56:03 +0000] "GET / HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36"
+::1 - - [12/Oct/2023:05:56:03 +0000] "GET /cssa/bootstrap.min.css HTTP/1.1" 304 - "http://localhost:8000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36"
+::1 - - [12/Oct/2023:05:56:03 +0000] "GET /js/bootstrap.min.js HTTP/1.1" 304 - "http://localhost:8000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36"
+::1 - - [12/Oct/2023:05:56:03 +0000] "GET / HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36"
+::1 - - [12/Oct/2023:05:56:03 +0000] "GET /cssa/bootstrap.min.css HTTP/1.1" 304 - "http://localhost:8000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36"
+::1 - - [12/Oct/2023:05:56:03 +0000] "GET /js/bootstrap.min.js HTTP/1.1" 304 - "http://localhost:8000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36"
+::1 - - [12/Oct/2023:05:56:05 +0000] "GET /users/sign-in HTTP/1.1" 200 1797 "http://localhost:8000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36"
+::1 - - [12/Oct/2023:05:56:05 +0000] "GET /cssa/bootstrap.min.css HTTP/1.1" 304 - "http://localhost:8000/users/sign-in" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36"
+::1 - - [12/Oct/2023:05:56:05 +0000] "GET /js/bootstrap.min.js HTTP/1.1" 304 - "http://localhost:8000/users/sign-in" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36"
+::1 - - [12/Oct/2023:05:56:10 +0000] "POST /users/create-session HTTP/1.1" 302 46 "http://localhost:8000/users/sign-in" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36"
+::1 - - [12/Oct/2023:05:56:10 +0000] "GET / HTTP/1.1" 200 12692 "http://localhost:8000/users/sign-in" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36"
+::1 - - [12/Oct/2023:05:56:10 +0000] "GET /cssa/bootstrap.min.css HTTP/1.1" 304 - "http://localhost:8000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36"
+::1 - - [12/Oct/2023:05:56:10 +0000] "GET /js/bootstrap.min.js HTTP/1.1" 304 - "http://localhost:8000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36"
+::1 - - [12/Oct/2023:06:00:59 +0000] "GET / HTTP/1.1" 200 12735 "http://localhost:8000/users/sign-in" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36"
+::1 - - [12/Oct/2023:06:00:59 +0000] "GET /cssa/bootstrap.min.css HTTP/1.1" 304 - "http://localhost:8000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36"
+::1 - - [12/Oct/2023:06:00:59 +0000] "GET /js/bootstrap.min.js HTTP/1.1" 304 - "http://localhost:8000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36"
+::1 - - [12/Oct/2023:06:00:59 +0000] "GET /undefined HTTP/1.1" 404 148 "http://localhost:8000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36"
+::1 - - [12/Oct/2023:06:01:01 +0000] "GET / HTTP/1.1" 304 - "http://localhost:8000/users/sign-in" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36"
+::1 - - [12/Oct/2023:06:01:01 +0000] "GET /cssa/bootstrap.min.css HTTP/1.1" 304 - "http://localhost:8000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36"
+::1 - - [12/Oct/2023:06:01:01 +0000] "GET /js/bootstrap.min.js HTTP/1.1" 304 - "http://localhost:8000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36"
+::1 - - [12/Oct/2023:06:01:01 +0000] "GET /undefined HTTP/1.1" 404 148 "http://localhost:8000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36"
+::1 - - [12/Oct/2023:06:01:01 +0000] "GET /undefined HTTP/1.1" 404 148 "http://localhost:8000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36"
+::1 - - [12/Oct/2023:06:01:01 +0000] "GET / HTTP/1.1" 304 - "http://localhost:8000/users/sign-in" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36"
+::1 - - [12/Oct/2023:06:01:01 +0000] "GET /cssa/bootstrap.min.css HTTP/1.1" 304 - "http://localhost:8000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36"
+::1 - - [12/Oct/2023:06:01:01 +0000] "GET /js/bootstrap.min.js HTTP/1.1" 304 - "http://localhost:8000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36"
+::1 - - [12/Oct/2023:06:01:01 +0000] "GET /undefined HTTP/1.1" 404 148 "http://localhost:8000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36"
+::1 - - [12/Oct/2023:06:01:09 +0000] "GET /cssa/bootstrap.min.css HTTP/1.1" 304 - "http://localhost:8000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36"
+::1 - - [12/Oct/2023:06:01:09 +0000] "GET /undefined HTTP/1.1" 404 148 "http://localhost:8000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36"
+::1 - - [12/Oct/2023:06:01:09 +0000] "GET /js/bootstrap.min.js.map HTTP/1.1" 200 220293 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36"
+::1 - - [12/Oct/2023:06:01:10 +0000] "GET /cssa/bootstrap.min.css.map HTTP/1.1" 200 588931 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36"
+::1 - - [12/Oct/2023:06:01:51 +0000] "GET / HTTP/1.1" 200 12946 "http://localhost:8000/users/sign-in" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36"
+::1 - - [12/Oct/2023:06:01:51 +0000] "GET /cssa/bootstrap.min.css HTTP/1.1" 304 - "http://localhost:8000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36"
+::1 - - [12/Oct/2023:06:01:51 +0000] "GET /undefined HTTP/1.1" 404 148 "http://localhost:8000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36"
+::1 - - [12/Oct/2023:06:01:51 +0000] "GET /js/bootstrap.min.js HTTP/1.1" 304 - "http://localhost:8000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36"
+::1 - - [12/Oct/2023:06:01:51 +0000] "GET /undefined HTTP/1.1" 404 148 "http://localhost:8000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36"
+::1 - - [12/Oct/2023:06:01:52 +0000] "GET / HTTP/1.1" 304 - "http://localhost:8000/users/sign-in" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36"
+::1 - - [12/Oct/2023:06:01:52 +0000] "GET /cssa/bootstrap.min.css HTTP/1.1" 304 - "http://localhost:8000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36"
+::1 - - [12/Oct/2023:06:01:52 +0000] "GET /js/bootstrap.min.js HTTP/1.1" 304 - "http://localhost:8000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36"
+::1 - - [12/Oct/2023:06:01:52 +0000] "GET /undefined HTTP/1.1" 404 148 "http://localhost:8000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36"
+::1 - - [12/Oct/2023:06:01:52 +0000] "GET /undefined HTTP/1.1" 404 148 "http://localhost:8000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36"
+::1 - - [12/Oct/2023:06:01:52 +0000] "GET / HTTP/1.1" 304 - "http://localhost:8000/users/sign-in" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36"
+::1 - - [12/Oct/2023:06:01:53 +0000] "GET /cssa/bootstrap.min.css HTTP/1.1" 304 - "http://localhost:8000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36"
+::1 - - [12/Oct/2023:06:01:53 +0000] "GET /js/bootstrap.min.js HTTP/1.1" 304 - "http://localhost:8000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36"
+::1 - - [12/Oct/2023:06:01:53 +0000] "GET /undefined HTTP/1.1" 404 148 "http://localhost:8000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36"
+::1 - - [12/Oct/2023:06:01:53 +0000] "GET /undefined HTTP/1.1" 404 148 "http://localhost:8000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36"
+::1 - - [12/Oct/2023:06:02:25 +0000] "GET / HTTP/1.1" 304 - "http://localhost:8000/users/sign-in" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36"
+::1 - - [12/Oct/2023:06:02:25 +0000] "GET /cssa/bootstrap.min.css HTTP/1.1" 304 - "http://localhost:8000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36"
+::1 - - [12/Oct/2023:06:02:25 +0000] "GET /js/bootstrap.min.js HTTP/1.1" 304 - "http://localhost:8000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36"
+::1 - - [12/Oct/2023:06:02:25 +0000] "GET /undefined HTTP/1.1" 404 148 "http://localhost:8000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36"
+::1 - - [12/Oct/2023:06:02:25 +0000] "GET /undefined HTTP/1.1" 404 148 "http://localhost:8000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36"
+::1 - - [12/Oct/2023:06:02:30 +0000] "GET / HTTP/1.1" 304 - "http://localhost:8000/users/sign-in" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36"
+::1 - - [12/Oct/2023:06:02:30 +0000] "GET /cssa/bootstrap.min.css HTTP/1.1" 304 - "http://localhost:8000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36"
+::1 - - [12/Oct/2023:06:02:30 +0000] "GET /js/bootstrap.min.js HTTP/1.1" 304 - "http://localhost:8000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36"
+::1 - - [12/Oct/2023:06:02:30 +0000] "GET /undefined HTTP/1.1" 404 148 "http://localhost:8000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36"
+::1 - - [12/Oct/2023:06:02:30 +0000] "GET /undefined HTTP/1.1" 404 148 "http://localhost:8000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36"
+::1 - - [12/Oct/2023:06:02:31 +0000] "GET / HTTP/1.1" 304 - "http://localhost:8000/users/sign-in" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36"
+::1 - - [12/Oct/2023:06:02:31 +0000] "GET /cssa/bootstrap.min.css HTTP/1.1" 304 - "http://localhost:8000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36"
+::1 - - [12/Oct/2023:06:02:31 +0000] "GET /js/bootstrap.min.js HTTP/1.1" 304 - "http://localhost:8000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36"
+::1 - - [12/Oct/2023:06:02:31 +0000] "GET /undefined HTTP/1.1" 404 148 "http://localhost:8000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36"
+::1 - - [12/Oct/2023:06:02:31 +0000] "GET /undefined HTTP/1.1" 404 148 "http://localhost:8000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36"
+::1 - - [12/Oct/2023:06:03:15 +0000] "GET / HTTP/1.1" 304 - "http://localhost:8000/users/sign-in" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36"
+::1 - - [12/Oct/2023:06:03:15 +0000] "GET /cssa/bootstrap.min.css HTTP/1.1" 304 - "http://localhost:8000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36"
+::1 - - [12/Oct/2023:06:03:15 +0000] "GET /js/bootstrap.min.js HTTP/1.1" 304 - "http://localhost:8000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36"
+::1 - - [12/Oct/2023:06:03:15 +0000] "GET /undefined HTTP/1.1" 404 148 "http://localhost:8000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36"
+::1 - - [12/Oct/2023:06:03:15 +0000] "GET /undefined HTTP/1.1" 404 148 "http://localhost:8000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36"
+::1 - - [12/Oct/2023:06:03:38 +0000] "GET / HTTP/1.1" 304 - "http://localhost:8000/users/sign-in" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36"
+::1 - - [12/Oct/2023:06:03:38 +0000] "GET /cssa/bootstrap.min.css HTTP/1.1" 304 - "http://localhost:8000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36"
+::1 - - [12/Oct/2023:06:03:38 +0000] "GET /js/bootstrap.min.js HTTP/1.1" 304 - "http://localhost:8000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36"
+::1 - - [12/Oct/2023:06:03:38 +0000] "GET /undefined HTTP/1.1" 404 148 "http://localhost:8000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36"
+::1 - - [12/Oct/2023:06:03:38 +0000] "GET /undefined HTTP/1.1" 404 148 "http://localhost:8000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36"
+::1 - - [12/Oct/2023:06:05:25 +0000] "GET / HTTP/1.1" 304 - "http://localhost:8000/users/sign-in" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36"
+::1 - - [12/Oct/2023:06:05:25 +0000] "GET /cssa/bootstrap.min.css HTTP/1.1" 304 - "http://localhost:8000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36"
+::1 - - [12/Oct/2023:06:05:25 +0000] "GET /js/bootstrap.min.js HTTP/1.1" 304 - "http://localhost:8000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36"
+::1 - - [12/Oct/2023:06:05:25 +0000] "GET /undefined HTTP/1.1" 404 148 "http://localhost:8000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36"
+::1 - - [12/Oct/2023:06:05:25 +0000] "GET /undefined HTTP/1.1" 404 148 "http://localhost:8000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36"
+::1 - - [12/Oct/2023:06:05:46 +0000] "GET / HTTP/1.1" 304 - "http://localhost:8000/users/sign-in" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36"
+::1 - - [12/Oct/2023:06:05:46 +0000] "GET /cssa/bootstrap.min.css HTTP/1.1" 304 - "http://localhost:8000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36"
+::1 - - [12/Oct/2023:06:05:46 +0000] "GET /js/bootstrap.min.js HTTP/1.1" 304 - "http://localhost:8000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36"
+::1 - - [12/Oct/2023:06:05:46 +0000] "GET /undefined HTTP/1.1" 404 148 "http://localhost:8000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36"
+::1 - - [12/Oct/2023:06:05:46 +0000] "GET /undefined HTTP/1.1" 404 148 "http://localhost:8000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36"
+::1 - - [12/Oct/2023:06:05:47 +0000] "GET / HTTP/1.1" 304 - "http://localhost:8000/users/sign-in" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36"
+::1 - - [12/Oct/2023:06:05:47 +0000] "GET /cssa/bootstrap.min.css HTTP/1.1" 304 - "http://localhost:8000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36"
+::1 - - [12/Oct/2023:06:05:47 +0000] "GET /js/bootstrap.min.js HTTP/1.1" 304 - "http://localhost:8000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36"
+::1 - - [12/Oct/2023:06:05:47 +0000] "GET /undefined HTTP/1.1" 404 148 "http://localhost:8000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36"
+::1 - - [12/Oct/2023:06:05:47 +0000] "GET /undefined HTTP/1.1" 404 148 "http://localhost:8000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36"
+::1 - - [12/Oct/2023:06:06:18 +0000] "GET / HTTP/1.1" 304 - "http://localhost:8000/users/sign-in" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36"
+::1 - - [12/Oct/2023:06:06:18 +0000] "GET /cssa/bootstrap.min.css HTTP/1.1" 304 - "http://localhost:8000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36"
+::1 - - [12/Oct/2023:06:06:18 +0000] "GET /js/bootstrap.min.js HTTP/1.1" 304 - "http://localhost:8000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36"
+::1 - - [12/Oct/2023:06:06:18 +0000] "GET /undefined HTTP/1.1" 404 148 "http://localhost:8000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36"
+::1 - - [12/Oct/2023:06:06:18 +0000] "GET /undefined HTTP/1.1" 404 148 "http://localhost:8000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36"
+::1 - - [12/Oct/2023:06:06:32 +0000] "GET / HTTP/1.1" 304 - "http://localhost:8000/users/sign-in" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36"
+::1 - - [12/Oct/2023:06:06:32 +0000] "GET /cssa/bootstrap.min.css HTTP/1.1" 304 - "http://localhost:8000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36"
+::1 - - [12/Oct/2023:06:06:32 +0000] "GET /js/bootstrap.min.js HTTP/1.1" 304 - "http://localhost:8000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36"
+::1 - - [12/Oct/2023:06:06:32 +0000] "GET /undefined HTTP/1.1" 404 148 "http://localhost:8000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36"
+::1 - - [12/Oct/2023:06:11:52 +0000] "GET / HTTP/1.1" 200 13181 "http://localhost:8000/users/sign-in" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36"
+::1 - - [12/Oct/2023:06:11:52 +0000] "GET /cssa/bootstrap.min.css HTTP/1.1" 304 - "http://localhost:8000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36"
+::1 - - [12/Oct/2023:06:11:52 +0000] "GET /js/bootstrap.min.js HTTP/1.1" 304 - "http://localhost:8000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36"
+::1 - - [12/Oct/2023:06:11:52 +0000] "GET /undefined HTTP/1.1" 404 148 "http://localhost:8000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36"
+::1 - - [12/Oct/2023:06:12:08 +0000] "GET / HTTP/1.1" 200 13181 "http://localhost:8000/users/sign-in" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36"
+::1 - - [12/Oct/2023:06:12:08 +0000] "GET /cssa/bootstrap.min.css HTTP/1.1" 304 - "http://localhost:8000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36"
+::1 - - [12/Oct/2023:06:12:08 +0000] "GET /js/bootstrap.min.js HTTP/1.1" 304 - "http://localhost:8000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36"
+::1 - - [12/Oct/2023:06:12:08 +0000] "GET /undefined HTTP/1.1" 404 148 "http://localhost:8000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36"
+::1 - - [12/Oct/2023:06:13:02 +0000] "GET / HTTP/1.1" 200 13051 "http://localhost:8000/users/sign-in" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36"
+::1 - - [12/Oct/2023:06:13:02 +0000] "GET /cssa/bootstrap.min.css HTTP/1.1" 304 - "http://localhost:8000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36"
+::1 - - [12/Oct/2023:06:13:02 +0000] "GET /js/bootstrap.min.js HTTP/1.1" 304 - "http://localhost:8000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36"
+::1 - - [12/Oct/2023:06:13:02 +0000] "GET /undefined HTTP/1.1" 404 148 "http://localhost:8000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36"
+::1 - - [12/Oct/2023:06:13:02 +0000] "GET /undefined HTTP/1.1" 404 148 "http://localhost:8000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36"
+::1 - - [12/Oct/2023:06:14:34 +0000] "GET / HTTP/1.1" 304 - "http://localhost:8000/users/sign-in" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36"
+::1 - - [12/Oct/2023:06:14:34 +0000] "GET /cssa/bootstrap.min.css HTTP/1.1" 304 - "http://localhost:8000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36"
+::1 - - [12/Oct/2023:06:14:34 +0000] "GET /js/bootstrap.min.js HTTP/1.1" 304 - "http://localhost:8000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36"
+::1 - - [12/Oct/2023:06:14:34 +0000] "GET /undefined HTTP/1.1" 404 148 "http://localhost:8000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36"
+::1 - - [12/Oct/2023:06:14:34 +0000] "GET /undefined HTTP/1.1" 404 148 "http://localhost:8000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36"
+::1 - - [12/Oct/2023:06:14:39 +0000] "GET / HTTP/1.1" 304 - "http://localhost:8000/users/sign-in" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36"
+::1 - - [12/Oct/2023:06:14:40 +0000] "GET /cssa/bootstrap.min.css HTTP/1.1" 304 - "http://localhost:8000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36"
+::1 - - [12/Oct/2023:06:14:40 +0000] "GET /js/bootstrap.min.js HTTP/1.1" 304 - "http://localhost:8000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36"
+::1 - - [12/Oct/2023:06:14:40 +0000] "GET /undefined HTTP/1.1" 404 148 "http://localhost:8000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36"
+::1 - - [12/Oct/2023:06:14:40 +0000] "GET /undefined HTTP/1.1" 404 148 "http://localhost:8000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36"
+::1 - - [12/Oct/2023:06:14:40 +0000] "GET / HTTP/1.1" 304 - "http://localhost:8000/users/sign-in" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36"
+::1 - - [12/Oct/2023:06:14:40 +0000] "GET /cssa/bootstrap.min.css HTTP/1.1" 304 - "http://localhost:8000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36"
+::1 - - [12/Oct/2023:06:14:40 +0000] "GET /js/bootstrap.min.js HTTP/1.1" 304 - "http://localhost:8000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36"
+::1 - - [12/Oct/2023:06:14:40 +0000] "GET /undefined HTTP/1.1" 404 148 "http://localhost:8000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36"
+::1 - - [12/Oct/2023:06:14:40 +0000] "GET /undefined HTTP/1.1" 404 148 "http://localhost:8000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36"
+::1 - - [12/Oct/2023:06:15:13 +0000] "GET / HTTP/1.1" 304 - "http://localhost:8000/users/sign-in" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36"
+::1 - - [12/Oct/2023:06:15:13 +0000] "GET /cssa/bootstrap.min.css HTTP/1.1" 304 - "http://localhost:8000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36"
+::1 - - [12/Oct/2023:06:15:13 +0000] "GET /js/bootstrap.min.js HTTP/1.1" 304 - "http://localhost:8000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36"
+::1 - - [12/Oct/2023:06:15:13 +0000] "GET /undefined HTTP/1.1" 404 148 "http://localhost:8000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36"
+::1 - - [12/Oct/2023:06:15:13 +0000] "GET /undefined HTTP/1.1" 404 148 "http://localhost:8000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36"
+::1 - - [12/Oct/2023:06:15:27 +0000] "GET / HTTP/1.1" 304 - "http://localhost:8000/users/sign-in" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36"
+::1 - - [12/Oct/2023:06:15:27 +0000] "GET /cssa/bootstrap.min.css HTTP/1.1" 304 - "http://localhost:8000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36"
+::1 - - [12/Oct/2023:06:15:27 +0000] "GET /js/bootstrap.min.js HTTP/1.1" 304 - "http://localhost:8000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36"
+::1 - - [12/Oct/2023:06:15:27 +0000] "GET /undefined HTTP/1.1" 404 148 "http://localhost:8000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36"
+::1 - - [12/Oct/2023:06:15:27 +0000] "GET /undefined HTTP/1.1" 404 148 "http://localhost:8000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36"
+::1 - - [12/Oct/2023:06:15:28 +0000] "GET / HTTP/1.1" 304 - "http://localhost:8000/users/sign-in" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36"
+::1 - - [12/Oct/2023:06:15:28 +0000] "GET /cssa/bootstrap.min.css HTTP/1.1" 304 - "http://localhost:8000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36"
+::1 - - [12/Oct/2023:06:15:28 +0000] "GET /js/bootstrap.min.js HTTP/1.1" 304 - "http://localhost:8000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36"
+::1 - - [12/Oct/2023:06:15:28 +0000] "GET /undefined HTTP/1.1" 404 148 "http://localhost:8000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36"
+::1 - - [12/Oct/2023:06:15:28 +0000] "GET /undefined HTTP/1.1" 404 148 "http://localhost:8000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36"
+::1 - - [12/Oct/2023:06:15:28 +0000] "GET / HTTP/1.1" 304 - "http://localhost:8000/users/sign-in" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36"
+::1 - - [12/Oct/2023:06:15:29 +0000] "GET /cssa/bootstrap.min.css HTTP/1.1" 304 - "http://localhost:8000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36"
+::1 - - [12/Oct/2023:06:15:29 +0000] "GET /js/bootstrap.min.js HTTP/1.1" 304 - "http://localhost:8000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36"
+::1 - - [12/Oct/2023:06:15:29 +0000] "GET /undefined HTTP/1.1" 404 148 "http://localhost:8000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36"
+::1 - - [12/Oct/2023:06:15:29 +0000] "GET /undefined HTTP/1.1" 404 148 "http://localhost:8000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36"
+::1 - - [12/Oct/2023:07:30:56 +0000] "GET /users/profile/648c49f2b2addf5964e3d3bb HTTP/1.1" 200 2300 "http://localhost:8000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36"
+::1 - - [12/Oct/2023:07:30:56 +0000] "GET /cssa/bootstrap.min.css HTTP/1.1" 304 - "http://localhost:8000/users/profile/648c49f2b2addf5964e3d3bb" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36"
+::1 - - [12/Oct/2023:07:30:56 +0000] "GET /js/bootstrap.min.js HTTP/1.1" 304 - "http://localhost:8000/users/profile/648c49f2b2addf5964e3d3bb" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36"
+::1 - - [12/Oct/2023:08:00:45 +0000] "GET /users/profile/648c49f2b2addf5964e3d3bb HTTP/1.1" 302 72 "http://localhost:8000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36"
+::1 - - [12/Oct/2023:08:00:45 +0000] "GET /users/sign-in HTTP/1.1" 304 - "http://localhost:8000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36"
+::1 - - [12/Oct/2023:08:00:45 +0000] "GET /js/bootstrap.min.js HTTP/1.1" 304 - "http://localhost:8000/users/sign-in" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36"
+::1 - - [12/Oct/2023:08:00:45 +0000] "GET /cssa/bootstrap.min.css HTTP/1.1" 200 232855 "http://localhost:8000/users/sign-in" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36"
+::1 - - [12/Oct/2023:08:01:00 +0000] "POST /users/create-session HTTP/1.1" 302 46 "http://localhost:8000/users/sign-in" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36"
+::1 - - [12/Oct/2023:08:01:00 +0000] "GET / HTTP/1.1" 304 - "http://localhost:8000/users/sign-in" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36"
+::1 - - [12/Oct/2023:08:01:00 +0000] "GET /cssa/bootstrap.min.css HTTP/1.1" 304 - "http://localhost:8000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36"
+::1 - - [12/Oct/2023:08:01:00 +0000] "GET /js/bootstrap.min.js HTTP/1.1" 304 - "http://localhost:8000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36"
+::1 - - [12/Oct/2023:08:01:00 +0000] "GET /undefined HTTP/1.1" 404 148 "http://localhost:8000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36"
+::1 - - [12/Oct/2023:08:01:00 +0000] "GET /undefined HTTP/1.1" 404 148 "http://localhost:8000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36"
+::1 - - [12/Oct/2023:08:01:05 +0000] "GET /users/profile/648c49f2b2addf5964e3d3bb HTTP/1.1" 200 2300 "http://localhost:8000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36"
+::1 - - [12/Oct/2023:08:01:05 +0000] "GET /cssa/bootstrap.min.css HTTP/1.1" 304 - "http://localhost:8000/users/profile/648c49f2b2addf5964e3d3bb" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36"
+::1 - - [12/Oct/2023:08:01:05 +0000] "GET /js/bootstrap.min.js HTTP/1.1" 304 - "http://localhost:8000/users/profile/648c49f2b2addf5964e3d3bb" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36"
+::1 - - [12/Oct/2023:08:01:14 +0000] "GET /cssa/bootstrap.min.css HTTP/1.1" 304 - "http://localhost:8000/users/profile/648c49f2b2addf5964e3d3bb" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36"
+::1 - - [12/Oct/2023:08:01:15 +0000] "GET /js/bootstrap.min.js.map HTTP/1.1" 200 220293 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36"
+::1 - - [12/Oct/2023:08:01:15 +0000] "GET /cssa/bootstrap.min.css.map HTTP/1.1" 200 588931 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36"
+::1 - - [12/Oct/2023:08:29:27 +0000] "GET /users/profile/648c49f2b2addf5964e3d3bb HTTP/1.1" 200 2300 "http://localhost:8000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36"
+::1 - - [12/Oct/2023:08:29:27 +0000] "GET /cssa/bootstrap.min.css HTTP/1.1" 304 - "http://localhost:8000/users/profile/648c49f2b2addf5964e3d3bb" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36"
+::1 - - [12/Oct/2023:08:29:27 +0000] "GET /js/bootstrap.min.js HTTP/1.1" 304 - "http://localhost:8000/users/profile/648c49f2b2addf5964e3d3bb" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36"
+[0mGET /users/profile/648c49f2b2addf5964e3d3bb [36m302[0m 24.829 ms - 72[0m
+[0mGET /users/sign-in [32m200[0m 14.726 ms - 1785[0m
+[0mGET /users/css/layout.css [33m404[0m 4.187 ms - 159[0m
+[0mGET /cssa/bootstrap.min.css [36m304[0m 4.308 ms - -[0m
+[0mGET /js/bootstrap.min.js [36m304[0m 0.422 ms - -[0m
+[0mGET / [32m200[0m 57.698 ms - 7387[0m
+[0mGET /cssa/bootstrap.min.css [36m304[0m 1.846 ms - -[0m
+[0mGET /js/bootstrap.min.js [36m304[0m 2.237 ms - -[0m
+[0mGET / [31m500[0m 80.948 ms - 1607[0m
+[0mGET / [32m200[0m 51.925 ms - 7387[0m
+[0mGET /cssa/bootstrap.min.css [36m304[0m 2.201 ms - -[0m
+[0mGET /js/bootstrap.min.js [36m304[0m 0.851 ms - -[0m
+[0mGET / [31m500[0m 45.542 ms - 1607[0m
+[0mGET / [32m200[0m 46.929 ms - 7387[0m
+[0mGET /cssa/bootstrap.min.css [36m304[0m 0.586 ms - -[0m
+[0mGET /js/bootstrap.min.js [36m304[0m 2.622 ms - -[0m
+[0mGET / [36m304[0m 48.144 ms - -[0m
+[0mGET /cssa/bootstrap.min.css [36m304[0m 5.095 ms - -[0m
+[0mGET /js/bootstrap.min.js [36m304[0m 3.329 ms - -[0m
+[0mGET / [31m500[0m 44.840 ms - 1616[0m
+[0mGET / [32m200[0m 94.182 ms - 7387[0m
+[0mGET /cssa/bootstrap.min.css [36m304[0m 4.463 ms - -[0m
+[0mGET /js/bootstrap.min.js [36m304[0m 2.373 ms - -[0m
+[0mGET /users/profile/648c49f2b2addf5964e3d3bb [36m302[0m 14.437 ms - 72[0m
+[0mGET /users/sign-in [36m304[0m 5.397 ms - -[0m
+[0mGET /users/css/layout.css [33m404[0m 5.125 ms - 159[0m
+[0mGET /cssa/bootstrap.min.css [36m304[0m 1.494 ms - -[0m
+[0mGET /js/bootstrap.min.js [36m304[0m 2.040 ms - -[0m
+[0mGET /users/sign-in [32m200[0m 8.637 ms - 1925[0m
+[0mGET /users/css/layout.css [33m404[0m 8.464 ms - 159[0m
+[0mGET /users/css/home.css [33m404[0m 9.654 ms - 157[0m
+[0mGET /users/css/_chatBox.css [33m404[0m 7.561 ms - 161[0m
+[0mGET /users/css/_posts.css [33m404[0m 5.813 ms - 159[0m
+[0mGET /cssa/bootstrap.min.css [36m304[0m 4.367 ms - -[0m
+[0mGET /js/bootstrap.min.js [36m304[0m 4.911 ms - -[0m
+[0mGET /users/css/home.css [33m404[0m 2.411 ms - 157[0m
+[0mGET /users/css/_chatBox.css [33m404[0m 2.367 ms - 161[0m
+[0mGET /users/css/_posts.css [33m404[0m 2.274 ms - 159[0m
+[0mGET /users/sign-in [36m304[0m 12.363 ms - -[0m
+[0mGET /users/css/layout.css [33m404[0m 2.162 ms - 159[0m
+[0mGET /users/css/home.css [33m404[0m 6.994 ms - 157[0m
+[0mGET /users/css/_chatBox.css [33m404[0m 6.721 ms - 161[0m
+[0mGET /users/css/_posts.css [33m404[0m 5.779 ms - 159[0m
+[0mGET /cssa/bootstrap.min.css [36m304[0m 5.671 ms - -[0m
+[0mGET /js/bootstrap.min.js [36m304[0m 6.052 ms - -[0m
+[0mGET /users/css/home.css [33m404[0m 1.749 ms - 157[0m
+[0mGET /users/css/_chatBox.css [33m404[0m 1.894 ms - 161[0m
+[0mGET /users/css/_posts.css [33m404[0m 2.197 ms - 159[0m
+[0mGET /users/sign-in [32m200[0m 5.699 ms - 1973[0m
+[0mGET /users/css/layout.css [33m404[0m 2.384 ms - 159[0m
+[0mGET /users/css/home.css [33m404[0m 7.499 ms - 157[0m
+[0mGET /users/css/_chatBox.css [33m404[0m 4.790 ms - 161[0m
+[0mGET /users/css/_posts.css [33m404[0m 4.243 ms - 159[0m
+[0mGET /cssa/bootstrap.min.css [36m304[0m 4.518 ms - -[0m
+[0mGET /js/bootstrap.min.js [36m304[0m 5.784 ms - -[0m
+[0mGET /users/css/home.css [33m404[0m 4.015 ms - 157[0m
+[0mGET /users/css/_chatBox.css [33m404[0m 4.037 ms - 161[0m
+[0mGET /users/css/_posts.css [33m404[0m 4.186 ms - 159[0m
+[0mGET /users/css/layout.css [33m404[0m 4.312 ms - 159[0m
+[0mGET /users/sign-in [36m304[0m 8.181 ms - -[0m
+[0mGET /users/css/layout.css [33m404[0m 1.824 ms - 159[0m
+[0mGET /users/css/home.css [33m404[0m 5.829 ms - 157[0m
+[0mGET /users/css/_chatBox.css [33m404[0m 5.803 ms - 161[0m
+[0mGET /users/css/_posts.css [33m404[0m 6.398 ms - 159[0m
+[0mGET /cssa/bootstrap.min.css [36m304[0m 1.690 ms - -[0m
+[0mGET /js/bootstrap.min.js [36m304[0m 1.875 ms - -[0m
+[0mGET /users/css/home.css [33m404[0m 1.666 ms - 157[0m
+[0mGET /users/css/_chatBox.css [33m404[0m 1.653 ms - 161[0m
+[0mGET /users/css/_posts.css [33m404[0m 1.676 ms - 159[0m
+[0mGET /users/css/layout.css [33m404[0m 2.182 ms - 159[0m
+[0mGET /users/sign-in [36m304[0m 7.258 ms - -[0m
+[0mGET /users/css/layout.css [33m404[0m 5.394 ms - 159[0m
+[0mGET /users/css/home.css [33m404[0m 6.661 ms - 157[0m
+[0mGET /users/css/_chatBox.css [33m404[0m 7.720 ms - 161[0m
+[0mGET /users/css/_posts.css [33m404[0m 8.030 ms - 159[0m
+[0mGET /cssa/bootstrap.min.css [36m304[0m 6.764 ms - -[0m
+[0mGET /js/bootstrap.min.js [36m304[0m 7.002 ms - -[0m
+[0mGET /users/css/home.css [33m404[0m 1.737 ms - 157[0m
+[0mGET /users/css/_chatBox.css [33m404[0m 1.743 ms - 161[0m
+[0mGET /users/css/_posts.css [33m404[0m 1.733 ms - 159[0m
+[0mGET /users/css/layout.css [33m404[0m 1.002 ms - 159[0m
+[0mGET /users/sign-in [32m200[0m 3.844 ms - 1833[0m
+[0mGET /users/css/layout.css [33m404[0m 1.300 ms - 159[0m
+[0mGET /cssa/bootstrap.min.css [36m304[0m 2.051 ms - -[0m
+[0mGET /js/bootstrap.min.js [36m304[0m 1.434 ms - -[0m
+[0mGET /users/css/layout.css [33m404[0m 1.050 ms - 159[0m
+[0mGET /users/sign-in [32m200[0m 2.335 ms - 1785[0m
+[0mGET /users/css/layout.css [33m404[0m 1.050 ms - 159[0m
+[0mGET /cssa/bootstrap.min.css [36m304[0m 1.957 ms - -[0m
+[0mGET /js/bootstrap.min.js [36m304[0m 0.985 ms - -[0m
+[0mGET / [36m304[0m 38.043 ms - -[0m
+[0mGET /cssa/bootstrap.min.css [36m304[0m 6.508 ms - -[0m
+[0mGET /js/bootstrap.min.js [36m304[0m 3.263 ms - -[0m
+[0mGET / [36m304[0m 56.476 ms - -[0m
+[0mGET /cssa/bootstrap.min.css [36m304[0m 3.349 ms - -[0m
+[0mGET /js/bootstrap.min.js [36m304[0m 1.240 ms - -[0m
+[0mGET /users/sign-in [36m304[0m 18.206 ms - -[0m
+[0mGET /users/css/layout.css [33m404[0m 5.299 ms - 159[0m
+[0mGET /cssa/bootstrap.min.css [36m304[0m 1.928 ms - -[0m
+[0mGET /js/bootstrap.min.js [36m304[0m 0.781 ms - -[0m
+[0mGET / [36m304[0m 50.322 ms - -[0m
+[0mGET /cssa/bootstrap.min.css [36m304[0m 5.505 ms - -[0m
+[0mGET /js/bootstrap.min.js [36m304[0m 3.169 ms - -[0m
+[0mGET /users/sign-in [36m304[0m 2.786 ms - -[0m
+[0mGET /users/css/layout.css [33m404[0m 3.185 ms - 159[0m
+[0mGET /cssa/bootstrap.min.css [36m304[0m 1.850 ms - -[0m
+[0mGET /js/bootstrap.min.js [36m304[0m 0.794 ms - -[0m
+[0mGET /users/css/layout.css [33m404[0m 1.219 ms - 159[0m
+[0mGET /cssa/bootstrap.min.css [36m304[0m 0.459 ms - -[0m
+[0mGET /js/bootstrap.min.js.map [36m304[0m 0.227 ms - -[0m
+[0mGET /cssa/bootstrap.min.css.map [32m200[0m 1.515 ms - 588931[0m
+[0mGET /users/sign-in [32m200[0m 4.238 ms - 1786[0m
+[0mGET /cssa/bootstrap.min.css [36m304[0m 0.769 ms - -[0m
+[0mGET /js/bootstrap.min.js [36m304[0m 0.969 ms - -[0m
+[0mGET /cssa/bootstrap.min.css.map [36m304[0m 0.381 ms - -[0m
+[0mGET /js/bootstrap.min.js.map [36m304[0m 0.539 ms - -[0m
+[0mGET / [32m200[0m 41.425 ms - 7388[0m
+[0mGET /cssa/bootstrap.min.css [36m304[0m 0.806 ms - -[0m
+[0mGET /js/bootstrap.min.js [36m304[0m 1.552 ms - -[0m
+[0mGET /cssa/bootstrap.min.css.map [36m304[0m 0.346 ms - -[0m
+[0mGET /js/bootstrap.min.js.map [36m304[0m 0.354 ms - -[0m
+[0mGET / [36m304[0m 18.381 ms - -[0m
+[0mGET /cssa/bootstrap.min.css [36m304[0m 2.578 ms - -[0m
+[0mGET /js/bootstrap.min.js [36m304[0m 1.464 ms - -[0m
+[0mGET /cssa/bootstrap.min.css.map [36m304[0m 0.388 ms - -[0m
+[0mGET /js/bootstrap.min.js.map [36m304[0m 0.300 ms - -[0m
+[0mGET /users/sign-in [36m304[0m 6.559 ms - -[0m
+[0mGET /cssa/bootstrap.min.css [36m304[0m 0.525 ms - -[0m
+[0mGET /js/bootstrap.min.js [36m304[0m 0.590 ms - -[0m
+[0mGET /cssa/bootstrap.min.css.map [36m304[0m 0.351 ms - -[0m
+[0mGET /js/bootstrap.min.js.map [36m304[0m 1.554 ms - -[0m
+[0mGET / [36m304[0m 46.135 ms - -[0m
+[0mGET /cssa/bootstrap.min.css [36m304[0m 1.457 ms - -[0m
+[0mGET /js/bootstrap.min.js [36m304[0m 3.503 ms - -[0m
+[0mGET / [36m304[0m 47.821 ms - -[0m
+[0mGET /cssa/bootstrap.min.css [36m304[0m 2.365 ms - -[0m
+[0mGET /js/bootstrap.min.js [36m304[0m 1.727 ms - -[0m
+[0mGET /users/sign-in [36m304[0m 12.040 ms - -[0m
+[0mGET /cssa/bootstrap.min.css [36m304[0m 1.442 ms - -[0m
+[0mGET /js/bootstrap.min.js [36m304[0m 0.532 ms - -[0m
+[0mGET /users/sign-in [36m304[0m 5.416 ms - -[0m
+[0mGET /cssa/bootstrap.min.css [36m304[0m 1.255 ms - -[0m
+[0mGET /js/bootstrap.min.js [36m304[0m 0.459 ms - -[0m
+[0mGET /users/sign-in [36m304[0m 6.591 ms - -[0m
+[0mGET /cssa/bootstrap.min.css [36m304[0m 2.451 ms - -[0m
+[0mGET /js/bootstrap.min.js [36m304[0m 3.557 ms - -[0m
+[0mGET /users/sign-in [36m304[0m 2.354 ms - -[0m
+[0mGET /cssa/bootstrap.min.css [36m304[0m 0.955 ms - -[0m
+[0mGET /js/bootstrap.min.js [36m304[0m 1.712 ms - -[0m
+[0mGET / [36m304[0m 48.876 ms - -[0m
+[0mGET /cssa/bootstrap.min.css [36m304[0m 2.208 ms - -[0m
+[0mGET /js/bootstrap.min.js [36m304[0m 1.168 ms - -[0m
+[0mGET / [36m304[0m 18.651 ms - -[0m
+[0mGET /cssa/bootstrap.min.css [36m304[0m 1.667 ms - -[0m
+[0mGET /js/bootstrap.min.js [36m304[0m 0.761 ms - -[0m
+[0mGET / [36m304[0m 68.877 ms - -[0m
+[0mGET /cssa/bootstrap.min.css [36m304[0m 3.505 ms - -[0m
+[0mGET /js/bootstrap.min.js [36m304[0m 0.881 ms - -[0m
+[0mGET / [36m304[0m 33.779 ms - -[0m
+[0mGET /cssa/bootstrap.min.css [36m304[0m 3.288 ms - -[0m
+[0mGET /js/bootstrap.min.js [36m304[0m 2.394 ms - -[0m
+[0mGET / [36m304[0m 38.476 ms - -[0m
+[0mGET /cssa/bootstrap.min.css [36m304[0m 2.409 ms - -[0m
+[0mGET /js/bootstrap.min.js [36m304[0m 0.855 ms - -[0m
+[0mGET / [36m304[0m 65.963 ms - -[0m
+[0mGET /cssa/bootstrap.min.css [36m304[0m 4.064 ms - -[0m
+[0mGET /js/bootstrap.min.js [36m304[0m 2.548 ms - -[0m
+[0mGET / [36m304[0m 48.087 ms - -[0m
+[0mGET /cssa/bootstrap.min.css [36m304[0m 1.997 ms - -[0m
+[0mGET /js/bootstrap.min.js [36m304[0m 0.808 ms - -[0m
+[0mGET / [36m304[0m 44.667 ms - -[0m
+[0mGET /cssa/bootstrap.min.css [36m304[0m 2.138 ms - -[0m
+[0mGET /js/bootstrap.min.js [36m304[0m 1.587 ms - -[0m
+[0mGET / [36m304[0m 16.368 ms - -[0m
+[0mGET /cssa/bootstrap.min.css [36m304[0m 2.616 ms - -[0m
+[0mGET /js/bootstrap.min.js [36m304[0m 1.857 ms - -[0m
+[0mGET / [36m304[0m 70.395 ms - -[0m
+[0mGET /cssa/bootstrap.min.css [36m304[0m 4.512 ms - -[0m
+[0mGET /js/bootstrap.min.js [36m304[0m 3.205 ms - -[0m
+[0mGET / [36m304[0m 26.520 ms - -[0m
+[0mGET /css/layout.css [33m404[0m 4.183 ms - 153[0m
+[0mGET /cssa/bootstrap.min.css [36m304[0m 2.045 ms - -[0m
+[0mGET /js/bootstrap.min.js [36m304[0m 1.416 ms - -[0m
+[0mGET / [36m304[0m 41.621 ms - -[0m
+[0mGET /css/layout.css [33m404[0m 1.692 ms - 153[0m
+[0mGET /cssa/bootstrap.min.css [36m304[0m 3.405 ms - -[0m
+[0mGET /js/bootstrap.min.js [36m304[0m 2.986 ms - -[0m
+[0mGET / [36m304[0m 70.784 ms - -[0m
+[0mGET /css/layout.css [33m404[0m 3.827 ms - 153[0m
+[0mGET /cssa/bootstrap.min.css [36m304[0m 3.914 ms - -[0m
+[0mGET /js/bootstrap.min.js [36m304[0m 2.440 ms - -[0m
+[0mGET / [36m304[0m 56.196 ms - -[0m
+[0mGET /css/layout.css [33m404[0m 1.674 ms - 153[0m
+[0mGET /cssa/bootstrap.min.css [36m304[0m 7.401 ms - -[0m
+[0mGET /js/bootstrap.min.js [36m304[0m 1.509 ms - -[0m
+[0mGET / [36m304[0m 63.309 ms - -[0m
+[0mGET /cssa/bootstrap.min.css [36m304[0m 2.616 ms - -[0m
+[0mGET /js/bootstrap.min.js [36m304[0m 3.111 ms - -[0m
+[0mGET /users/sign-in [36m304[0m 13.157 ms - -[0m
+[0mGET /cssa/bootstrap.min.css [36m304[0m 1.642 ms - -[0m
+[0mGET /js/bootstrap.min.js [36m304[0m 2.801 ms - -[0m
+[0mGET /users/sign-in [32m200[0m 3.585 ms - 1775[0m
+[0mGET /cssa/bootstrap.min.css [36m304[0m 3.631 ms - -[0m
+[0mGET /js/bootstrap.min.js [36m304[0m 2.134 ms - -[0m
+[0mGET / [32m200[0m 43.534 ms - 7377[0m
+[0mGET /js/bootstrap.min.js [36m304[0m 2.230 ms - -[0m
+[0mGET /cssa/bootstrap.min.css [36m304[0m 3.214 ms - -[0m
+[0mGET /users/sign-in [36m304[0m 6.718 ms - -[0m
+[0mGET /cssa/bootstrap.min.css [36m304[0m 1.271 ms - -[0m
+[0mGET /js/bootstrap.min.js [36m304[0m 1.210 ms - -[0m
+[0mGET /users/sign-in [32m200[0m 2.072 ms - 1981[0m
+[0mGET /cssa/bootstrap.min.css [36m304[0m 1.784 ms - -[0m
+[0mGET /js/bootstrap.min.js [36m304[0m 3.518 ms - -[0m
+[0mGET /users/sign-in [32m200[0m 10.129 ms - 2003[0m
+[0mGET /cssa/bootstrap.min.css [36m304[0m 0.944 ms - -[0m
+[0mGET /js/bootstrap.min.js [36m304[0m 1.002 ms - -[0m
+[0mGET /users/sign-in [32m200[0m 2.528 ms - 1996[0m
+[0mGET /cssa/bootstrap.min.css [36m304[0m 1.149 ms - -[0m
+[0mGET /js/bootstrap.min.js [36m304[0m 1.150 ms - -[0m
+[0mGET /users/sign-in [32m200[0m 3.342 ms - 2004[0m
+[0mGET /cssa/bootstrap.min.css [36m304[0m 1.999 ms - -[0m
+[0mGET /js/bootstrap.min.js [36m304[0m 0.666 ms - -[0m
+[0mGET /users/sign-in [32m200[0m 2.322 ms - 2046[0m
+[0mGET /cssa/bootstrap.min.css [36m304[0m 1.955 ms - -[0m
+[0mGET /js/bootstrap.min.js [36m304[0m 0.724 ms - -[0m
+[0mGET /users/sign-in [32m200[0m 3.668 ms - 2069[0m
+[0mGET /js/bootstrap.min.js [36m304[0m 1.027 ms - -[0m
+[0mGET /cssa/bootstrap.min.css [36m304[0m 1.721 ms - -[0m
+[0mGET /users/sign-in [32m200[0m 2.799 ms - 2044[0m
+[0mGET /cssa/bootstrap.min.css [36m304[0m 1.432 ms - -[0m
+[0mGET /js/bootstrap.min.js [36m304[0m 2.635 ms - -[0m
+[0mGET /users/sign-in [32m200[0m 5.362 ms - 2065[0m
+[0mGET /cssa/bootstrap.min.css [36m304[0m 1.544 ms - -[0m
+[0mGET /js/bootstrap.min.js [36m304[0m 2.539 ms - -[0m
+[0mGET /users/sign-in [32m200[0m 5.599 ms - 2086[0m
+[0mGET /cssa/bootstrap.min.css [36m304[0m 2.927 ms - -[0m
+[0mGET /js/bootstrap.min.js [36m304[0m 1.587 ms - -[0m
+[0mGET /users/sign-in [36m304[0m 7.408 ms - -[0m
+[0mGET /js/bootstrap.min.js [36m304[0m 1.144 ms - -[0m
+[0mGET /cssa/bootstrap.min.css [36m304[0m 1.846 ms - -[0m
+[0mGET /users/sign-in [32m200[0m 1.914 ms - 2064[0m
+[0mGET /cssa/bootstrap.min.css [36m304[0m 1.354 ms - -[0m
+[0mGET /js/bootstrap.min.js [36m304[0m 0.649 ms - -[0m
+[0mGET /users/sign-in [32m200[0m 4.797 ms - 2064[0m
+[0mGET /js/bootstrap.min.js [36m304[0m 1.165 ms - -[0m
+[0mGET /cssa/bootstrap.min.css [36m304[0m 1.792 ms - -[0m
+[0mGET /users/sign-in [32m200[0m 5.476 ms - 2069[0m
+[0mGET /cssa/bootstrap.min.css [36m304[0m 1.554 ms - -[0m
+[0mGET /js/bootstrap.min.js [36m304[0m 0.870 ms - -[0m
+[0mGET /users/sign-in [32m200[0m 2.498 ms - 2079[0m
+[0mGET /cssa/bootstrap.min.css [36m304[0m 1.992 ms - -[0m
+[0mGET /js/bootstrap.min.js [36m304[0m 1.513 ms - -[0m
+[0mGET /users/sign-in [36m304[0m 1.845 ms - -[0m
+[0mGET /js/bootstrap.min.js [36m304[0m 3.027 ms - -[0m
+[0mGET /cssa/bootstrap.min.css [36m304[0m 3.689 ms - -[0m
+[0mGET /users/sign-in [36m304[0m 3.791 ms - -[0m
+[0mGET /js/bootstrap.min.js [36m304[0m 1.262 ms - -[0m
+[0mGET /cssa/bootstrap.min.css [36m304[0m 1.836 ms - -[0m
+[0mGET /users/sign-in [32m200[0m 3.966 ms - 2073[0m
+[0mGET /cssa/bootstrap.min.css [36m304[0m 1.201 ms - -[0m
+[0mGET /js/bootstrap.min.js [36m304[0m 1.275 ms - -[0m
+[0mGET /users/sign-in [36m304[0m 3.098 ms - -[0m
+[0mGET /cssa/bootstrap.min.css [36m304[0m 2.456 ms - -[0m
+[0mGET /js/bootstrap.min.js [36m304[0m 0.854 ms - -[0m
+[0mGET /users/sign-in [32m200[0m 2.980 ms - 2121[0m
+[0mGET /js/bootstrap.min.js [36m304[0m 0.620 ms - -[0m
+[0mGET /cssa/bootstrap.min.css [36m304[0m 1.116 ms - -[0m
+[0mGET /users/sign-in [36m304[0m 3.646 ms - -[0m
+[0mGET /cssa/bootstrap.min.css [36m304[0m 1.407 ms - -[0m
+[0mGET /js/bootstrap.min.js [36m304[0m 0.819 ms - -[0m
+[0mGET / [36m304[0m 29.629 ms - -[0m
+[0mGET /js/bootstrap.min.js [36m304[0m 1.648 ms - -[0m
+[0mGET /cssa/bootstrap.min.css [36m304[0m 4.758 ms - -[0m
+[0mGET /users/sign-in [36m304[0m 8.152 ms - -[0m
+[0mGET /cssa/bootstrap.min.css [36m304[0m 1.357 ms - -[0m
+[0mGET /js/bootstrap.min.js [36m304[0m 2.642 ms - -[0m
+[0mGET /users/sign-in [32m200[0m 2.525 ms - 2190[0m
+[0mGET /users/css/_signIn.css [33m404[0m 4.658 ms - 160[0m
+[0mGET /users/css/home.css [33m404[0m 2.579 ms - 157[0m
+[0mGET /js/bootstrap.min.js [36m304[0m 1.853 ms - -[0m
+[0mGET /cssa/bootstrap.min.css [36m304[0m 0.726 ms - -[0m
+[0mGET /users/css/_signIn.css [33m404[0m 3.336 ms - 160[0m
+[0mGET /users/css/home.css [33m404[0m 3.843 ms - 157[0m
+[0mGET /users/sign-in [32m200[0m 5.707 ms - 2211[0m
+[0mGET /users/css/_signIn.css [33m404[0m 2.916 ms - 160[0m
+[0mGET /users/css/home.css [33m404[0m 3.795 ms - 157[0m
+[0mGET /cssa/bootstrap.min.css [36m304[0m 3.906 ms - -[0m
+[0mGET /js/bootstrap.min.js [36m304[0m 1.185 ms - -[0m
+[0mGET /users/css/_signIn.css [33m404[0m 1.376 ms - 160[0m
+[0mGET /users/css/home.css [33m404[0m 1.520 ms - 157[0m
+[0mGET /users/sign-in [32m200[0m 6.154 ms - 2211[0m
+[0mGET /users/css/_signIn.css [33m404[0m 1.575 ms - 160[0m
+[0mGET /users/css/home.css [33m404[0m 2.145 ms - 157[0m
+[0mGET /cssa/bootstrap.min.css [36m304[0m 0.733 ms - -[0m
+[0mGET /js/bootstrap.min.js [36m304[0m 1.384 ms - -[0m
+[0mGET /users/css/_signIn.css [33m404[0m 1.375 ms - 160[0m
+[0mGET /users/css/home.css [33m404[0m 2.437 ms - 157[0m
+[0mGET /users/sign-in [32m200[0m 4.601 ms - 2253[0m
+[0mGET /users/css/_signIn.css [33m404[0m 3.948 ms - 160[0m
+[0mGET /users/css/home.css [33m404[0m 3.741 ms - 157[0m
+[0mGET /cssa/bootstrap.min.css [36m304[0m 1.209 ms - -[0m
+[0mGET /js/bootstrap.min.js [36m304[0m 0.390 ms - -[0m
+[0mGET /users/css/_signIn.css [33m404[0m 3.967 ms - 160[0m
+[0mGET /users/css/home.css [33m404[0m 5.284 ms - 157[0m
+[0mGET /users/sign-in [32m200[0m 7.139 ms - 2245[0m
+[0mGET /users/css/_signIn.css [33m404[0m 3.412 ms - 160[0m
+[0mGET /users/css/home.css [33m404[0m 3.040 ms - 157[0m
+[0mGET /cssa/bootstrap.min.css [36m304[0m 1.173 ms - -[0m
+[0mGET /js/bootstrap.min.js [36m304[0m 0.435 ms - -[0m
+[0mGET /users/css/_signIn.css [33m404[0m 1.426 ms - 160[0m
+[0mGET /users/css/home.css [33m404[0m 1.780 ms - 157[0m
+[0mGET /users/sign-in [32m200[0m 4.297 ms - 2261[0m
+[0mGET /users/css/_signIn.css [33m404[0m 2.161 ms - 160[0m
+[0mGET /users/css/home.css [33m404[0m 2.334 ms - 157[0m
+[0mGET /cssa/bootstrap.min.css [36m304[0m 3.927 ms - -[0m
+[0mGET /js/bootstrap.min.js [36m304[0m 0.598 ms - -[0m
+[0mGET /users/css/_signIn.css [33m404[0m 1.352 ms - 160[0m
+[0mGET /users/css/home.css [33m404[0m 1.382 ms - 157[0m
+[0mGET /users/sign-in [32m200[0m 8.936 ms - 2312[0m
+[0mGET /users/css/_signIn.css [33m404[0m 1.915 ms - 160[0m
+[0mGET /users/css/home.css [33m404[0m 2.443 ms - 157[0m
+[0mGET /cssa/bootstrap.min.css [36m304[0m 2.614 ms - -[0m
+[0mGET /js/bootstrap.min.js [36m304[0m 2.118 ms - -[0m
+[0mGET /users/css/_signIn.css [33m404[0m 1.464 ms - 160[0m
+[0mGET /users/css/home.css [33m404[0m 1.719 ms - 157[0m
+[0mGET /users/sign-in [36m304[0m 6.457 ms - -[0m
+[0mGET /users/css/_signIn.css [33m404[0m 4.745 ms - 160[0m
+[0mGET /users/css/home.css [33m404[0m 4.984 ms - 157[0m
+[0mGET /js/bootstrap.min.js [36m304[0m 4.717 ms - -[0m
+[0mGET /cssa/bootstrap.min.css [36m304[0m 1.320 ms - -[0m
+[0mGET /users/css/_signIn.css [33m404[0m 1.038 ms - 160[0m
+[0mGET /users/css/home.css [33m404[0m 1.316 ms - 157[0m
+[0mGET /users/sign-in [36m304[0m 6.601 ms - -[0m
+[0mGET /users/css/_signIn.css [33m404[0m 0.971 ms - 160[0m
+[0mGET /users/css/home.css [33m404[0m 2.776 ms - 157[0m
+[0mGET /js/bootstrap.min.js [36m304[0m 3.424 ms - -[0m
+[0mGET /cssa/bootstrap.min.css [36m304[0m 2.407 ms - -[0m
+[0mGET /users/css/_signIn.css [33m404[0m 1.195 ms - 160[0m
+[0mGET /users/css/home.css [33m404[0m 1.027 ms - 157[0m
+[0mGET /users/sign-in [32m200[0m 3.540 ms - 2313[0m
+[0mGET /users/css/_sign-in.css [33m404[0m 3.895 ms - 161[0m
+[0mGET /users/css/_signIn.css [33m404[0m 4.116 ms - 160[0m
+[0mGET /users/css/home.css [33m404[0m 4.450 ms - 157[0m
+[0mGET /cssa/bootstrap.min.css [36m304[0m 1.555 ms - -[0m
+[0mGET /js/bootstrap.min.js [36m304[0m 0.884 ms - -[0m
+[0mGET /users/css/_signIn.css [33m404[0m 1.495 ms - 160[0m
+[0mGET /users/css/home.css [33m404[0m 1.853 ms - 157[0m
+[0mGET /users/sign-in [36m304[0m 3.712 ms - -[0m
+[0mGET /users/css/_sign-in.css [33m404[0m 2.714 ms - 161[0m
+[0mGET /users/css/_signIn.css [33m404[0m 3.910 ms - 160[0m
+[0mGET /users/css/home.css [33m404[0m 4.475 ms - 157[0m
+[0mGET /cssa/bootstrap.min.css [36m304[0m 2.378 ms - -[0m
+[0mGET /js/bootstrap.min.js [36m304[0m 0.921 ms - -[0m
+[0mGET /users/css/_signIn.css [33m404[0m 1.516 ms - 160[0m
+[0mGET /users/css/home.css [33m404[0m 1.624 ms - 157[0m
+[0mGET /users/sign-in [36m304[0m 3.886 ms - -[0m
+[0mGET /users/css/_sign-in.css [33m404[0m 2.856 ms - 161[0m
+[0mGET /users/css/_signIn.css [33m404[0m 2.935 ms - 160[0m
+[0mGET /users/css/home.css [33m404[0m 2.776 ms - 157[0m
+[0mGET /cssa/bootstrap.min.css [36m304[0m 1.846 ms - -[0m
+[0mGET /js/bootstrap.min.js [36m304[0m 0.506 ms - -[0m
+[0mGET /users/css/_signIn.css [33m404[0m 0.934 ms - 160[0m
+[0mGET /users/css/home.css [33m404[0m 1.204 ms - 157[0m
+[0mGET /users/sign-in [32m200[0m 13.065 ms - 2266[0m
+[0mGET /users/css/_sign-in.css [33m404[0m 9.261 ms - 161[0m
+[0mGET /users/css/home.css [33m404[0m 7.931 ms - 157[0m
+[0mGET /js/bootstrap.min.js [32m200[0m 5.049 ms - 60582[0m
+[0mGET /cssa/bootstrap.min.css [32m200[0m 4.448 ms - 232855[0m
+[0mGET /users/css/home.css [33m404[0m 0.701 ms - 157[0m
+[0mGET /users/sign-in [32m200[0m 14.559 ms - 2266[0m
+[0mGET /users/css/_sign-in.css [33m404[0m 2.998 ms - 161[0m
+[0mGET /users/css/home.css [33m404[0m 2.204 ms - 157[0m
+[0mGET /js/bootstrap.min.js [36m304[0m 3.882 ms - -[0m
+[0mGET /cssa/bootstrap.min.css [36m304[0m 5.215 ms - -[0m
+[0mGET /users/css/home.css [33m404[0m 0.830 ms - 157[0m
+[0mGET /users/sign-in [36m304[0m 7.727 ms - -[0m
+[0mGET /users/css/_sign-in.css [33m404[0m 2.272 ms - 161[0m
+[0mGET /users/css/home.css [33m404[0m 3.709 ms - 157[0m
+[0mGET /js/bootstrap.min.js [36m304[0m 1.650 ms - -[0m
+[0mGET /cssa/bootstrap.min.css [36m304[0m 1.915 ms - -[0m
+[0mGET /users/css/home.css [33m404[0m 1.034 ms - 157[0m
+[0mGET /users/sign-in [36m304[0m 6.892 ms - -[0m
+[0mGET /users/css/_sign-in.css [33m404[0m 1.741 ms - 161[0m
+[0mGET /users/css/home.css [33m404[0m 2.297 ms - 157[0m
+[0mGET /js/bootstrap.min.js [36m304[0m 0.809 ms - -[0m
+[0mGET /cssa/bootstrap.min.css [36m304[0m 1.272 ms - -[0m
+[0mGET /users/css/home.css [33m404[0m 1.275 ms - 157[0m
+[0mGET /users/sign-in [32m200[0m 8.661 ms - 2252[0m
+[0mGET /users/css/_signin.css [33m404[0m 2.694 ms - 160[0m
+[0mGET /users/css/home.css [33m404[0m 3.555 ms - 157[0m
+[0mGET /cssa/bootstrap.min.css [36m304[0m 2.824 ms - -[0m
+[0mGET /js/bootstrap.min.js [36m304[0m 0.592 ms - -[0m
+[0mGET /users/css/home.css [33m404[0m 1.117 ms - 157[0m
+[0mGET /users/sign-in [36m304[0m 7.624 ms - -[0m
+[0mGET /users/css/_signin.css [33m404[0m 2.297 ms - 160[0m
+[0mGET /users/css/home.css [33m404[0m 3.944 ms - 157[0m
+[0mGET /cssa/bootstrap.min.css [36m304[0m 0.723 ms - -[0m
+[0mGET /js/bootstrap.min.js [36m304[0m 0.933 ms - -[0m
+[0mGET /users/css/home.css [33m404[0m 0.590 ms - 157[0m
+[0mGET /users/sign-in [36m304[0m 3.542 ms - -[0m
+[0mGET /users/css/_signin.css [33m404[0m 1.896 ms - 160[0m
+[0mGET /users/css/home.css [33m404[0m 2.300 ms - 157[0m
+[0mGET /js/bootstrap.min.js [36m304[0m 0.804 ms - -[0m
+[0mGET /cssa/bootstrap.min.css [36m304[0m 1.225 ms - -[0m
+[0mGET /users/css/home.css [33m404[0m 0.702 ms - 157[0m
+[0mGET /users/sign-in [36m304[0m 5.068 ms - -[0m
+[0mGET /users/css/_signin.css [33m404[0m 3.771 ms - 160[0m
+[0mGET /users/css/home.css [33m404[0m 4.464 ms - 157[0m
+[0mGET /js/bootstrap.min.js [36m304[0m 1.090 ms - -[0m
+[0mGET /cssa/bootstrap.min.css [36m304[0m 1.369 ms - -[0m
+[0mGET /users/css/home.css [33m404[0m 0.577 ms - 157[0m
+[0mGET /users/sign-in [36m304[0m 2.429 ms - -[0m
+[0mGET /cssa/bootstrap.min.css [36m304[0m 0.553 ms - -[0m
+[0mGET /users/css/_signin.css [33m404[0m 4.442 ms - 160[0m
+[0mGET /users/css/home.css [33m404[0m 4.539 ms - 157[0m
+[0mGET /js/bootstrap.min.js [36m304[0m 0.830 ms - -[0m
+[0mGET /users/css/home.css [33m404[0m 0.769 ms - 157[0m
+[0mGET /users/sign-in [36m304[0m 7.896 ms - -[0m
+[0mGET /users/css/_signin.css [33m404[0m 4.937 ms - 160[0m
+[0mGET /users/css/home.css [33m404[0m 5.179 ms - 157[0m
+[0mGET /js/bootstrap.min.js [36m304[0m 5.598 ms - -[0m
+[0mGET /cssa/bootstrap.min.css [36m304[0m 3.432 ms - -[0m
+[0mGET /users/css/home.css [33m404[0m 1.692 ms - 157[0m
+[0mGET /users/sign-in [32m200[0m 7.916 ms - 2246[0m
+[0mGET /users/css/_signin.css [33m404[0m 1.907 ms - 160[0m
+[0mGET /cssa/bootstrap.min.css [36m304[0m 2.302 ms - -[0m
+[0mGET /js/bootstrap.min.js [36m304[0m 0.737 ms - -[0m
+[0mGET /users/css/_signin.css [33m404[0m 0.786 ms - 160[0m
+[0mGET /users/sign-in [36m304[0m 6.294 ms - -[0m
+[0mGET /users/css/_signin.css [33m404[0m 2.751 ms - 160[0m
+[0mGET /cssa/bootstrap.min.css [36m304[0m 0.947 ms - -[0m
+[0mGET /js/bootstrap.min.js [36m304[0m 1.589 ms - -[0m
+[0mGET /users/css/_signin.css [33m404[0m 0.676 ms - 160[0m
+[0mGET /users/sign-in [36m304[0m 11.775 ms - -[0m
+[0mGET /users/css/_signin.css [33m404[0m 1.584 ms - 160[0m
+[0mGET /js/bootstrap.min.js [36m304[0m 0.743 ms - -[0m
+[0mGET /cssa/bootstrap.min.css [36m304[0m 1.334 ms - -[0m
+[0mGET /users/css/_signin.css [33m404[0m 0.758 ms - 160[0m
+[0mGET /users/sign-in [36m304[0m 9.717 ms - -[0m
+[0mGET /users/css/_signin.css [33m404[0m 1.541 ms - 160[0m
+[0mGET /js/bootstrap.min.js [36m304[0m 2.302 ms - -[0m
+[0mGET /cssa/bootstrap.min.css [36m304[0m 1.580 ms - -[0m
+[0mGET /users/css/_signin.css [33m404[0m 0.617 ms - 160[0m
+[0mGET /users/sign-in [36m304[0m 7.357 ms - -[0m
+[0mGET /users/css/_signin.css [33m404[0m 5.575 ms - 160[0m
+[0mGET /js/bootstrap.min.js [36m304[0m 4.854 ms - -[0m
+[0mGET /cssa/bootstrap.min.css [36m304[0m 3.120 ms - -[0m
+[0mGET /users/css/_signin.css [33m404[0m 1.846 ms - 160[0m
+[0mGET /users/sign-in [32m200[0m 3.447 ms - 2247[0m
+[0mGET /users/css/_signin.css [33m404[0m 0.644 ms - 160[0m
+[0mGET /cssa/bootstrap.min.css [36m304[0m 1.411 ms - -[0m
+[0mGET /js/bootstrap.min.js [36m304[0m 0.457 ms - -[0m
+[0mGET /users/sign-in [32m200[0m 2.649 ms - 2233[0m
+[0mGET /users/css/_signin.css [33m404[0m 1.435 ms - 160[0m
+[0mGET /cssa/bootstrap.min.css [36m304[0m 1.078 ms - -[0m
+[0mGET /js/bootstrap.min.js [36m304[0m 1.861 ms - -[0m
+[0mGET /users/sign-in [36m304[0m 5.555 ms - -[0m
+[0mGET /users/css/_signin.css [33m404[0m 1.440 ms - 160[0m
+[0mGET /cssa/bootstrap.min.css [36m304[0m 1.169 ms - -[0m
+[0mGET /js/bootstrap.min.js [36m304[0m 2.293 ms - -[0m
+[0mGET /users/sign-in [36m304[0m 4.630 ms - -[0m
+[0mGET /users/css/_signin.css [33m404[0m 1.651 ms - 160[0m
+[0mGET /js/bootstrap.min.js [36m304[0m 2.135 ms - -[0m
+[0mGET /cssa/bootstrap.min.css [36m304[0m 1.765 ms - -[0m
+[0mGET /users/sign-in [36m304[0m 8.431 ms - -[0m
+[0mGET /users/css/_signin.css [33m404[0m 1.124 ms - 160[0m
+[0mGET /cssa/bootstrap.min.css [36m304[0m 2.600 ms - -[0m
+[0mGET /js/bootstrap.min.js [36m304[0m 0.434 ms - -[0m
+[0mGET /users/sign-in [36m304[0m 7.961 ms - -[0m
+[0mGET /users/css/_signin.css [33m404[0m 0.912 ms - 160[0m
+[0mGET /cssa/bootstrap.min.css [36m304[0m 1.224 ms - -[0m
+[0mGET /js/bootstrap.min.js [36m304[0m 0.988 ms - -[0m
+[0mGET /users/sign-in [36m304[0m 2.960 ms - -[0m
+[0mGET /users/css/_signin.css [33m404[0m 2.114 ms - 160[0m
+[0mGET /cssa/bootstrap.min.css [36m304[0m 1.440 ms - -[0m
+[0mGET /js/bootstrap.min.js [36m304[0m 0.362 ms - -[0m
+[0mGET /users/sign-in [36m304[0m 4.649 ms - -[0m
+[0mGET /users/css/_signin.css [33m404[0m 0.697 ms - 160[0m
+[0mGET /js/bootstrap.min.js [36m304[0m 0.697 ms - -[0m
+[0mGET /cssa/bootstrap.min.css [36m304[0m 1.228 ms - -[0m
+[0mGET /users/sign-in [36m304[0m 3.609 ms - -[0m
+[0mGET /users/css/_signin.css [33m404[0m 0.693 ms - 160[0m
+[0mGET /js/bootstrap.min.js [36m304[0m 1.995 ms - -[0m
+[0mGET /cssa/bootstrap.min.css [36m304[0m 1.884 ms - -[0m
+[0mGET /users/sign-in [32m200[0m 2.101 ms - 2322[0m
+[0mGET /users/css/_signin.css [33m404[0m 1.202 ms - 160[0m
+[0mGET /js/bootstrap.min.js [36m304[0m 1.659 ms - -[0m
+[0mGET /cssa/bootstrap.min.css [36m304[0m 2.219 ms - -[0m
+[0mGET /users/sign-in [32m200[0m 5.614 ms - 2352[0m
+[0mGET /users/css/_signin.css [33m404[0m 1.939 ms - 160[0m
+[0mGET /js/bootstrap.min.js [36m304[0m 1.941 ms - -[0m
+[0mGET /cssa/bootstrap.min.css [36m304[0m 2.062 ms - -[0m
+[0mGET /users/sign-in [32m200[0m 10.533 ms - 2422[0m
+[0mGET /users/css/_signin.css [33m404[0m 1.417 ms - 160[0m
+[0mGET /cssa/bootstrap.min.css [36m304[0m 0.707 ms - -[0m
+[0mGET /js/bootstrap.min.js [36m304[0m 1.061 ms - -[0m
+[0mGET /users/sign-in [32m200[0m 6.768 ms - 2421[0m
+[0mGET /users/css/_signin.css [33m404[0m 1.417 ms - 160[0m
+[0mGET /cssa/bootstrap.min.css [36m304[0m 2.915 ms - -[0m
+[0mGET /js/bootstrap.min.js [36m304[0m 0.350 ms - -[0m
+[0mGET /users/sign-in [32m200[0m 1.177 ms - 2437[0m
+[0mGET /users/css/_signin.css [33m404[0m 1.125 ms - 160[0m
+[0mGET /js/bootstrap.min.js [36m304[0m 1.264 ms - -[0m
+[0mGET /cssa/bootstrap.min.css [36m304[0m 2.524 ms - -[0m
+[0mGET /users/sign-in [36m304[0m 5.657 ms - -[0m
+[0mGET /users/css/_signin.css [33m404[0m 1.490 ms - 160[0m
+[0mGET /cssa/bootstrap.min.css [36m304[0m 2.145 ms - -[0m
+[0mGET /js/bootstrap.min.js [36m304[0m 0.948 ms - -[0m
+[0mGET /users/sign-in [36m304[0m 4.477 ms - -[0m
+[0mGET /users/css/_signin.css [33m404[0m 2.468 ms - 160[0m
+[0mGET /cssa/bootstrap.min.css [36m304[0m 2.725 ms - -[0m
+[0mGET /js/bootstrap.min.js [36m304[0m 1.467 ms - -[0m
+[0mGET /users/sign-in [36m304[0m 7.841 ms - -[0m
+[0mGET /users/css/_signin.css [33m404[0m 1.572 ms - 160[0m
+[0mGET /cssa/bootstrap.min.css [36m304[0m 1.696 ms - -[0m
+[0mGET /js/bootstrap.min.js [36m304[0m 0.589 ms - -[0m
+[0mGET /users/sign-in [32m200[0m 3.495 ms - 2482[0m
+[0mGET /users/css/_signin.css [33m404[0m 1.919 ms - 160[0m
+[0mGET /cssa/bootstrap.min.css [36m304[0m 1.260 ms - -[0m
+[0mGET /js/bootstrap.min.js [36m304[0m 0.549 ms - -[0m
+[0mGET /users/sign-in [36m304[0m 5.762 ms - -[0m
+[0mGET /users/css/_signin.css [33m404[0m 1.090 ms - 160[0m
+[0mGET /cssa/bootstrap.min.css [36m304[0m 2.180 ms - -[0m
+[0mGET /js/bootstrap.min.js [36m304[0m 1.357 ms - -[0m
+[0mGET /users/sign-in [36m304[0m 5.009 ms - -[0m
+[0mGET /users/css/_signin.css [33m404[0m 2.332 ms - 160[0m
+[0mGET /cssa/bootstrap.min.css [36m304[0m 0.708 ms - -[0m
+[0mGET /js/bootstrap.min.js [36m304[0m 0.963 ms - -[0m
+[0mGET /users/sign-in [32m200[0m 4.184 ms - 2500[0m
+[0mGET /users/css/_signin.css [33m404[0m 3.019 ms - 160[0m
+[0mGET /cssa/bootstrap.min.css [36m304[0m 1.824 ms - -[0m
+[0mGET /js/bootstrap.min.js [36m304[0m 0.894 ms - -[0m
+[0mGET /users/auth/google [36m302[0m 6.795 ms - 0[0m
+[0mGET /users/sign-in [32m200[0m 5.444 ms - 2517[0m
+[0mGET /users/css/_signin.css [33m404[0m 1.476 ms - 160[0m
+[0mGET /cssa/bootstrap.min.css [36m304[0m 2.867 ms - -[0m
+[0mGET /js/bootstrap.min.js [36m304[0m 0.711 ms - -[0m
+[0mGET /users/sign-in [36m304[0m 7.389 ms - -[0m
+[0mGET /users/css/_signin.css [33m404[0m 1.598 ms - 160[0m
+[0mGET /cssa/bootstrap.min.css [36m304[0m 3.420 ms - -[0m
+[0mGET /js/bootstrap.min.js [36m304[0m 2.738 ms - -[0m
+[0mGET /users/sign-in [32m200[0m 4.257 ms - 2525[0m
+[0mGET /users/css/_signin.css [33m404[0m 3.583 ms - 160[0m
+[0mGET /cssa/bootstrap.min.css [36m304[0m 2.429 ms - -[0m
+[0mGET /js/bootstrap.min.js [36m304[0m 1.145 ms - -[0m
+[0mGET /users/sign-in [32m200[0m 5.146 ms - 2521[0m
+[0mGET /users/css/_signin.css [33m404[0m 4.408 ms - 160[0m
+[0mGET /cssa/bootstrap.min.css [36m304[0m 2.173 ms - -[0m
+[0mGET /js/bootstrap.min.js [36m304[0m 0.375 ms - -[0m
+[0mGET /users/sign-in [32m200[0m 10.998 ms - 2433[0m
+[0mGET /users/css/_signin.css [33m404[0m 2.460 ms - 160[0m
+[0mGET /cssa/bootstrap.min.css [36m304[0m 1.045 ms - -[0m
+[0mGET /js/bootstrap.min.js [36m304[0m 1.330 ms - -[0m
+[0mGET / [32m200[0m 67.819 ms - 7428[0m
+[0mGET /js/bootstrap.min.js [36m304[0m 2.216 ms - -[0m
+[0mGET /cssa/bootstrap.min.css [36m304[0m 3.156 ms - -[0m
+[0mGET /users/sign-in [36m304[0m 6.890 ms - -[0m
+[0mGET /users/css/_signin.css [33m404[0m 1.103 ms - 160[0m
+[0mGET /cssa/bootstrap.min.css [36m304[0m 1.701 ms - -[0m
+[0mGET /js/bootstrap.min.js [36m304[0m 0.871 ms - -[0m
+[0mGET /users/sign-in [32m200[0m 8.686 ms - 2428[0m
+[0mGET /users/css/_signin.css [33m404[0m 0.927 ms - 160[0m
+[0mGET /cssa/bootstrap.min.css [36m304[0m 2.187 ms - -[0m
+[0mGET /js/bootstrap.min.js [36m304[0m 1.004 ms - -[0m
+[0mGET /users/sign-in [36m304[0m 6.333 ms - -[0m
+[0mGET /users/css/_signin.css [33m404[0m 1.205 ms - 160[0m
+[0mGET /cssa/bootstrap.min.css [36m304[0m 1.347 ms - -[0m
+[0mGET /js/bootstrap.min.js [36m304[0m 1.548 ms - -[0m
+[0mGET /users/sign-in [36m304[0m 4.935 ms - -[0m
+[0mGET /users/css/_signin.css [33m404[0m 2.669 ms - 160[0m
+[0mGET /js/bootstrap.min.js [36m304[0m 2.584 ms - -[0m
+[0mGET /cssa/bootstrap.min.css [36m304[0m 1.872 ms - -[0m
+[0mGET /users/sign-in [36m304[0m 5.462 ms - -[0m
+[0mGET /users/css/_signin.css [33m404[0m 1.608 ms - 160[0m
+[0mGET /cssa/bootstrap.min.css [36m304[0m 2.247 ms - -[0m
+[0mGET /js/bootstrap.min.js [36m304[0m 0.665 ms - -[0m
+[0mGET /users/sign-in [36m304[0m 8.171 ms - -[0m
+[0mGET /users/css/_signin.css [33m404[0m 2.170 ms - 160[0m
+[0mGET /cssa/bootstrap.min.css [36m304[0m 2.118 ms - -[0m
+[0mGET /js/bootstrap.min.js [36m304[0m 0.522 ms - -[0m
+[0mGET /users/sign-in [36m304[0m 4.992 ms - -[0m
+[0mGET /users/css/_signin.css [33m404[0m 2.306 ms - 160[0m
+[0mGET /cssa/bootstrap.min.css [36m304[0m 2.713 ms - -[0m
+[0mGET /js/bootstrap.min.js [36m304[0m 0.580 ms - -[0m
+[0mGET /users/sign-in [36m304[0m 2.206 ms - -[0m
+[0mGET /users/css/_signin.css [33m404[0m 1.308 ms - 160[0m
+[0mGET /cssa/bootstrap.min.css [36m304[0m 2.758 ms - -[0m
+[0mGET /js/bootstrap.min.js [36m304[0m 3.570 ms - -[0m
+[0mGET /users/sign-in [32m200[0m 5.497 ms - 2459[0m
+[0mGET /users/css/_signin.css [33m404[0m 1.722 ms - 160[0m
+[0mGET /cssa/bootstrap.min.css [36m304[0m 2.041 ms - -[0m
+[0mGET /js/bootstrap.min.js [36m304[0m 0.506 ms - -[0m
+[0mGET /users/sign-in [36m304[0m 4.504 ms - -[0m
+[0mGET /users/css/_signin.css [33m404[0m 1.181 ms - 160[0m
+[0mGET /js/bootstrap.min.js [36m304[0m 0.502 ms - -[0m
+[0mGET /cssa/bootstrap.min.css [36m304[0m 1.066 ms - -[0m
+[0mGET /users/sign-in [36m304[0m 2.406 ms - -[0m
+[0mGET /users/css/_signin.css [33m404[0m 1.530 ms - 160[0m
+[0mGET /cssa/bootstrap.min.css [36m304[0m 2.618 ms - -[0m
+[0mGET /js/bootstrap.min.js [36m304[0m 0.453 ms - -[0m
+[0mGET /users/sign-in [36m304[0m 8.192 ms - -[0m
+[0mGET /users/css/_signin.css [33m404[0m 1.841 ms - 160[0m
+[0mGET /cssa/bootstrap.min.css [36m304[0m 1.666 ms - -[0m
+[0mGET /js/bootstrap.min.js [36m304[0m 0.778 ms - -[0m
+[0mGET /users/sign-in [32m200[0m 5.720 ms - 2496[0m
+[0mGET /users/css/_signin.css [33m404[0m 1.743 ms - 160[0m
+[0mGET /cssa/bootstrap.min.css [36m304[0m 2.146 ms - -[0m
+[0mGET /js/bootstrap.min.js [36m304[0m 2.109 ms - -[0m
+[0mGET /users/sign-in [36m304[0m 5.726 ms - -[0m
+[0mGET /users/css/_signin.css [33m404[0m 1.433 ms - 160[0m
+[0mGET /cssa/bootstrap.min.css [36m304[0m 1.220 ms - -[0m
+[0mGET /js/bootstrap.min.js [36m304[0m 0.631 ms - -[0m
+[0mGET /users/sign-in [36m304[0m 7.120 ms - -[0m
+[0mGET /users/css/_signin.css [33m404[0m 1.823 ms - 160[0m
+[0mGET /cssa/bootstrap.min.css [36m304[0m 1.327 ms - -[0m
+[0mGET /js/bootstrap.min.js [36m304[0m 2.391 ms - -[0m
+[0mGET /users/sign-in [36m304[0m 3.150 ms - -[0m
+[0mGET /users/css/_signin.css [33m404[0m 2.663 ms - 160[0m
+[0mGET /cssa/bootstrap.min.css [36m304[0m 2.892 ms - -[0m
+[0mGET /js/bootstrap.min.js [36m304[0m 0.569 ms - -[0m
+[0mGET /users/sign-in [36m304[0m 1.430 ms - -[0m
+[0mGET /users/css/_signin.css [33m404[0m 2.919 ms - 160[0m
+[0mGET /cssa/bootstrap.min.css [36m304[0m 2.355 ms - -[0m
+[0mGET /js/bootstrap.min.js [36m304[0m 1.429 ms - -[0m
+[0mGET /users/sign-in [36m304[0m 5.519 ms - -[0m
+[0mGET /users/css/_signin.css [33m404[0m 1.315 ms - 160[0m
+[0mGET /js/bootstrap.min.js [36m304[0m 0.793 ms - -[0m
+[0mGET /cssa/bootstrap.min.css [36m304[0m 1.871 ms - -[0m
+[0mGET /users/sign-in [32m200[0m 5.173 ms - 2740[0m
+[0mGET /users/css/_signin.css [33m404[0m 0.980 ms - 160[0m
+[0mGET /cssa/bootstrap.min.css [36m304[0m 0.461 ms - -[0m
+[0mGET /js/bootstrap.min.js [36m304[0m 0.673 ms - -[0m
+[0mGET /users/sign-in [36m304[0m 7.061 ms - -[0m
+[0mGET /users/css/_signin.css [33m404[0m 2.414 ms - 160[0m
+[0mGET /js/bootstrap.min.js [36m304[0m 2.337 ms - -[0m
+[0mGET /cssa/bootstrap.min.css [36m304[0m 2.694 ms - -[0m
+[0mGET /users/sign-in [36m304[0m 5.426 ms - -[0m
+[0mGET /users/css/_signin.css [33m404[0m 1.594 ms - 160[0m
+[0mGET /cssa/bootstrap.min.css [36m304[0m 1.310 ms - -[0m
+[0mGET /js/bootstrap.min.js [36m304[0m 1.367 ms - -[0m
+[0mGET /users/sign-in [36m304[0m 7.377 ms - -[0m
+[0mGET /users/css/_signin.css [33m404[0m 2.390 ms - 160[0m
+[0mGET /cssa/bootstrap.min.css [36m304[0m 2.328 ms - -[0m
+[0mGET /js/bootstrap.min.js [36m304[0m 0.495 ms - -[0m
+[0mGET /users/sign-in [36m304[0m 9.865 ms - -[0m
+[0mGET /users/css/_signin.css [33m404[0m 1.006 ms - 160[0m
+[0mGET /js/bootstrap.min.js [36m304[0m 1.465 ms - -[0m
+[0mGET /cssa/bootstrap.min.css [36m304[0m 5.312 ms - -[0m
+[0mGET /users/sign-in [36m304[0m 8.512 ms - -[0m
+[0mGET /users/css/_signin.css [33m404[0m 1.084 ms - 160[0m
+[0mGET /cssa/bootstrap.min.css [36m304[0m 1.283 ms - -[0m
+[0mGET /js/bootstrap.min.js [36m304[0m 1.773 ms - -[0m
+[0mGET /users/sign-in [36m304[0m 4.689 ms - -[0m
+[0mGET /users/css/_signin.css [33m404[0m 1.058 ms - 160[0m
+[0mGET /cssa/bootstrap.min.css [36m304[0m 1.966 ms - -[0m
+[0mGET /js/bootstrap.min.js [36m304[0m 1.139 ms - -[0m
+[0mGET /users/sign-in [32m200[0m 3.195 ms - 2740[0m
+[0mGET /users/css/_signin.css [33m404[0m 2.546 ms - 160[0m
+[0mGET /cssa/bootstrap.min.css [36m304[0m 3.022 ms - -[0m
+[0mGET /js/bootstrap.min.js [36m304[0m 0.909 ms - -[0m
+[0mGET /users/sign-in [36m304[0m 2.828 ms - -[0m
+[0mGET /users/css/_signin.css [33m404[0m 1.160 ms - 160[0m
+[0mGET /js/bootstrap.min.js [36m304[0m 0.547 ms - -[0m
+[0mGET /cssa/bootstrap.min.css [36m304[0m 0.939 ms - -[0m
+[0mGET /users/sign-in [36m304[0m 5.755 ms - -[0m
+[0mGET /users/css/_signin.css [33m404[0m 1.546 ms - 160[0m
+[0mGET /cssa/bootstrap.min.css [36m304[0m 2.864 ms - -[0m
+[0mGET /js/bootstrap.min.js [36m304[0m 1.278 ms - -[0m
+[0mGET /users/sign-in [36m304[0m 4.728 ms - -[0m
+[0mGET /users/css/_signin.css [33m404[0m 1.466 ms - 160[0m
+[0mGET /js/bootstrap.min.js [36m304[0m 1.793 ms - -[0m
+[0mGET /cssa/bootstrap.min.css [36m304[0m 2.145 ms - -[0m
+[0mGET /users/sign-in [36m304[0m 7.675 ms - -[0m
+[0mGET /users/css/_signin.css [33m404[0m 1.383 ms - 160[0m
+[0mGET /cssa/bootstrap.min.css [36m304[0m 2.919 ms - -[0m
+[0mGET /js/bootstrap.min.js [36m304[0m 1.132 ms - -[0m
+[0mGET /users/sign-in [36m304[0m 5.097 ms - -[0m
+[0mGET /users/css/_signin.css [33m404[0m 2.399 ms - 160[0m
+[0mGET /js/bootstrap.min.js [36m304[0m 1.514 ms - -[0m
+[0mGET /cssa/bootstrap.min.css [36m304[0m 1.794 ms - -[0m
+[0mGET /users/sign-in [32m200[0m 6.526 ms - 2759[0m
+[0mGET /users/css/_signin.css [33m404[0m 1.616 ms - 160[0m
+[0mGET /cssa/bootstrap.min.css [36m304[0m 1.773 ms - -[0m
+[0mGET /js/bootstrap.min.js [36m304[0m 0.524 ms - -[0m
+[0mGET /users/sign-in [32m200[0m 3.187 ms - 2768[0m
+[0mGET /users/css/_signin.css [33m404[0m 1.099 ms - 160[0m
+[0mGET /cssa/bootstrap.min.css [36m304[0m 1.206 ms - -[0m
+[0mGET /js/bootstrap.min.js [36m304[0m 1.637 ms - -[0m
+[0mGET /users/sign-in [36m304[0m 3.542 ms - -[0m
+[0mGET /users/css/_signin.css [33m404[0m 1.807 ms - 160[0m
+[0mGET /js/bootstrap.min.js [36m304[0m 2.028 ms - -[0m
+[0mGET /cssa/bootstrap.min.css [36m304[0m 2.348 ms - -[0m
+[0mGET /users/sign-in [36m304[0m 4.930 ms - -[0m
+[0mGET /users/css/_signin.css [33m404[0m 1.576 ms - 160[0m
+[0mGET /cssa/bootstrap.min.css [36m304[0m 1.974 ms - -[0m
+[0mGET /js/bootstrap.min.js [36m304[0m 0.881 ms - -[0m
+[0mGET /users/sign-in [32m200[0m 4.362 ms - 2753[0m
+[0mGET /users/css/_signin.css [33m404[0m 1.010 ms - 160[0m
+[0mGET /cssa/bootstrap.min.css [36m304[0m 1.091 ms - -[0m
+[0mGET /js/bootstrap.min.js [36m304[0m 2.094 ms - -[0m
+[0mGET /users/sign-in [36m304[0m 9.336 ms - -[0m
+[0mGET /users/css/_signin.css [33m404[0m 1.971 ms - 160[0m
+[0mGET /cssa/bootstrap.min.css [36m304[0m 1.236 ms - -[0m
+[0mGET /js/bootstrap.min.js [36m304[0m 0.570 ms - -[0m
+[0mGET /users/sign-in [36m304[0m 7.324 ms - -[0m
+[0mGET /users/css/_signin.css [33m404[0m 1.379 ms - 160[0m
+[0mGET /cssa/bootstrap.min.css [36m304[0m 2.593 ms - -[0m
+[0mGET /js/bootstrap.min.js [36m304[0m 0.441 ms - -[0m
+[0mGET /users/sign-in [36m304[0m 8.471 ms - -[0m
+[0mGET /users/css/_signin.css [33m404[0m 1.182 ms - 160[0m
+[0mGET /cssa/bootstrap.min.css [36m304[0m 1.558 ms - -[0m
+[0mGET /js/bootstrap.min.js [36m304[0m 0.496 ms - -[0m
+[0mGET /users/sign-in [36m304[0m 5.950 ms - -[0m
+[0mGET /users/css/_signin.css [33m404[0m 1.556 ms - 160[0m
+[0mGET /js/bootstrap.min.js [36m304[0m 1.018 ms - -[0m
+[0mGET /cssa/bootstrap.min.css [36m304[0m 1.771 ms - -[0m
+[0mGET /users/sign-in [32m200[0m 4.136 ms - 2753[0m
+[0mGET /users/css/_signin.css [33m404[0m 1.178 ms - 160[0m
+[0mGET /cssa/bootstrap.min.css [36m304[0m 0.431 ms - -[0m
+[0mGET /js/bootstrap.min.js [36m304[0m 0.418 ms - -[0m
+[0mGET /users/sign-in [32m200[0m 5.791 ms - 2753[0m
+[0mGET /users/css/_signin.css [33m404[0m 1.246 ms - 160[0m
+[0mGET /cssa/bootstrap.min.css [36m304[0m 1.373 ms - -[0m
+[0mGET /js/bootstrap.min.js [36m304[0m 0.629 ms - -[0m
