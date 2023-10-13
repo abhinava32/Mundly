@@ -15,19 +15,21 @@ const passportJWT = require('./config/passport-jwt-strategy');
 const passportGoogle = require('./config/passport-google-oauth2-startegy');
 const db = require('./config/mongoose');
 const MongoStore = require('connect-mongo');
-const sassMiddleware = require('sass-middleware');
+const sassMiddleware = require('node-sass-middleware');
 const { Console } = require('console');
 
 const chatServer = require('http').createServer(app);
     const chatSockets = require('./config/chatSocket').chatSocket(chatServer);
     chatServer.listen(5000); //port number can ne changed
     //console.log("chat server is listening on port number 5000");
-
+// console.log("environement is ",env.name);
 if(env.name == "development"){
+    console.log("sass middleware called");
+    console.log(path.join(__dirname, env.static_path, 'scss'));
     app.use(sassMiddleware({
         src: path.join(__dirname, env.static_path, 'scss'),
         dest: path.join(__dirname,env.static_path,'css'),
-        debug: false,
+        debug: true,
         outputStyle: 'extended',
         prefix: '/css'
     }));

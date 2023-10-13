@@ -1,0 +1,86 @@
+$color_1: white;
+$color_2: aliceblue;
+$color_3: black;
+$background-color_1: black;
+$background-color_2: white;
+
+body {
+	margin: 0px;
+}
+#new-post-form {
+	margin-bottom: 50px;
+}
+#friends {
+	height: 50%;
+}
+ol {
+	margin-bottom: 50px;
+}
+
+header {
+	// img {
+	// 	border-radius: 50%;
+	// 	width: 50px;
+	// }
+	height: 80px;
+	padding: 10px;
+	width: 99%;
+	background-color: $background-color_1;
+	color: $color_1;
+	img {
+        border-radius: 50%;
+        width: 50px;
+        position: relative;
+        top: -10px;
+    }
+	margin: auto;
+	margin-bottom: 30px;
+	ul {
+		list-style: none;
+	}
+	li {
+		float: left;
+		margin: 10px;
+	}
+	a {
+		&:any-link {
+			color: $color_2;
+			text-decoration: none;
+		}
+	}
+}
+#logo {
+	float: left;
+	position: absolute;
+	top: 23px;
+	left: 50px;
+}
+#user-details {
+	float: right;
+}
+.post-list {
+	list-style: none;
+	li {
+		padding: 5px;
+		background-color: $background-color_2;
+		border-radius: 10px;
+		margin-bottom: 20px;
+	}
+}
+// .friends-list {
+// 	ul {
+// 		list-style: none;
+// 	}
+// 	a {
+// 		&:any-link {
+// 			color: $color_3;
+// 			text-decoration: none;
+// 		}
+// 	}
+// }
+// .thumbs {
+// 	height: 1.1rem;
+// 	width: 1.1rem;
+// 	position: relative;
+// 	top: 0rem;
+// }
