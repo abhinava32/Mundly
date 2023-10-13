@@ -1,3 +1,6 @@
+var flag1 = false;
+var flag2 = false;
+
 
 const validateEmail = (email) => {
     console.log("called function");
@@ -15,9 +18,11 @@ const validateEmail = (email) => {
     if(validateEmail(email)){
         $result.text(email + ' is valid.');
         $result.css('color', 'green');
+        flag1 = true;
     } else{
         $result.text(email + ' is invalid.');
         $result.css('color', 'red');
+        flag1 = false;
     }
     return false;
     }
@@ -34,12 +39,22 @@ const match = () => {
         $matchResult.text('password matched');
         $matchResult.css('color','green');
         console.log("values matched");
+        flag2 = true;
     }
     else{
         console.log("values mismatch");
         second.css('color','red');
+        flag2 = false;
     }
 
 }
 
 $('#input-confirm-password').on('input', match);
+
+$('form').submit(()=>{
+    if(flag1 && flag2){
+        return true;
+    }
+    alert("please check the inputs correctly!!");
+    return false;
+});
