@@ -1,11 +1,40 @@
-<form action="/users/create-profile" method="post" class="form-group">
-    <input type="text" name="name" placeholder="your name" required>
-    <input type="text" name="email" placeholder="email-id" required>
-    <input type="password" name="password" placeholder="set password" required>
-    <input type="password" name="confirm_password" placeholder="confirm password" required>
-    <button type="submit"> Sign Up </button>
-</form>
+<link rel="stylesheet" href="<%= assetPath('/css/_signin.css') %>">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Borel&family=Pixelify+Sans&display=swap" rel="stylesheet">
 
-<p>
-    <a href="/users/auth/google">Sign in via google</a>
-</p>
+<div class="container-fluid row" id="container">
+    
+        <div class="col-xs-1 col-md-4" id="first"></div>
+        <div class="d-none d-lg-block col-md-2" id="box2">
+            <div>
+                <h1>MUNDLY</h1>
+                <small>Not just a website, but a web world</small>
+            </div>
+        </div>
+        <div id="box1" class="col-xs-12 ">
+            
+            <form action="/users/create-profile" method="post" class="form-group">
+                <input type="text" name="name" placeholder="your name" required class="form-control" id="input-name">     
+                <input type="text" name="email" placeholder="email-id" required class="form-control" id="input-email">
+                <small><span id="result"></span></small>
+                <input type="password" name="password" placeholder="set password" required class="form-control" id="input-password">
+                <small><span id="matched-result"></span></small>
+                <input type="password" name="confirm_password" placeholder="confirm password" required class="form-control" id="input-confirm-password">
+                <button type="submit" class="form-control btn btn-dark" id="submit"> Sign Up </button>
+            </form>
+            <hr>
+            <h2>OR</h2>
+            <br>
+            <a href="/users/auth/google">
+                <button type="submit" id="google_btn" class="form-control btn btn-dark">Sign In with Google</button>
+            </a>
+            <a href="/users/auth/facebook">
+                <button type="submit" id="google_btn" class="form-control btn btn-dark">Sign In with Facebook</button>
+            </a>
+           
+            
+        </div>
+</div>
+
+<script src="<%= assetPath('/js/signUp.js') %>"></script>
