@@ -40,11 +40,5 @@ module.exports.home = async function(req, res){
         });
     }
     
-    return res.redirect('/users/sign-in');
-                    //     {
-                    //         'title':'home page', 
-                    //         posts:posts,
-                    //         users: usersList 
-                    //     }
-                    // );
+    return res.render('sign-in',{'title': 'Mundly | signIn' });
 }
