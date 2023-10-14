@@ -735,3 +735,267 @@
 [0mGET /users/css/_signin.css [33m404[0m 5.281 ms - 160[0m
 [0mGET /cssa/bootstrap.min.css [36m304[0m 0.953 ms - -[0m
 [0mGET /js/bootstrap.min.js [36m304[0m 0.451 ms - -[0m
+::1 - - [14/Oct/2023:09:22:24 +0000] "GET / HTTP/1.1" 302 72 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36"
+::1 - - [14/Oct/2023:09:22:24 +0000] "GET /users/sign-in HTTP/1.1" 200 3228 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36"
+::1 - - [14/Oct/2023:09:22:24 +0000] "GET /undefined HTTP/1.1" 404 148 "http://localhost:8000/users/sign-in" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36"
+::1 - - [14/Oct/2023:09:22:24 +0000] "GET /cssa/bootstrap.min.css HTTP/1.1" 304 - "http://localhost:8000/users/sign-in" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36"
+::1 - - [14/Oct/2023:09:22:24 +0000] "GET /js/bootstrap.min.js HTTP/1.1" 304 - "http://localhost:8000/users/sign-in" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36"
+::1 - - [14/Oct/2023:09:22:24 +0000] "GET /undefined HTTP/1.1" 404 148 "http://localhost:8000/users/sign-in" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36"
+::1 - - [14/Oct/2023:09:22:33 +0000] "GET / HTTP/1.1" 302 72 "http://localhost:8000/users/sign-in" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36"
+::1 - - [14/Oct/2023:09:22:33 +0000] "GET /users/sign-in HTTP/1.1" 304 - "http://localhost:8000/users/sign-in" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36"
+::1 - - [14/Oct/2023:09:22:33 +0000] "GET /undefined HTTP/1.1" 404 148 "http://localhost:8000/users/sign-in" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36"
+::1 - - [14/Oct/2023:09:22:33 +0000] "GET /cssa/bootstrap.min.css HTTP/1.1" 304 - "http://localhost:8000/users/sign-in" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36"
+::1 - - [14/Oct/2023:09:22:33 +0000] "GET /js/bootstrap.min.js HTTP/1.1" 304 - "http://localhost:8000/users/sign-in" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36"
+::1 - - [14/Oct/2023:09:22:33 +0000] "GET /undefined HTTP/1.1" 404 148 "http://localhost:8000/users/sign-in" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36"
+::1 - - [14/Oct/2023:09:22:37 +0000] "GET / HTTP/1.1" 302 72 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36"
+::1 - - [14/Oct/2023:09:22:37 +0000] "GET /users/sign-in HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36"
+::1 - - [14/Oct/2023:09:22:37 +0000] "GET /undefined HTTP/1.1" 404 148 "http://localhost:8000/users/sign-in" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36"
+::1 - - [14/Oct/2023:09:22:37 +0000] "GET /cssa/bootstrap.min.css HTTP/1.1" 304 - "http://localhost:8000/users/sign-in" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36"
+::1 - - [14/Oct/2023:09:22:37 +0000] "GET /js/bootstrap.min.js HTTP/1.1" 304 - "http://localhost:8000/users/sign-in" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36"
+::1 - - [14/Oct/2023:09:22:37 +0000] "GET /undefined HTTP/1.1" 404 148 "http://localhost:8000/users/sign-in" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36"
+::1 - - [14/Oct/2023:09:27:37 +0000] "GET /undefined HTTP/1.1" 404 148 "http://localhost:8000/users/sign-in" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36"
+::1 - - [14/Oct/2023:09:27:37 +0000] "GET /cssa/bootstrap.min.css HTTP/1.1" 304 - "http://localhost:8000/users/sign-in" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36"
+::1 - - [14/Oct/2023:09:27:38 +0000] "GET /js/bootstrap.min.js.map HTTP/1.1" 200 220293 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36"
+::1 - - [14/Oct/2023:09:27:38 +0000] "GET /cssa/bootstrap.min.css.map HTTP/1.1" 200 588931 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36"
+::1 - - [14/Oct/2023:09:28:51 +0000] "GET /users/sign-in HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36"
+::1 - - [14/Oct/2023:09:28:51 +0000] "GET /undefined HTTP/1.1" 404 148 "http://localhost:8000/users/sign-in" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36"
+::1 - - [14/Oct/2023:09:28:51 +0000] "GET /cssa/bootstrap.min.css HTTP/1.1" 304 - "http://localhost:8000/users/sign-in" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36"
+::1 - - [14/Oct/2023:09:28:51 +0000] "GET /js/bootstrap.min.js HTTP/1.1" 304 - "http://localhost:8000/users/sign-in" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36"
+::1 - - [14/Oct/2023:09:28:51 +0000] "GET /undefined HTTP/1.1" 404 148 "http://localhost:8000/users/sign-in" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36"
+::1 - - [14/Oct/2023:09:28:54 +0000] "GET /undefined HTTP/1.1" 404 148 "http://localhost:8000/users/sign-in" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36"
+::1 - - [14/Oct/2023:09:28:54 +0000] "GET /cssa/bootstrap.min.css HTTP/1.1" 304 - "http://localhost:8000/users/sign-in" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36"
+::1 - - [14/Oct/2023:09:28:54 +0000] "GET /js/bootstrap.min.js.map HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36"
+::1 - - [14/Oct/2023:09:28:54 +0000] "GET /cssa/bootstrap.min.css.map HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36"
+::1 - - [14/Oct/2023:09:38:03 +0000] "GET /users/sign-in HTTP/1.1" 304 - "-" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Mobile Safari/537.36"
+::1 - - [14/Oct/2023:09:38:03 +0000] "GET /undefined HTTP/1.1" 404 148 "http://localhost:8000/users/sign-in" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Mobile Safari/537.36"
+::1 - - [14/Oct/2023:09:38:03 +0000] "GET /cssa/bootstrap.min.css HTTP/1.1" 304 - "http://localhost:8000/users/sign-in" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Mobile Safari/537.36"
+::1 - - [14/Oct/2023:09:38:03 +0000] "GET /js/bootstrap.min.js HTTP/1.1" 304 - "http://localhost:8000/users/sign-in" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Mobile Safari/537.36"
+::1 - - [14/Oct/2023:09:38:03 +0000] "GET /undefined HTTP/1.1" 404 148 "http://localhost:8000/users/sign-in" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Mobile Safari/537.36"
+::1 - - [14/Oct/2023:09:38:03 +0000] "GET /js/bootstrap.min.js.map HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36"
+::1 - - [14/Oct/2023:09:38:03 +0000] "GET /cssa/bootstrap.min.css.map HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36"
+::1 - - [14/Oct/2023:09:39:21 +0000] "GET /users/sign-in HTTP/1.1" 304 - "-" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Mobile Safari/537.36"
+::1 - - [14/Oct/2023:09:39:21 +0000] "GET /undefined HTTP/1.1" 404 148 "http://localhost:8000/users/sign-in" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Mobile Safari/537.36"
+::1 - - [14/Oct/2023:09:39:21 +0000] "GET /cssa/bootstrap.min.css HTTP/1.1" 304 - "http://localhost:8000/users/sign-in" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Mobile Safari/537.36"
+::1 - - [14/Oct/2023:09:39:21 +0000] "GET /js/bootstrap.min.js HTTP/1.1" 304 - "http://localhost:8000/users/sign-in" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Mobile Safari/537.36"
+::1 - - [14/Oct/2023:09:39:21 +0000] "GET /undefined HTTP/1.1" 404 148 "http://localhost:8000/users/sign-in" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Mobile Safari/537.36"
+::1 - - [14/Oct/2023:09:39:21 +0000] "GET /js/bootstrap.min.js.map HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36"
+::1 - - [14/Oct/2023:09:39:21 +0000] "GET /cssa/bootstrap.min.css.map HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36"
+::1 - - [14/Oct/2023:09:58:10 +0000] "GET / HTTP/1.1" 302 72 "http://localhost:8000/users/sign-in" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Mobile Safari/537.36"
+::1 - - [14/Oct/2023:09:58:10 +0000] "GET /users/sign-in HTTP/1.1" 304 - "http://localhost:8000/users/sign-in" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Mobile Safari/537.36"
+::1 - - [14/Oct/2023:09:58:10 +0000] "GET /undefined HTTP/1.1" 404 148 "http://localhost:8000/users/sign-in" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Mobile Safari/537.36"
+::1 - - [14/Oct/2023:09:58:10 +0000] "GET /cssa/bootstrap.min.css HTTP/1.1" 304 - "http://localhost:8000/users/sign-in" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Mobile Safari/537.36"
+::1 - - [14/Oct/2023:09:58:10 +0000] "GET /js/bootstrap.min.js HTTP/1.1" 304 - "http://localhost:8000/users/sign-in" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Mobile Safari/537.36"
+::1 - - [14/Oct/2023:09:58:10 +0000] "GET /undefined HTTP/1.1" 404 148 "http://localhost:8000/users/sign-in" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Mobile Safari/537.36"
+::1 - - [14/Oct/2023:09:58:10 +0000] "GET /js/bootstrap.min.js.map HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36"
+::1 - - [14/Oct/2023:09:58:10 +0000] "GET /cssa/bootstrap.min.css.map HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36"
+::1 - - [14/Oct/2023:09:58:11 +0000] "GET / HTTP/1.1" 302 72 "http://localhost:8000/users/sign-in" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Mobile Safari/537.36"
+::1 - - [14/Oct/2023:09:58:11 +0000] "GET /users/sign-in HTTP/1.1" 304 - "http://localhost:8000/users/sign-in" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Mobile Safari/537.36"
+::1 - - [14/Oct/2023:09:58:11 +0000] "GET /undefined HTTP/1.1" 404 148 "http://localhost:8000/users/sign-in" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Mobile Safari/537.36"
+::1 - - [14/Oct/2023:09:58:11 +0000] "GET /cssa/bootstrap.min.css HTTP/1.1" 304 - "http://localhost:8000/users/sign-in" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Mobile Safari/537.36"
+::1 - - [14/Oct/2023:09:58:11 +0000] "GET /js/bootstrap.min.js HTTP/1.1" 304 - "http://localhost:8000/users/sign-in" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Mobile Safari/537.36"
+::1 - - [14/Oct/2023:09:58:11 +0000] "GET /undefined HTTP/1.1" 404 148 "http://localhost:8000/users/sign-in" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Mobile Safari/537.36"
+::1 - - [14/Oct/2023:09:58:11 +0000] "GET /js/bootstrap.min.js.map HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36"
+::1 - - [14/Oct/2023:09:58:11 +0000] "GET /cssa/bootstrap.min.css.map HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36"
+::1 - - [14/Oct/2023:09:58:11 +0000] "GET / HTTP/1.1" 302 72 "http://localhost:8000/users/sign-in" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Mobile Safari/537.36"
+::1 - - [14/Oct/2023:09:58:11 +0000] "GET /users/sign-in HTTP/1.1" 304 - "http://localhost:8000/users/sign-in" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Mobile Safari/537.36"
+::1 - - [14/Oct/2023:09:58:11 +0000] "GET /undefined HTTP/1.1" 404 148 "http://localhost:8000/users/sign-in" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Mobile Safari/537.36"
+::1 - - [14/Oct/2023:09:58:11 +0000] "GET /cssa/bootstrap.min.css HTTP/1.1" 304 - "http://localhost:8000/users/sign-in" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Mobile Safari/537.36"
+::1 - - [14/Oct/2023:09:58:11 +0000] "GET /js/bootstrap.min.js HTTP/1.1" 304 - "http://localhost:8000/users/sign-in" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Mobile Safari/537.36"
+::1 - - [14/Oct/2023:09:58:11 +0000] "GET /undefined HTTP/1.1" 404 148 "http://localhost:8000/users/sign-in" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Mobile Safari/537.36"
+::1 - - [14/Oct/2023:09:58:11 +0000] "GET /js/bootstrap.min.js.map HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36"
+::1 - - [14/Oct/2023:09:58:11 +0000] "GET /cssa/bootstrap.min.css.map HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36"
+::1 - - [14/Oct/2023:09:58:12 +0000] "GET / HTTP/1.1" 302 72 "http://localhost:8000/users/sign-in" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Mobile Safari/537.36"
+::1 - - [14/Oct/2023:09:58:12 +0000] "GET /users/sign-in HTTP/1.1" 304 - "http://localhost:8000/users/sign-in" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Mobile Safari/537.36"
+::1 - - [14/Oct/2023:09:58:12 +0000] "GET /undefined HTTP/1.1" 404 148 "http://localhost:8000/users/sign-in" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Mobile Safari/537.36"
+::1 - - [14/Oct/2023:09:58:12 +0000] "GET /cssa/bootstrap.min.css HTTP/1.1" 304 - "http://localhost:8000/users/sign-in" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Mobile Safari/537.36"
+::1 - - [14/Oct/2023:09:58:12 +0000] "GET /js/bootstrap.min.js HTTP/1.1" 304 - "http://localhost:8000/users/sign-in" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Mobile Safari/537.36"
+::1 - - [14/Oct/2023:09:58:12 +0000] "GET /undefined HTTP/1.1" 404 148 "http://localhost:8000/users/sign-in" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Mobile Safari/537.36"
+::1 - - [14/Oct/2023:09:58:12 +0000] "GET /js/bootstrap.min.js.map HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36"
+::1 - - [14/Oct/2023:09:58:12 +0000] "GET /cssa/bootstrap.min.css.map HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36"
+::1 - - [14/Oct/2023:09:58:15 +0000] "GET / HTTP/1.1" 302 72 "http://localhost:8000/users/sign-in" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36"
+::1 - - [14/Oct/2023:09:58:15 +0000] "GET /users/sign-in HTTP/1.1" 304 - "http://localhost:8000/users/sign-in" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36"
+::1 - - [14/Oct/2023:09:58:15 +0000] "GET /undefined HTTP/1.1" 404 148 "http://localhost:8000/users/sign-in" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36"
+::1 - - [14/Oct/2023:09:58:15 +0000] "GET /cssa/bootstrap.min.css HTTP/1.1" 304 - "http://localhost:8000/users/sign-in" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36"
+::1 - - [14/Oct/2023:09:58:15 +0000] "GET /js/bootstrap.min.js HTTP/1.1" 304 - "http://localhost:8000/users/sign-in" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36"
+::1 - - [14/Oct/2023:09:58:15 +0000] "GET /undefined HTTP/1.1" 404 148 "http://localhost:8000/users/sign-in" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36"
+[0mGET /users/sign-in [31m500[0m 11.438 ms - 1764[0m
+[0mGET /users/sign-in [31m500[0m 7.612 ms - 1764[0m
+[0mGET /users/sign-in [32m200[0m 18.831 ms - 3227[0m
+[0mGET /users/css/_signin.css [33m404[0m 8.557 ms - 160[0m
+[0mGET /cssa/bootstrap.min.css [36m304[0m 4.127 ms - -[0m
+[0mGET /js/bootstrap.min.js [36m304[0m 1.654 ms - -[0m
+[0mGET /users/sign-in [36m304[0m 12.070 ms - -[0m
+[0mGET /users/css/_signin.css [33m404[0m 3.144 ms - 160[0m
+[0mGET /js/bootstrap.min.js [36m304[0m 1.871 ms - -[0m
+[0mGET /cssa/bootstrap.min.css [36m304[0m 2.047 ms - -[0m
+[0mGET /users/sign-in [36m304[0m 8.443 ms - -[0m
+[0mGET /users/css/_signin.css [33m404[0m 2.104 ms - 160[0m
+[0mGET /js/bootstrap.min.js [36m304[0m 2.301 ms - -[0m
+[0mGET /cssa/bootstrap.min.css [36m304[0m 1.999 ms - -[0m
+[0mGET /users/sign-in [32m200[0m 14.018 ms - 3228[0m
+[0mGET /undefined [33m404[0m 7.406 ms - 148[0m
+[0mGET /cssa/bootstrap.min.css [36m304[0m 1.977 ms - -[0m
+[0mGET /css/_signin-8a89ab9061.css [33m404[0m 1.969 ms - 165[0m
+[0mGET /js/bootstrap.min.js [36m304[0m 5.029 ms - -[0m
+[0mGET /undefined [33m404[0m 1.000 ms - 148[0m
+::1 - - [14/Oct/2023:10:42:16 +0000] "GET /users/sign-in HTTP/1.1" 304 - "http://localhost:8000/users/sign-in" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36"
+::1 - - [14/Oct/2023:10:42:16 +0000] "GET /undefined HTTP/1.1" 404 148 "http://localhost:8000/users/sign-in" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36"
+::1 - - [14/Oct/2023:10:42:16 +0000] "GET /cssa/bootstrap.min.css HTTP/1.1" 304 - "http://localhost:8000/users/sign-in" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36"
+::1 - - [14/Oct/2023:10:42:16 +0000] "GET /js/bootstrap.min.js HTTP/1.1" 304 - "http://localhost:8000/users/sign-in" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36"
+::1 - - [14/Oct/2023:10:42:16 +0000] "GET /undefined HTTP/1.1" 404 148 "http://localhost:8000/users/sign-in" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36"
+::1 - - [14/Oct/2023:10:42:23 +0000] "GET / HTTP/1.1" 302 72 "http://localhost:8000/users/sign-in" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36"
+::1 - - [14/Oct/2023:10:42:23 +0000] "GET /users/sign-in HTTP/1.1" 304 - "http://localhost:8000/users/sign-in" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36"
+::1 - - [14/Oct/2023:10:42:23 +0000] "GET /undefined HTTP/1.1" 404 148 "http://localhost:8000/users/sign-in" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36"
+::1 - - [14/Oct/2023:10:42:23 +0000] "GET /cssa/bootstrap.min.css HTTP/1.1" 304 - "http://localhost:8000/users/sign-in" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36"
+::1 - - [14/Oct/2023:10:42:23 +0000] "GET /js/bootstrap.min.js HTTP/1.1" 304 - "http://localhost:8000/users/sign-in" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36"
+::1 - - [14/Oct/2023:10:42:23 +0000] "GET /undefined HTTP/1.1" 404 148 "http://localhost:8000/users/sign-in" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36"
+::1 - - [14/Oct/2023:10:42:25 +0000] "GET / HTTP/1.1" 302 72 "http://localhost:8000/users/sign-in" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36"
+::1 - - [14/Oct/2023:10:42:25 +0000] "GET /users/sign-in HTTP/1.1" 304 - "http://localhost:8000/users/sign-in" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36"
+::1 - - [14/Oct/2023:10:42:25 +0000] "GET /undefined HTTP/1.1" 404 148 "http://localhost:8000/users/sign-in" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36"
+::1 - - [14/Oct/2023:10:42:25 +0000] "GET /cssa/bootstrap.min.css HTTP/1.1" 304 - "http://localhost:8000/users/sign-in" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36"
+::1 - - [14/Oct/2023:10:42:25 +0000] "GET /js/bootstrap.min.js HTTP/1.1" 304 - "http://localhost:8000/users/sign-in" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36"
+::1 - - [14/Oct/2023:10:42:25 +0000] "GET /undefined HTTP/1.1" 404 148 "http://localhost:8000/users/sign-in" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36"
+::1 - - [14/Oct/2023:10:42:29 +0000] "GET /users/sign-in HTTP/1.1" 304 - "http://localhost:8000/users/sign-in" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36"
+::1 - - [14/Oct/2023:10:42:29 +0000] "GET /undefined HTTP/1.1" 404 148 "http://localhost:8000/users/sign-in" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36"
+::1 - - [14/Oct/2023:10:42:29 +0000] "GET /cssa/bootstrap.min.css HTTP/1.1" 304 - "http://localhost:8000/users/sign-in" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36"
+::1 - - [14/Oct/2023:10:42:29 +0000] "GET /js/bootstrap.min.js HTTP/1.1" 304 - "http://localhost:8000/users/sign-in" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36"
+::1 - - [14/Oct/2023:10:42:29 +0000] "GET /undefined HTTP/1.1" 404 148 "http://localhost:8000/users/sign-in" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36"
+::1 - - [14/Oct/2023:10:42:38 +0000] "POST /users/create-session HTTP/1.1" 302 46 "http://localhost:8000/users/sign-in" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36"
+::1 - - [14/Oct/2023:10:42:38 +0000] "GET / HTTP/1.1" 200 13346 "http://localhost:8000/users/sign-in" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36"
+::1 - - [14/Oct/2023:10:42:38 +0000] "GET /undefined HTTP/1.1" 404 148 "http://localhost:8000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36"
+::1 - - [14/Oct/2023:10:42:38 +0000] "GET /cssa/bootstrap.min.css HTTP/1.1" 304 - "http://localhost:8000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36"
+::1 - - [14/Oct/2023:10:42:38 +0000] "GET /js/bootstrap.min.js HTTP/1.1" 304 - "http://localhost:8000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36"
+::1 - - [14/Oct/2023:10:45:06 +0000] "GET / HTTP/1.1" 304 - "http://localhost:8000/users/sign-in" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36"
+::1 - - [14/Oct/2023:10:45:06 +0000] "GET /cssa/bootstrap.min.css HTTP/1.1" 304 - "http://localhost:8000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36"
+::1 - - [14/Oct/2023:10:45:06 +0000] "GET /undefined HTTP/1.1" 404 148 "http://localhost:8000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36"
+::1 - - [14/Oct/2023:10:45:06 +0000] "GET /js/bootstrap.min.js HTTP/1.1" 304 - "http://localhost:8000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36"
+::1 - - [14/Oct/2023:10:45:36 +0000] "GET / HTTP/1.1" 200 13329 "http://localhost:8000/users/sign-in" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36"
+::1 - - [14/Oct/2023:10:45:36 +0000] "GET /cssa/bootstrap.min.css HTTP/1.1" 304 - "http://localhost:8000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36"
+::1 - - [14/Oct/2023:10:45:36 +0000] "GET /js/bootstrap.min.js HTTP/1.1" 304 - "http://localhost:8000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36"
+::1 - - [14/Oct/2023:10:45:36 +0000] "GET /undefined HTTP/1.1" 404 148 "http://localhost:8000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36"
+::1 - - [14/Oct/2023:10:45:44 +0000] "GET /users/sign-in HTTP/1.1" 302 72 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36"
+::1 - - [14/Oct/2023:10:45:44 +0000] "GET /users/profile HTTP/1.1" 404 152 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36"
+::1 - - [14/Oct/2023:10:45:50 +0000] "GET /undefined HTTP/1.1" 404 148 "http://localhost:8000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36"
+::1 - - [14/Oct/2023:10:46:26 +0000] "GET /users/sign-out HTTP/1.1" 302 46 "http://localhost:8000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36"
+::1 - - [14/Oct/2023:10:46:26 +0000] "GET / HTTP/1.1" 302 72 "http://localhost:8000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36"
+::1 - - [14/Oct/2023:10:46:26 +0000] "GET /users/sign-in HTTP/1.1" 200 3211 "http://localhost:8000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36"
+::1 - - [14/Oct/2023:10:46:26 +0000] "GET /undefined HTTP/1.1" 404 148 "http://localhost:8000/users/sign-in" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36"
+::1 - - [14/Oct/2023:10:46:26 +0000] "GET /cssa/bootstrap.min.css HTTP/1.1" 304 - "http://localhost:8000/users/sign-in" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36"
+::1 - - [14/Oct/2023:10:46:26 +0000] "GET /js/bootstrap.min.js HTTP/1.1" 304 - "http://localhost:8000/users/sign-in" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36"
+::1 - - [14/Oct/2023:10:46:26 +0000] "GET /undefined HTTP/1.1" 404 148 "http://localhost:8000/users/sign-in" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36"
+::1 - - [14/Oct/2023:10:46:30 +0000] "GET /users/sign-in HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36"
+::1 - - [14/Oct/2023:10:46:30 +0000] "GET /undefined HTTP/1.1" 404 148 "http://localhost:8000/users/sign-in" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36"
+::1 - - [14/Oct/2023:10:46:30 +0000] "GET /cssa/bootstrap.min.css HTTP/1.1" 304 - "http://localhost:8000/users/sign-in" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36"
+::1 - - [14/Oct/2023:10:46:30 +0000] "GET /js/bootstrap.min.js HTTP/1.1" 304 - "http://localhost:8000/users/sign-in" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36"
+::1 - - [14/Oct/2023:10:46:30 +0000] "GET /undefined HTTP/1.1" 404 148 "http://localhost:8000/users/sign-in" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36"
+::1 - - [14/Oct/2023:10:49:14 +0000] "GET /users/sign-in HTTP/1.1" 200 3228 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36"
+::1 - - [14/Oct/2023:10:49:15 +0000] "GET /undefined HTTP/1.1" 404 148 "http://localhost:8000/users/sign-in" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36"
+::1 - - [14/Oct/2023:10:49:15 +0000] "GET /cssa/bootstrap.min.css HTTP/1.1" 304 - "http://localhost:8000/users/sign-in" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36"
+::1 - - [14/Oct/2023:10:49:15 +0000] "GET /js/bootstrap.min.js HTTP/1.1" 304 - "http://localhost:8000/users/sign-in" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36"
+::1 - - [14/Oct/2023:10:49:15 +0000] "GET /undefined HTTP/1.1" 404 148 "http://localhost:8000/users/sign-in" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36"
+::1 - - [14/Oct/2023:10:49:21 +0000] "GET /users/sign-in HTTP/1.1" 200 3244 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36"
+::1 - - [14/Oct/2023:10:49:21 +0000] "GET /undefined HTTP/1.1" 404 148 "http://localhost:8000/users/sign-in" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36"
+::1 - - [14/Oct/2023:10:49:21 +0000] "GET /cssa/bootstrap.min.css HTTP/1.1" 304 - "http://localhost:8000/users/sign-in" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36"
+::1 - - [14/Oct/2023:10:49:21 +0000] "GET /js/bootstrap.min.js HTTP/1.1" 304 - "http://localhost:8000/users/sign-in" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36"
+::1 - - [14/Oct/2023:10:49:21 +0000] "GET /undefined HTTP/1.1" 404 148 "http://localhost:8000/users/sign-in" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36"
+::1 - - [14/Oct/2023:10:49:37 +0000] "GET / HTTP/1.1" 302 72 "http://localhost:8000/users/sign-in" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36"
+::1 - - [14/Oct/2023:10:49:37 +0000] "GET /users/sign-in HTTP/1.1" 304 - "http://localhost:8000/users/sign-in" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36"
+::1 - - [14/Oct/2023:10:49:37 +0000] "GET /cssa/bootstrap.min.css HTTP/1.1" 304 - "http://localhost:8000/users/sign-in" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36"
+::1 - - [14/Oct/2023:10:49:37 +0000] "GET /undefined HTTP/1.1" 404 148 "http://localhost:8000/users/sign-in" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36"
+::1 - - [14/Oct/2023:10:49:37 +0000] "GET /js/bootstrap.min.js HTTP/1.1" 304 - "http://localhost:8000/users/sign-in" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36"
+::1 - - [14/Oct/2023:10:49:37 +0000] "GET /undefined HTTP/1.1" 404 148 "http://localhost:8000/users/sign-in" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36"
+[0mGET /users/sign-in [32m200[0m 16.852 ms - 3226[0m
+[0mGET /users/css/layout.css [33m404[0m 5.151 ms - 159[0m
+[0mGET /users/css/_signin.css [33m404[0m 4.838 ms - 160[0m
+[0mGET /cssa/bootstrap.min.css [36m304[0m 5.197 ms - -[0m
+[0mGET /js/bootstrap.min.js [36m304[0m 3.225 ms - -[0m
+[0mGET /users/sign-in [36m304[0m 11.671 ms - -[0m
+[0mGET /users/css/layout.css [33m404[0m 1.491 ms - 159[0m
+[0mGET /users/css/_signin.css [33m404[0m 1.966 ms - 160[0m
+[0mGET /js/bootstrap.min.js [36m304[0m 2.406 ms - -[0m
+[0mGET /cssa/bootstrap.min.css [36m304[0m 2.308 ms - -[0m
+[0mGET / [36m302[0m 65.305 ms - 72[0m
+[0mGET /users/sign-in [32m200[0m 7.938 ms - 3235[0m
+[0mGET /users/css/layout.css [33m404[0m 6.007 ms - 159[0m
+[0mGET /cssa/bootstrap.min.css [36m304[0m 4.688 ms - -[0m
+[0mGET /js/bootstrap.min.js [36m304[0m 1.224 ms - -[0m
+[0mGET /favicon.ico [33m404[0m 0.896 ms - 150[0m
+[0mGET /users/sign-in [32m200[0m 14.940 ms - 3236[0m
+[0mGET /cssa/bootstrap.min.css [36m304[0m 2.213 ms - -[0m
+[0mGET /js/bootstrap.min.js [36m304[0m 1.931 ms - -[0m
+[0mGET /users/sign-in [36m304[0m 16.166 ms - -[0m
+[0mGET /js/bootstrap.min.js [36m304[0m 2.710 ms - -[0m
+[0mGET /cssa/bootstrap.min.css [36m304[0m 3.341 ms - -[0m
+[0mGET /users/sign-in [32m200[0m 22.416 ms - 3238[0m
+[0mGET /users/css/layout.css/ [33m404[0m 5.082 ms - 160[0m
+[0mGET /css/_signin.css/ [33m404[0m 3.276 ms - 155[0m
+[0mGET /js/bootstrap.min.js [36m304[0m 2.501 ms - -[0m
+[0mGET /cssa/bootstrap.min.css [36m304[0m 2.304 ms - -[0m
+[0mGET /css/_signin.css/ [33m404[0m 0.782 ms - 155[0m
+[0mGET /users/sign-in [36m304[0m 10.803 ms - -[0m
+[0mGET /users/css/layout.css/ [33m404[0m 6.358 ms - 160[0m
+[0mGET /css/_signin.css/ [33m404[0m 3.278 ms - 155[0m
+[0mGET /js/bootstrap.min.js [36m304[0m 0.954 ms - -[0m
+[0mGET /cssa/bootstrap.min.css [36m304[0m 1.134 ms - -[0m
+[0mGET /css/_signin.css/ [33m404[0m 0.664 ms - 155[0m
+[0mGET /users/sign-in [36m304[0m 8.827 ms - -[0m
+[0mGET /users/css/layout.css/ [33m404[0m 1.072 ms - 160[0m
+[0mGET /css/_signin.css/ [33m404[0m 2.357 ms - 155[0m
+[0mGET /js/bootstrap.min.js [36m304[0m 1.495 ms - -[0m
+[0mGET /cssa/bootstrap.min.css [36m304[0m 1.129 ms - -[0m
+[0mGET /css/_signin.css/ [33m404[0m 0.790 ms - 155[0m
+[0mGET /users/sign-in [32m200[0m 12.579 ms - 3239[0m
+[0mGET /css/layout.css/ [33m404[0m 2.196 ms - 154[0m
+[0mGET /css/_signin.css/ [33m404[0m 3.311 ms - 155[0m
+[0mGET /js/bootstrap.min.js [36m304[0m 1.233 ms - -[0m
+[0mGET /cssa/bootstrap.min.css [36m304[0m 1.738 ms - -[0m
+[0mGET /css/_signin.css/ [33m404[0m 0.731 ms - 155[0m
+[0mGET /users/sign-in [36m304[0m 9.676 ms - -[0m
+[0mGET /css/layout.css/ [33m404[0m 1.811 ms - 154[0m
+[0mGET /css/_signin.css/ [33m404[0m 1.941 ms - 155[0m
+[0mGET /js/bootstrap.min.js [36m304[0m 2.060 ms - -[0m
+[0mGET /cssa/bootstrap.min.css [36m304[0m 3.646 ms - -[0m
+[0mGET /css/_signin.css/ [33m404[0m 0.966 ms - 155[0m
+[0mGET /users/sign-in [32m200[0m 33.681 ms - 3236[0m
+[0mGET /js/bootstrap.min.js [36m304[0m 4.541 ms - -[0m
+[0mGET /cssa/bootstrap.min.css [36m304[0m 5.115 ms - -[0m
+::1 - - [14/Oct/2023:15:11:12 +0000] "GET /users/sign-in HTTP/1.1" 200 3237 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36"
+::1 - - [14/Oct/2023:15:11:12 +0000] "GET /cssa/bootstrap.min.css HTTP/1.1" 304 - "http://localhost:8000/users/sign-in" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36"
+::1 - - [14/Oct/2023:15:11:12 +0000] "GET /js/bootstrap.min.js HTTP/1.1" 304 - "http://localhost:8000/users/sign-in" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36"
+::1 - - [14/Oct/2023:15:11:12 +0000] "GET /undefined HTTP/1.1" 404 148 "http://localhost:8000/users/sign-in" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36"
+::1 - - [14/Oct/2023:15:11:12 +0000] "GET /undefined HTTP/1.1" 404 148 "http://localhost:8000/users/sign-in" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36"
+::1 - - [14/Oct/2023:15:12:42 +0000] "GET /users/sign-in HTTP/1.1" 200 3254 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36"
+::1 - - [14/Oct/2023:15:12:42 +0000] "GET /undefined HTTP/1.1" 404 148 "http://localhost:8000/users/sign-in" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36"
+::1 - - [14/Oct/2023:15:12:42 +0000] "GET /cssa/bootstrap.min.css HTTP/1.1" 304 - "http://localhost:8000/users/sign-in" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36"
+::1 - - [14/Oct/2023:15:12:42 +0000] "GET /js/bootstrap.min.js HTTP/1.1" 304 - "http://localhost:8000/users/sign-in" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36"
+::1 - - [14/Oct/2023:15:12:56 +0000] "GET /users/sign-in HTTP/1.1" 200 3270 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36"
+::1 - - [14/Oct/2023:15:12:56 +0000] "GET /cssa/bootstrap.min.css HTTP/1.1" 304 - "http://localhost:8000/users/sign-in" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36"
+::1 - - [14/Oct/2023:15:12:56 +0000] "GET /js/bootstrap.min.js HTTP/1.1" 304 - "http://localhost:8000/users/sign-in" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36"
+[0mGET /users/sign-in [32m200[0m 14.066 ms - 3237[0m
+[0mGET /js/bootstrap.min.js [36m304[0m 2.069 ms - -[0m
+[0mGET /cssa/bootstrap.min.css [36m304[0m 3.030 ms - -[0m
+[0mGET /users/sign-in [36m304[0m 11.537 ms - -[0m
+[0mGET /cssa/bootstrap.min.css [36m304[0m 4.261 ms - -[0m
+[0mGET /js/bootstrap.min.js [36m304[0m 4.258 ms - -[0m
+[0mGET / [32m200[0m 53.203 ms - 3237[0m
+[0mGET /js/bootstrap.min.js [36m304[0m 7.251 ms - -[0m
+[0mGET /cssa/bootstrap.min.css [36m304[0m 5.396 ms - -[0m
+[0mGET / [36m304[0m 45.857 ms - -[0m
+[0mGET /js/bootstrap.min.js [36m304[0m 1.532 ms - -[0m
+[0mGET /cssa/bootstrap.min.css [36m304[0m 4.216 ms - -[0m
+::1 - - [14/Oct/2023:15:20:42 +0000] "GET / HTTP/1.1" 200 3270 "http://localhost:8000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36"
+::1 - - [14/Oct/2023:15:20:42 +0000] "GET /cssa/bootstrap.min.css HTTP/1.1" 304 - "http://localhost:8000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36"
+::1 - - [14/Oct/2023:15:20:42 +0000] "GET /js/bootstrap.min.js HTTP/1.1" 304 - "http://localhost:8000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36"
+::1 - - [14/Oct/2023:15:20:45 +0000] "GET / HTTP/1.1" 304 - "http://localhost:8000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36"
+::1 - - [14/Oct/2023:15:20:45 +0000] "GET /cssa/bootstrap.min.css HTTP/1.1" 304 - "http://localhost:8000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36"
+::1 - - [14/Oct/2023:15:20:45 +0000] "GET /js/bootstrap.min.js HTTP/1.1" 304 - "http://localhost:8000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36"
+::1 - - [14/Oct/2023:15:22:08 +0000] "GET /users/sign-up HTTP/1.1" 200 3574 "http://localhost:8000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36"
+::1 - - [14/Oct/2023:15:22:08 +0000] "GET /undefined HTTP/1.1" 404 148 "http://localhost:8000/users/sign-up" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36"
+::1 - - [14/Oct/2023:15:22:08 +0000] "GET /cssa/bootstrap.min.css HTTP/1.1" 304 - "http://localhost:8000/users/sign-up" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36"
+::1 - - [14/Oct/2023:15:22:08 +0000] "GET /js/bootstrap.min.js HTTP/1.1" 304 - "http://localhost:8000/users/sign-up" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36"
+::1 - - [14/Oct/2023:15:22:08 +0000] "GET /undefined HTTP/1.1" 404 148 "http://localhost:8000/users/sign-up" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36"
+::1 - - [14/Oct/2023:15:22:08 +0000] "GET /undefined HTTP/1.1" 404 148 "http://localhost:8000/users/sign-up" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36"
+::1 - - [14/Oct/2023:15:23:53 +0000] "GET /users/sign-up HTTP/1.1" 200 3591 "http://localhost:8000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36"
+::1 - - [14/Oct/2023:15:23:53 +0000] "GET /undefined HTTP/1.1" 404 148 "http://localhost:8000/users/sign-up" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36"
+::1 - - [14/Oct/2023:15:23:54 +0000] "GET /cssa/bootstrap.min.css HTTP/1.1" 304 - "http://localhost:8000/users/sign-up" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36"
+::1 - - [14/Oct/2023:15:23:54 +0000] "GET /js/bootstrap.min.js HTTP/1.1" 304 - "http://localhost:8000/users/sign-up" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36"
