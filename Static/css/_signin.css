@@ -29,6 +29,11 @@
     background-color: white;
     border: 0.5px solid grey;
     box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px; }
+    #container #box1 .tick {
+      position: relative;
+      z-index: 1;
+      bottom: 40px;
+      left: 120px; }
     #container #box1 input, #container #box1 button {
       margin-bottom: 10px; }
     #container #box1 a {
