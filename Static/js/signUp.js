@@ -16,10 +16,14 @@ const validateEmail = (email) => {
     $result.text('');
     
     if(validateEmail(email)){
+        $('#email-x').hide();
+        $('#email-tick').show();
         $result.text(email + ' is valid.');
         $result.css('color', 'green');
         flag1 = true;
     } else{
+        $('#email-x').show();
+        $('#email-tick').hide();
         $result.text(email + ' is invalid.');
         $result.css('color', 'red');
         flag1 = false;
@@ -33,17 +37,15 @@ $('#input-email').on('input', validate);
 const match = () => {
     const first = $('#input-password').val();
     const second = $('#input-confirm-password').val();
-    const $matchResult = $('#matched-result');
-    $matchResult.text('');
-    if(first == second){
-        $matchResult.text('password matched');
-        $matchResult.css('color','green');
-        console.log("values matched");
+    
+    if(first == second && first.length > 0 ){
+        $('#password-tick').show();
+        $('#password-x').hide();
         flag2 = true;
     }
     else{
-        console.log("values mismatch");
-        second.css('color','red');
+        $('#password-tick').hide();
+        $('#password-x').show();
         flag2 = false;
     }
 
@@ -58,3 +60,9 @@ $('form').submit(()=>{
     alert("please check the inputs correctly!!");
     return false;
 });
+
+$('#email-x').hide();
+$('#email-tick').hide();
+$('#password-tick').hide();
+$('#password-x').hide();
+console.log("js loaded");

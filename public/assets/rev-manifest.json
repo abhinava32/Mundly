@@ -1,9 +1,11 @@
 {
   "css/_chatBox.css": "css/_chatBox-355dfc9ede.css",
   "css/_posts.css": "css/_posts-dca118ff36.css",
-  "css/_signin.css": "css/_signin-8a89ab9061.css",
+  "css/_signin.css": "css/_signin-44731a0f83.css",
   "css/home.css": "css/home-e1c06d85ae.css",
   "css/layout.css": "css/layout-03c21fe323.css",
+  "js/chatScript.js": "js/chatScript-d41d8cd98f.js",
   "js/chat_engine.js": "js/chat_engine-55cf2e2b92.js",
-  "js/homeScript.js": "js/homeScript-9ad907f123.js"
+  "js/homeScript.js": "js/homeScript-9ad907f123.js",
+  "js/signUp.js": "js/signUp-c3c11a40c4.js"
 }
