@@ -999,3 +999,21 @@
 ::1 - - [14/Oct/2023:15:23:53 +0000] "GET /undefined HTTP/1.1" 404 148 "http://localhost:8000/users/sign-up" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36"
 ::1 - - [14/Oct/2023:15:23:54 +0000] "GET /cssa/bootstrap.min.css HTTP/1.1" 304 - "http://localhost:8000/users/sign-up" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36"
 ::1 - - [14/Oct/2023:15:23:54 +0000] "GET /js/bootstrap.min.js HTTP/1.1" 304 - "http://localhost:8000/users/sign-up" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36"
+[0mGET / [32m200[0m 47.014 ms - 3237[0m
+[0mGET /cssa/bootstrap.min.css [32m200[0m 10.312 ms - 232855[0m
+[0mGET /js/bootstrap.min.js [36m304[0m 1.307 ms - -[0m
+[0mGET /users/sign-in [36m304[0m 14.838 ms - -[0m
+[0mGET /js/bootstrap.min.js [36m304[0m 2.649 ms - -[0m
+[0mGET /cssa/bootstrap.min.css [36m304[0m 1.814 ms - -[0m
+[0mGET /users/sign-up [32m200[0m 12.102 ms - 3561[0m
+[0mGET /js/bootstrap.min.js [36m304[0m 0.787 ms - -[0m
+[0mGET /cssa/bootstrap.min.css [36m304[0m 4.391 ms - -[0m
+[0mGET / [36m304[0m 46.078 ms - -[0m
+[0mGET /js/bootstrap.min.js [36m304[0m 0.895 ms - -[0m
+[0mGET /cssa/bootstrap.min.css [36m304[0m 1.848 ms - -[0m
+[0mGET /users/sign-in [36m304[0m 3.166 ms - -[0m
+[0mGET /js/bootstrap.min.js [36m304[0m 3.131 ms - -[0m
+[0mGET /cssa/bootstrap.min.css [36m304[0m 1.745 ms - -[0m
+[0mGET /users/sign-up [36m304[0m 8.776 ms - -[0m
+[0mGET /js/bootstrap.min.js [36m304[0m 1.686 ms - -[0m
+[0mGET /cssa/bootstrap.min.css [36m304[0m 2.542 ms - -[0m
