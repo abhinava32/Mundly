@@ -10,6 +10,7 @@ const friendshipController = require('../controllers/friendshipController');
 
 
 // router.post('/createProfile',createProfileController.createProfile);
+router.get('/forgotpsd', usersController.forgotPsd);
 router.get('/sign-in', usersController.signIn);
 router.post('/create-profile', usersController.createProfile);
 router.get('/sign-up',usersController.signUp);

@@ -2,9 +2,10 @@
   height: 500px; }
 
 #container {
-  margin-top: 70px; }
+  margin: auto;
+  margin-top: 30px; }
   #container #first {
-    margin-right: 10px; }
+    width: 2 em; }
   #container #box2 {
     font-family: 'Borel', cursive;
     font-family: 'Pixelify Sans', cursive;
@@ -38,3 +39,8 @@
       margin-bottom: 10px; }
     #container #box1 a {
       color: black; }
+  @media screen and (max-width: 991px) {
+    #container #box1 {
+      width: 150%;
+      border-top-left-radius: 10px;
+      border-bottom-left-radius: 10px; } }

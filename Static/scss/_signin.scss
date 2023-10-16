@@ -1,12 +1,15 @@
+
+
 #sign-in{
     height: 500px;
 }
 #container{
-
-    margin-top:70px;
+    margin: auto;
+    
+    margin-top:30px;
 
     #first{
-        margin-right: 10px;
+        width: 2 em;
     }
 
     #box2{
@@ -55,5 +58,12 @@
             color: black;
         }
         
+    }
+    @media screen and (max-width: 991px) {
+        #box1{
+            width: 150%;
+            border-top-left-radius: 10px;
+        border-bottom-left-radius:10px;
+        }
     }
 }

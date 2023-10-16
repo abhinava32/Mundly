@@ -1,6 +1,13 @@
-const { redirect } = require('express/lib/response');
+const { redirect, render } = require('express/lib/response');
 const Users = require('../models/users');
 const friendships = require('../models/friendships');
+
+module.exports.forgotPsd = function(req, res){
+    if(req.isAuthenticated()){
+        return res.redirect('/users/profile');
+    }
+    return res.render('forgot-password',{'title': 'Mundly | Forgot Password'});
+}
 
 module.exports.signIn = function(req,res){
     if(req.isAuthenticated()){
