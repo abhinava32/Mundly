@@ -1,6 +1,7 @@
 {
-  "chatScript.js": "chatScript-d41d8cd98f.js",
-  "chat_engine.js": "chat_engine-55cf2e2b92.js",
-  "homeScript.js": "homeScript-9ad907f123.js",
-  "signUp.js": "signUp-c3c11a40c4.js"
+  "js/chatScript.js": "js/chatScript-d41d8cd98f.js",
+  "js/chat_engine.js": "js/chat_engine-55cf2e2b92.js",
+  "js/forgotPassword.js": "js/forgotPassword-760e2b12d1.js",
+  "js/homeScript.js": "js/homeScript-9ad907f123.js",
+  "js/signUp.js": "js/signUp-c3c11a40c4.js"
 }

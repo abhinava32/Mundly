@@ -27,7 +27,7 @@ gulp.task('css', (done) => {
     .pipe(rev())
     .pipe(gulp.dest('./public/assets'))
     .pipe(rev.manifest({
-        cwd: 'public',
+        source: 'public/assets',
         merge: true
     }))
     .pipe(gulp.dest('./public/assets'));
@@ -41,10 +41,10 @@ gulp.task('images', (done) => {
     .pipe(rev())
     .pipe(gulp.dest('./public/assets'))
     .pipe(rev.manifest({
-        source: 'public',
-        merge: true
+        source: 'public/assets',
+        merge: false
     }))
-    .pipe(gulp.dest('./public/assets'));
+    .pipe(gulp.dest('./public/assets/images'));
     done();
 });
 
@@ -55,8 +55,8 @@ gulp.task('js', (done) => {
     .pipe(rev())
     .pipe(gulp.dest('./public/assets'))
     .pipe(rev.manifest({
-        cwd: 'public',
-        merge: true
+        source: 'public/assets',
+        merge: false
     }))
     .pipe(gulp.dest('./public/assets'));
     console.log("completed and done!!");
