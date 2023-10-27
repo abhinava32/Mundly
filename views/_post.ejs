@@ -1,41 +1,62 @@
 
-<li id="post-<%= post._id%>" class="shadow posts"> 
-    <img src="<%= post.user.avatar %>" alt="" style="float: left;">
-    <p>
-        <p>
-            <%= post.content %>  
-        </p>
-        <small>
-            --<%= post.user.name %>
-        </small>
+<li id="post-<%= post._id %>" class="shadow posts">
+    
+    <div class=" post-user-details">
+        <img src="<%= post.user.avatar %>" alt="display picture" style="float: left;" class="display-picture">
+        <div class="post-user-name"><%= post.user.name %> 
+            <br>
+            <div class="timing">10/10/2023 12:20</div>
+        </div>
         <% if(locals.user && (locals.user.id == post.user.id)) { %>
-            <small>
-                <a class="delete-post-button" href="/posts/destroy/<%= post._id %>">X</a>
+            <small style="float: right;">
+                <a class="delete-post-button" id="delete-<%= post._id%>" href="/posts/destroy/<%= post._id %>">
+                    <img class="trash" src="https://img.icons8.com/ios/50/trash--v1.png" alt="trash--v1"/>
+                </a>
             </small>
         <% } %>
-
-        <% if(locals.user) { %> 
-            <small><a href="/likes/toggle/?type=Post&id=<%= post._id %>"><%= post.likes.length %> <i class="bi bi-star"></i></a></small>    
-        <% } %>
-        
-    </p>
-
+    </div>
+    <hr>
+    <div class="post-content">
+        <div class="post-text">
+            <pre><%= post.content %></pre>
+            
+        </div>
+        <div class="post-image">
+            <img src="" alt="">
+        </div>
+    </div>
+    <hr>
+    <div class="likes-comments-info">
+        <div class="likes-number">
+            <% if(locals.user) { %> 
+                <a class="like-toggle" href="/likes/toggle/?type=Post&id=<%= post._id %>">
+                    <span><%= post.likes.length %></span> 
+                    <img class="thumbs" src="<%= assetPath('images/thumbs-up.png') %>" alt="">
+                </a>
+                    
+            <% } %>
+        </div>
+        <div class="comments-number"> <%= post.comments.length %> Comments</div>
+    </div>
+    <hr>
+    
     <div class="post-comments">
         <% if(locals.user) { %>
-            <form action="/comments/create" method="POST" id="new-comment-form">
-                <input type="text" name="content" placeholder="add comment...">
+            <form action="/comments/create" method="POST" class="new-comment-form">
+                <input type="text" name="content" placeholder="add comment..." class="form-control comment-input">
                 <input type="hidden" name="post" value="<%= post._id %>">
-                <input type="submit" value="Add Comment">
+                <input type="submit" value="Add Comment" class="form-control btn btn-dark" contenteditable>
             </form> 
         <% } %>
-    </div>
-    <div id="show-comments" class="post-comments-list">
         <ul>
             <% for (comment of post.comments) { %> 
                 <%- include('_comments') -%>
             <% } %>
         </ul>
     </div>
+    
+        
+    
 </li>
 
     

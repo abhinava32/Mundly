@@ -37,6 +37,26 @@ module.exports.likesToggler = async function(req, res){
         likable.save();
     }
 
+    if(req.xhr){ 
+        if(existingLike){
+            return res.status(200).json({
+                data:{
+                    existingLike: true
+                },
+                message:"successfully toggled!!" 
+            })
+        }   
+        else{
+            return res.status(200).json({
+                data:{
+                    existingLike: false
+                },
+                message:"successfully toggled!!" 
+            })
+        }   
+        
+    }
+
     
     return res.redirect('/');
 }

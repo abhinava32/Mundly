@@ -27,6 +27,7 @@ gulp.task('css', (done) => {
     .pipe(rev())
     .pipe(gulp.dest('./public/assets'))
     .pipe(rev.manifest({
+        cwd:'public/assets',
         source: 'public/assets',
         merge: true
     }))
@@ -41,10 +42,11 @@ gulp.task('images', (done) => {
     .pipe(rev())
     .pipe(gulp.dest('./public/assets'))
     .pipe(rev.manifest({
+        cwd:'public/assets',
         source: 'public/assets',
-        merge: false
+        merge: true
     }))
-    .pipe(gulp.dest('./public/assets/images'));
+    .pipe(gulp.dest('./public/assets'));
     done();
 });
 
@@ -56,7 +58,8 @@ gulp.task('js', (done) => {
     .pipe(gulp.dest('./public/assets'))
     .pipe(rev.manifest({
         source: 'public/assets',
-        merge: false
+        source: 'public/assets',
+        merge: true
     }))
     .pipe(gulp.dest('./public/assets'));
     console.log("completed and done!!");
@@ -70,7 +73,7 @@ gulp.task('clean:assets', function(done){
     done();
 });
 
-gulp.task('build', gulp.series('clean:assets', gulp.parallel('js', 'css')), function(done){
+gulp.task('build', gulp.series('clean:assets', 'js', 'css', 'images'), function(done){
     console.log("Building Assets.... ");
     done();
 });

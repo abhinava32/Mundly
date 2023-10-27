@@ -31,4 +31,4 @@
                     <a class="delete-comment-button" href="/comments/destroy/${e._id}">X</a>
                 </small>   
             </li>
-        `)},l=function(t){$(t).click(function(e){e.preventDefault(),$.ajax({type:"get",url:$(t).prop("href"),success:function(e){$("comment-"+e.data.id).remove()},error:function(e){console.log(errorText)}})})};e(),t()}
+        `)},l=function(t){$(t).click(function(e){e.preventDefault(),$.ajax({type:"get",url:$(t).prop("href"),success:function(e){$("comment-"+e.data.id).remove()},error:function(e){console.log(errorText)}})})};e(),t(),$("#chatContainer").hide()}

@@ -1,8 +1,23 @@
+var sec = 30;
+const resendButtonToggle = function(){
+    let string = "Resend OTP in "+ sec  + "sec" ;
+    $('#resend-otp').text(string);
+    if(sec == 0){
+        $('#resend-otp').prop('disabled',false);
+        $('#resend-otp').text('Resend OTP');
+        clearInterval(timer);
+    }
+    
+    sec = sec - 1;
+    
+}
+
 $('#submit-btn').on('click',(event)=> {
     event.preventDefault();
 
     if(flag1){
         alert("sending OTP");
+        
         $.ajax({
             type:"post",
             url: '/users/match-otp',
@@ -34,10 +49,9 @@ $('#submit-btn').on('click',(event)=> {
                     $('#message').show();
                     $('#input-email').val('');
                     $('#input-email').attr('placeholder','Enter OTP Here');
-                    $('#resend-otp').prop('disabled','false');
                     $('form').attr('action','/users/reset-password');
-                    
-                    flag1 = true;
+                    flag1 = true;   
+                    var timer = setInterval(resendButtonToggle, 1000);    
                 }
                 else{
                     console.log(data.message);
@@ -88,8 +102,8 @@ const validate = () => {
     }
     return false;
 }
-
+var flag1 = false;
 $('#input-email').on('input', validate);
+$('#resend-otp').prop('disabled',true);
 $('#message').text("");
 var flag = false; 
-var flag1 = false;

@@ -5,15 +5,15 @@
 
 <div class="row" id="container-div">
     <% if (locals.user) { %> 
-    <div class="col-3 friends-list border-right">
-        <div class="row h-50">
-            <section>
+    <div class="col-3">
+        <div class="row card-design">
+            <div class="request-list">
                 <h4>Requests</h4>
                 <%- include('_friendRequests') -%>
-            </section>
+            </div>
         </div>
-        <div class="row ">
-            <div id="users">
+        <div class="row card-design">
+            <div id="users" class="request-list">
                 <section>
                     <h4>Users</h4>
                     <%- include('_users') -%>
@@ -23,13 +23,15 @@
         
     </div>
     
-    <div class="col">
+    <div class="col-6">
         <section id="feed-posts" class="text-center" >
-            <h4 class="text-center">Posts</h4>
+            <h4 class="text-center">Want to share something ?</h4>
             
-            <form action="/posts/new-post" id="new-post-form" method="post">
-                <textarea name="content" id="" cols="35" rows="3"></textarea>
-                <input type="submit" value="Add Post">
+            <form action="/posts/new-post" id="new-post-form" method="post" >
+                <textarea class="form-control" name="content" id="post-text" cols="30" rows="3"></textarea>
+                
+                <input type="file" class="btn btn-dark post-add-image-button">
+                <input type="submit" value="Add Post" class="btn btn-primary post-submit-button">
             </form>
             
             <div id="posts-list-container">
@@ -41,15 +43,16 @@
             </div>
         </section>
     </div>
-    <div class="col-3 " id="third-col">
-        <div id="friends" class="row h-20 friends-list">
+    
+    <div class="col-3" id="third-col">
+        <div id="friends" class="row friends-list card-design">
             <section>
-                <h4>Friends</h4>
+                <div id="friends-title"><h4>Friends</h4></div>
                 <%- include('_friends') -%>
             </section>
         </div>
         <div id="chatContainer">
-            <div class="row" id="chatBox">
+            <div class="row" id="chatBox" hidden>
                 <ul id="chat-messages-list">
                     <!-- <li class="other-message">
                         <span>Other's Message</span>

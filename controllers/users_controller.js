@@ -31,9 +31,13 @@ module.exports.createProfile = async function(req,res){
         return res.redirect('back');
     }
 
-    user = await Users.findOne({email: req.body.email});
+    var user = await Users.findOne({email: req.body.email});
     if(!user){
-        await Users.create(req.body);
+        user = await Users.create(req.body);
+        console.log("added  "+user.name);
+        console.log("DP destination is "+Users.avatarPath+'/'+'default-profile.jpg');
+        user.avatar = await Users.avatarPath+'/'+'default-profile.jpg';
+        await user.save()
         return res.render('sign-in',{'title': 'Mundly | signIn' });
     }
 

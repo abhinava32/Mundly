@@ -2,7 +2,10 @@
     <% for(friend of friends){ %>
         <ul>
             <li>
-                <a id="<%= friend.email %>"><%= friend.name %></a>
+                <a id="<%= friend.email %>" href="/users/profile/<%= friend.id %>">
+                <div class="user-list">
+                    <img src="<%= friend.avatar %>" alt="">
+                    <div class="friends-name"> <%= friend.name %></div></div></a>
             </li>
         </ul>
     <% } %>    

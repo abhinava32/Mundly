@@ -21,7 +21,7 @@ module.exports.create = async function(req, res){
 
         let user = await User.findById(req.user._id);
         // commentsMailer.newComment(comment, user.email);
-        comment = await comment.populate('user', 'name email');
+        comment = await comment.populate('user', 'name email avatar');
         
         //console.log("added email as ", comment.user.email);
         //console.log("added ",comment);
@@ -41,7 +41,8 @@ module.exports.create = async function(req, res){
             return res.status(200).json({
                 data: {
                     comment: comment,
-                    user: user.name
+                    user: user.name,
+                    avatar: user.avatar
                 },
                 message: "Added new comment"
             });
@@ -58,6 +59,7 @@ module.exports.create = async function(req, res){
 
 module.exports.destroy = async function(req, res){
     const comment = await Comment.findById(req.params.id);
+    console.log("logged in user is ",req.user.id);
     if(comment.user == req.user.id){
         await Comment.findByIdAndDelete(req.params.id);
         let PostId = comment.post;
@@ -65,17 +67,18 @@ module.exports.destroy = async function(req, res){
         await Likes.deleteMany({
             likable: req.params.id
         });
+        if(req.xhr){
+            //console.log("xhr request found!!");
+            return res.status(200).json({
+                data: {
+                    id : req.params.id
+                },
+                message: "Comment Deleted!!"
+            });
+        }
     }
 
-    if(req.xhr){
-        //console.log("xhr request found!!");
-        return res.status(200).json({
-            data: {
-                id : req.params.id
-            },
-            message: "Comment Deleted!!"
-        });
-    }
+    
     
     res.redirect('/');
 }

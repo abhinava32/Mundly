@@ -11,13 +11,20 @@ module.exports.home = async function(req, res){
     .sort('-createdAt')
     .populate('user', 'name email avatar')
     .populate({
+        path: 'likes',
+        populate: {
+            path: 'user'
+        }
+    })
+    .populate({
         path: 'comments',
         populate: {
             path: 'user'
         }
     }).exec();
+    console.log(posts);
     // const comments = await comments.find({}).populate(posts).exec();
-    let usersList = await users.find({},'name email');
+    let usersList = await users.find({},'name email avatar');
 
     if(req.user){
         const user = await User.findById(req.user._id)
@@ -28,7 +35,7 @@ module.exports.home = async function(req, res){
         const friends = user.friends;
         // console.log(friends);
 
-        const requests = await friendship.find({$and: [{receiver: req.user.id}, {excepted: 'false'} ]}).populate('sender', 'name');
+        const requests = await friendship.find({$and: [{receiver: req.user.id}, {excepted: 'false'} ]}).populate('sender', 'name avatar');
         // console.log("friends>>"+friends);
         return res.render('home',
         {
