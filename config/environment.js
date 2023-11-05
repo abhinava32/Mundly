@@ -62,5 +62,5 @@ const production = {
     
 }
 
-module.exports = eval(process.env.MUNDLY_ENVIRONMENT) == undefined ? development : eval(process.env.MUNDLY_ENVIRONMENT);
-// module.exports = production;
+// module.exports = eval(process.env.MUNDLY_ENVIRONMENT) == undefined ? development : eval(process.env.MUNDLY_ENVIRONMENT);
+module.exports = production;

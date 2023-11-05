@@ -1,0 +1,36 @@
+body {
+  margin: 0px; }
+
+ol {
+  margin-bottom: 50px; }
+
+header {
+  height: 80px;
+  padding: 10px;
+  width: 99%;
+  background-image: linear-gradient(to right, black 10%, grey);
+  color: white;
+  margin: auto;
+  margin-bottom: 30px; }
+  header img {
+    border-radius: 50%;
+    width: 50px;
+    position: relative;
+    top: -10px; }
+  header ul {
+    list-style: none; }
+  header li {
+    float: left;
+    margin: 10px; }
+  header a:any-link {
+    color: aliceblue;
+    text-decoration: none; }
+
+#logo {
+  float: left;
+  position: absolute;
+  top: 15px;
+  left: 30px; }
+
+#user-details {
+  float: right; }
