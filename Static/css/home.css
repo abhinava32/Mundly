@@ -65,7 +65,7 @@
   padding-left: 0px; }
   .post-list li {
     margin: auto;
-    width: 70%;
+    width: 80%;
     overflow-wrap: anywhere;
     list-style: none;
     padding: 25px;
@@ -79,9 +79,13 @@
       margin-bottom: 10px;
       height: auto; }
     .post-list li .post-content .post-text {
+      text-align: justify;
+      width: 100%;
       margin: auto;
       width: 100%; }
       .post-list li .post-content .post-text pre {
+        white-space: normal;
+        margin: 0px;
         font-family: Arial, sans-serif;
         /* Change this to the desired font */ }
     .post-list li .post-user-details {
@@ -157,7 +161,7 @@
         width: 20px; }
 
 #new-post-form {
-  width: 50%;
+  width: 80%;
   background-color: white;
   height: 200px;
   margin: auto;

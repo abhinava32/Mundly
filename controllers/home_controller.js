@@ -22,7 +22,7 @@ module.exports.home = async function(req, res){
             path: 'user'
         }
     }).exec();
-    console.log(posts);
+    
     // const comments = await comments.find({}).populate(posts).exec();
     let usersList = await users.find({},'name email avatar');
 

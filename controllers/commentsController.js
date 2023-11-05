@@ -23,8 +23,18 @@ module.exports.create = async function(req, res){
         // commentsMailer.newComment(comment, user.email);
         comment = await comment.populate('user', 'name email avatar');
         
-        //console.log("added email as ", comment.user.email);
-        //console.log("added ",comment);
+        console.log("added email as ", comment.user.email);
+        console.log("added ",comment);
+        if(req.xhr){
+            return res.status(200).json({
+                data: {
+                    comment: comment,
+                    user: user.name,
+                    avatar: user.avatar
+                },
+                message: "Added new comment"
+            });
+        }
 
         let job = queue.create('emails', comment).save(function(err){
             if(err){
@@ -37,16 +47,7 @@ module.exports.create = async function(req, res){
         //console.log(user.name);
         // let user = await 
 
-        if(req.xhr){
-            return res.status(200).json({
-                data: {
-                    comment: comment,
-                    user: user.name,
-                    avatar: user.avatar
-                },
-                message: "Added new comment"
-            });
-        }
+        
         
         
         res.redirect('/');

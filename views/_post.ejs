@@ -48,12 +48,15 @@
                 <input type="submit" value="Add Comment" class="form-control btn btn-dark" contenteditable>
             </form> 
         <% } %>
-        <ul>
-            <% for (comment of post.comments) { %> 
-                <%- include('_comments') -%>
-            <% } %>
-        </ul>
+        <div class="post-comments-list">
+            <ul class="comment-list">
+                <% for (comment of post.comments) { %> 
+                    <%- include('_comments') -%>
+                <% } %>
+            </ul>
+        </div>
     </div>
+    
     
         
     

@@ -1,6 +1,24 @@
 {
+
+    let getAssetPath = function(filePath){
+        let path = `/getpath/?filepath=${filePath}`;
+        console.log("path >> ", path);
+        $.ajax({
+            type:'get',
+            url:path,
+            success: function(data){
+                return data.data.assetPath;
+            },
+            error: function(err){
+                console.log(err.responseText);
+            }
+        })
+    }
+
     let toggleLikes = function(likeLink) {
+        console.log("initialised toggle likes");
         $(likeLink).click(function(e) {
+            console.log("called toggle likes");
             e.preventDefault();
             var $link = $(likeLink); // Convert likeLink to a jQuery object
             $.ajax({
@@ -45,8 +63,8 @@
                 success: function(data){
                     console.log(data);
                     let newPost = newPostDom(data.data.post, data.data.user);
-                    const assetPath = "<%= assetPath('images/thumbs-up.png') %>";
-                    $(`#img-${data.data.post._id}`).attr("src",assetPath);
+                    // const assetPath = "<%= assetPath('images/thumbs-up.png') %>";
+                    // $(`#img-${data.data.post._id}`).attr("src",assetPath);
                     $('#posts-list-container>ul').prepend(newPost);
                     $('#post-text').val("");
                     deletePost($('.delete-post-button', newPost));
@@ -89,15 +107,13 @@
             <div class="likes-comments-info">
                 <div class="likes-number">
                    
-                        <a href="/likes/toggle/?type=Post&id=<%= post._id %>">
-                            0
-                            <img id="img-${post._id}" class="thumbs" src="" alt="">
-                            
-                        </a>
+                    <a class="like-toggle" href="/likes/toggle/?type=Post&id=${post._id}">
+                        <span>${post.likes.length}</span> 
+                    </a>
                             
                     
                 </div>
-                <div class="comments-number">0 Comments</div>
+                <div class="comments-number">${post.comments.length} Comments</div>
             </div>
             <hr>
             
@@ -159,11 +175,13 @@
                 url: '/comments/create',
                 data: newCommentForm.serialize(),
                 success: function(data){
-                    console.log(data);
+                    // console.log(data);
                     const newComment = newCommentDom(data.data.comment, data.data.user, data.data.avatar);
                     $('.comment-input',commentForm).val("");
+                    
                     $('#show-comments>ul').prepend(newComment);
                     deleteComment($(' .delete-comment-button', newComment));
+                    toggleLikes($(' .like-toggle', newComment));
                 },
                 error: function(error){
                     console.log(error.responseText);
@@ -173,11 +191,13 @@
     };
 
     let newCommentDom = function(comment, user, avatar){
+        var thumbs = getAssetPath('images/thumbs-up.png');
         return $(`
         <li id="comment-${comment._id}">
             <div class="comment-container" >
                 <img src="${avatar}" alt="image" class="comment-display-picture">
                 <small><b>${comment.user.name}</b></small> <br>
+                <small class="timing">01/02/2023</small>
                 <p>${comment.content}</p>
                 <hr>
                 
@@ -186,7 +206,12 @@
                         <img class="trash" src="https://img.icons8.com/ios/50/trash--v1.png" alt="trash--v1"/>
                     </a>
                 </small>
-                <small><a class="like-toggle" href="/likes/toggle/?type=Comment&id=${comment._id}"><span>${comment.likes.length}</span></a></small>    
+                <div class="comment-likes-number">
+                    <a class="like-toggle" href="/likes/toggle/?type=Comment&id=${comment._id}">
+                    <span>${comment.likes.length}</span>
+                    <img class="thumbs" src="${thumbs}" alt="">
+                    </a>
+                </div>    
                 
             </div>
         </li>
@@ -244,7 +269,9 @@
         });
         $('.delete-comment-button').each(function(){
             deleteComment($(this));
-        })
+        });
+        var thumbs = getAssetPath('images/thumbs-up.png');
+        
         
         
     });

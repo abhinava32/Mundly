@@ -82,7 +82,7 @@ $background-color_2: white;
 
 	li {
 		margin: auto;
-		width: 70%;
+		width: 80%;
 		overflow-wrap: anywhere;
 		list-style: none;
 		padding: 25px;
@@ -100,7 +100,11 @@ $background-color_2: white;
 				height: auto;
 			}
 			.post-text{
+				text-align: justify;
+				width: 100%;
 				pre {
+					white-space: normal;
+					margin: 0px;
 					font-family: Arial, sans-serif; /* Change this to the desired font */
 				  }
 				margin: auto;
@@ -220,7 +224,7 @@ $background-color_2: white;
 }
 
 #new-post-form {
-	width: 50%;
+	width: 80%;
 	background-color: white;
 	height: 200px;
 	margin: auto;
