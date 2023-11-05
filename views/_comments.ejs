@@ -1,13 +1,31 @@
 <li id="comment-<%= comment._id %>">
-    <small><%= comment.user.name %></small>> : <%= comment.content %>
-    <% if(locals.user && (locals.user.id == comment.user.id)) { %>
-        <small>
-            <a class="delete-comment-button" href="/comments/destroy/<%= comment.id %>" >X</a>
-        </small>
-       
-    <% } %>
-    <% if(locals.user) { %> 
-        <small><a href="/likes/toggle/?type=Comment&id=<%= comment._id %>"><%= comment.likes.length %> Likes</a></small>    
-    <% } %>
+    <div class="comment-container" >
+        <img src="<%= comment.user.avatar %>" alt="image" class="comment-display-picture">
+        <small><b><%= comment.user.name %></b></small> <br>
+        <small class="timing">01/02/2023</small>
+         <p><%= comment.content %></p>
+        <hr>
+        <% if(locals.user && (locals.user.id == comment.user.id)) { %>
+            <small style="float: right;">
+                <a class="delete-comment-button" id="delete-<%= comment._id%>" href="/comments/destroy/<%= comment._id %>">
+                    <img class="trash" src="https://img.icons8.com/ios/50/trash--v1.png" alt="trash--v1"/>
+                </a>
+            </small>
+        
+        <% } %>
+        
+        <div class="comment-likes-number">
+            <% if(locals.user) { %> 
+                <a class="like-toggle" href="/likes/toggle/?type=Comment&id=<%= comment._id %>">
+                    <span><%= comment.likes.length %></span> 
+                    <img class="thumbs" src="<%= assetPath('images/thumbs-up.png') %>" alt="">
+                </a>
+                    
+            <% } %>
+        </div>
+        
+        
+    </div>
+    
 </li>
 

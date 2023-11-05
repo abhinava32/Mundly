@@ -8,6 +8,7 @@ const Likes = require('../models/likes');
 
 module.exports.newPost = async function(req, res){
     try{
+        console.log(req.body);
         const Post = await post.create({
             content: req.body.content,
             user: req.user._id
@@ -20,8 +21,10 @@ module.exports.newPost = async function(req, res){
             return res.status(200).json({
                 data: {
                     post: Post,
-                    user: user.name,
-                    avatar: user.avatar
+                    user: {
+                        name: user.name,
+                        avatar: user.avatar
+                    }
                 },
                 message: "Post Created!!"
             });
@@ -37,7 +40,10 @@ module.exports.newPost = async function(req, res){
 }
 
 module.exports.destroy = async function(req,res){
+    console.log(req.params);
     const Post = await post.findById(req.params.id);
+    console.log(Post);
+    console.log("logged in user is ",req.user.id);
     // const Likes = await post.findById
     if(Post.user == req.user.id){
         await post.findByIdAndDelete(req.params.id);
@@ -46,7 +52,7 @@ module.exports.destroy = async function(req,res){
     }
 
     if(req.xhr){
-        
+        console.log("sending response");
         return res.status(200).json({
             data: {
                 id : req.params.id

@@ -27,6 +27,12 @@ const userSchema = new mongoose.Schema({
             type: mongoose.Schema.Types.ObjectId,
             ref: 'User'
         }
+    ], 
+    photos: [
+        {
+            type: mongoose.Schema.Types.ObjectId,
+            ref:'pictures'
+        }
     ]
     
 }, {
@@ -41,7 +47,7 @@ const storage = multer.diskStorage({
       const uniqueSuffix = Date.now() + '-' + Math.round(Math.random() * 1E9);
       cb(null, file.fieldname + '-' + uniqueSuffix);
     }
-  });
+});
   
 //   STATIC METHODS 
 userSchema.statics.uploadAvatar = multer({storage : storage}).single('avatar');

@@ -1,2 +1,195 @@
+.likes-number {
+  margin-left: 80px;
+  float: left; }
+  .likes-number img {
+    height: 20px;
+    width: 20px;
+    margin-left: 20px; }
 
+.friends-name {
+  display: inline;
+  margin-left: 10px; }
 
+.user-list {
+  width: 100%;
+  float: right;
+  height: 50px;
+  padding: 12px 10px;
+  color: black; }
+
+.user-list:hover {
+  background-color: grey;
+  color: white;
+  cursor: pointer;
+  border-radius: 5px; }
+
+.card-design {
+  background-color: white;
+  height: auto;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+  padding: 20px;
+  border-radius: 10px; }
+
+.request-list {
+  width: 100%;
+  float: left; }
+  .request-list li {
+    list-style: none; }
+    .request-list li img {
+      width: 30px;
+      height: 30px;
+      border-radius: 50%; }
+
+#friends {
+  margin-right: 20px;
+  margin-left: 0px; }
+
+.friends-list {
+  width: 100%;
+  float: right; }
+  .friends-list li {
+    list-style: none; }
+    .friends-list li img {
+      width: 30px;
+      height: 30px;
+      border-radius: 50%; }
+
+.timing {
+  font-size: 10px; }
+
+.post-list {
+  list-style: none;
+  margin: 0px;
+  padding-left: 0px; }
+  .post-list li {
+    margin: auto;
+    width: 80%;
+    overflow-wrap: anywhere;
+    list-style: none;
+    padding: 25px;
+    background-color: white;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    text-align: left; }
+    .post-list li .post-content img {
+      margin-top: 20px;
+      width: 100%;
+      margin-bottom: 10px;
+      height: auto; }
+    .post-list li .post-content .post-text {
+      text-align: justify;
+      width: 100%;
+      margin: auto;
+      width: 100%; }
+      .post-list li .post-content .post-text pre {
+        white-space: normal;
+        margin: 0px;
+        font-family: Arial, sans-serif;
+        /* Change this to the desired font */ }
+    .post-list li .post-user-details {
+      height: 50px; }
+      .post-list li .post-user-details .post-user-name {
+        float: left;
+        margin-left: 20px;
+        margin-top: 10px; }
+      .post-list li .post-user-details .display-picture {
+        border-radius: 50%;
+        width: 50px;
+        height: 50px;
+        padding: 2px;
+        display: block; }
+      .post-list li .post-user-details .trash {
+        margin-top: 20px;
+        margin-right: 10px;
+        height: 20px;
+        width: 20px; }
+    .post-list li .likes-comments-info {
+      width: 100%;
+      height: 20px;
+      margin-bottom: 25px; }
+      .post-list li .likes-comments-info a {
+        text-decoration: none;
+        color: grey; }
+      .post-list li .likes-comments-info .comments-number {
+        margin-right: 80px;
+        float: right;
+        color: grey; }
+    .post-list li .post-comments .comment-input {
+      margin-bottom: 5px;
+      overflow: auto; }
+    .post-list li .post-comments ul {
+      padding: 0px; }
+      .post-list li .post-comments ul li {
+        align-items: center;
+        padding-left: 0px;
+        margin-bottom: -20px;
+        width: 95%; }
+        .post-list li .post-comments ul li .comment-likes-number img {
+          width: 20px;
+          height: 20px; }
+        .post-list li .post-comments ul li .comment-likes-number a {
+          text-decoration: none;
+          color: grey; }
+        .post-list li .post-comments ul li .likes-toggle {
+          margin-left: 80px;
+          float: left; }
+          .post-list li .post-comments ul li .likes-toggle .thumbs {
+            width: 25px;
+            height: 25px; }
+          .post-list li .post-comments ul li .likes-toggle a {
+            text-decoration: none;
+            color: grey; }
+    .post-list li .post-comments .comment-container {
+      width: 110%;
+      height: auto;
+      color: black;
+      border: black 1px dashed;
+      border-radius: 10px;
+      padding: 5px;
+      padding-top: 12px; }
+      .post-list li .post-comments .comment-container .comment-display-picture {
+        height: 50px;
+        width: 50px;
+        border-radius: 50%; }
+      .post-list li .post-comments .comment-container p {
+        text-indent: 20px; }
+      .post-list li .post-comments .comment-container .trash {
+        margin-right: 10px;
+        height: 20px;
+        width: 20px; }
+
+#new-post-form {
+  width: 80%;
+  background-color: white;
+  height: 200px;
+  margin: auto;
+  padding: 20px;
+  margin-bottom: 50px;
+  border: 1px solid grey;
+  border-radius: 15px; }
+  #new-post-form .post-submit-button {
+    width: 50%;
+    float: right;
+    height: 50px;
+    margin-top: 20px;
+    background-color: grey;
+    border: 0px;
+    border-top-left-radius: 0%;
+    border-bottom-left-radius: 0px; }
+  #new-post-form .post-submit-button:hover {
+    background-color: black; }
+  #new-post-form .post-add-image-button {
+    border-top-right-radius: 0%;
+    border-bottom-right-radius: 0px;
+    width: 50%;
+    height: 50px;
+    float: left;
+    margin-top: 20px; }
+
+#friends {
+  height: 50%; }
+
+ol {
+  margin-bottom: 50px; }
