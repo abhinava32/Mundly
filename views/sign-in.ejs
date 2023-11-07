@@ -1,42 +1,43 @@
 
-<link rel="stylesheet" href="<%= assetPath('css/_signin.css') %>">
+<link rel="stylesheet" href="<%= assetPath('css/_signin.css') %>" type="text/css">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Borel&family=Pixelify+Sans&display=swap" rel="stylesheet">
 
-<div class="container-fluid row" id="container">
+<div class="container-fluid" id="container">
     
-        <div class="col-xs-1 col-md-4" id="first"></div>
-        <div class="d-none d-lg-block col-md-2" id="box2">
-            <div>
-                <h1>MUNDLY</h1>
-                <small>Because world is a big mundly of people</small>
+        <div id="binder" class="row">
+            <div class="d-none d-lg-block col-md-2" id="box2">
+                <div>
+                    <h1>MUNDLY</h1>
+                    <small>Because world is a big mundly of people</small>
+                </div>
             </div>
-        </div>
-        <div id="box1" class="col-xs-12 ">
-            <form action="/users/create-session" method="post">
-                <input type="text" placeholder="your email-id" name="email" class="form-control">
-                
-                <input type="password" placeholder="password" name="password" class="form-control">
-                
-                <button type="submit" class="form-control btn btn-dark">Sign In</button>
+            <div id="box1" class="">
+                <form action="/users/create-session" method="post">
+                    <input type="text" placeholder="your email-id" name="email" class="form-control" required>
+                    
+                    <input type="password" placeholder="password" name="password" class="form-control" required>
+                    
+                    <button type="submit" class="form-control btn btn-dark">Sign In</button>
+                    <p>
+                        <a href="/users/forgotpsd">Forgot Password ?</a>
+                    </p>
+                </form>
+                <hr>
+                <h2>OR</h2>
+                <br>
+                <a href="/users/auth/google">
+                    <button type="submit" id="google_btn" class="form-control btn btn-dark">Sign In with Google</button>
+                </a>
+                <a href="/users/auth/facebook">
+                    <button type="submit" id="google_btn" class="form-control btn btn-dark">Sign In with Facebook</button>
+                </a>
                 <p>
-                    <a href="/">Forgot Password ?</a>
+                    <a href="/users/sign-up">Don't have an account ?</a>
                 </p>
-            </form>
-            <hr>
-            <h2>OR</h2>
-            <br>
-            <a href="/users/auth/google">
-                <button type="submit" id="google_btn" class="form-control btn btn-dark">Sign In with Google</button>
-            </a>
-            <a href="/users/auth/facebook">
-                <button type="submit" id="google_btn" class="form-control btn btn-dark">Sign In with Facebook</button>
-            </a>
-            <p>
-                <a href="/">Don't have an account ?</a>
-            </p>
-            
+                
+            </div>
         </div>
 </div>
 

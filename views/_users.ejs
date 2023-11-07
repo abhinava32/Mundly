@@ -1,8 +1,12 @@
 
 <% for(user of users){ %>
+    
     <ul>
         <li>
-            <a href="/users/profile/<%=user._id%>"><%= user.name %></a>
+            <a href="/users/profile/<%=user._id%>">
+            <div class="user-list">
+                <img src="<%= user.avatar %>" alt="">
+                <div class="friends-name"> <%= user.name %></div></div></a>
         </li>
     </ul>
 <% } %>    

@@ -22,8 +22,8 @@ const development = {
         port: 587,
         secure: false,
         auth: {
-            user: '<your eamil>', //put your email here
-            pass: '<password>'
+            user: process.env.MUNDLY_EMAIL_ID,
+            pass: process.env.MUNDLY_EMAIL_PASSWORD
         }
     },
     clientID: "<Id>",

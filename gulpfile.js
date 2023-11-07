@@ -11,6 +11,10 @@ const rev = require('gulp-rev');
 const uglify = require('gulp-uglify');
 const imagemin = require('gulp-imagemin');
 
+const manifestStream = rev.manifest({
+    cwd: 'public/assets',
+    merge: true,
+  });
 
 gulp.task('css', (done) => {
     console.log('minifying css....... ');
@@ -23,7 +27,8 @@ gulp.task('css', (done) => {
     .pipe(rev())
     .pipe(gulp.dest('./public/assets'))
     .pipe(rev.manifest({
-        cwd: 'public',
+        cwd:'public/assets',
+        source: 'public/assets',
         merge: true
     }))
     .pipe(gulp.dest('./public/assets'));
@@ -37,7 +42,8 @@ gulp.task('images', (done) => {
     .pipe(rev())
     .pipe(gulp.dest('./public/assets'))
     .pipe(rev.manifest({
-        cwd: 'public',
+        cwd:'public/assets',
+        source: 'public/assets',
         merge: true
     }))
     .pipe(gulp.dest('./public/assets'));
@@ -51,16 +57,19 @@ gulp.task('js', (done) => {
     .pipe(rev())
     .pipe(gulp.dest('./public/assets'))
     .pipe(rev.manifest({
-        cwd: 'public',
-        merge:true
+        source: 'public/assets',
+        source: 'public/assets',
+        merge: true
     }))
     .pipe(gulp.dest('./public/assets'));
+    console.log("completed and done!!");
     done();
 });
 
 
 gulp.task('clean:assets', function(done){
-    del.sync('./public/assets');
+    // del.sync('./public/assets');
+    del.sync('./public');
     done();
 });
 
@@ -68,3 +77,4 @@ gulp.task('build', gulp.series('clean:assets', 'js', 'css', 'images'), function(
     console.log("Building Assets.... ");
     done();
 });
+

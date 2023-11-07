@@ -2,8 +2,13 @@
     <% for(request of requests){ %>
         <ul>
             <li>
-                <a href="/users/profile/<%=request.sender._id%>"><%= request.sender.name %></a>
+                <a href="/users/profile/<%=request.sender._id%>">
+                    <div class="user-list">
+                        <img src="<%= request.sender.avatar %>" alt="">
+                        <div class="friends-name"><%= request.sender.name %></div>
+                    </div> </a>
             </li>
         </ul>
+        
     <% } %>    
 <% } %>

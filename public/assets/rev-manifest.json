@@ -1,9 +1,19 @@
 {
-  "css/_chatBox.css": "css/_chatBox-355dfc9ede.css",
-  "css/_posts.css": "css/_posts-dca118ff36.css",
-  "css/_signin.css": "css/_signin-8a89ab9061.css",
-  "css/home.css": "css/home-e1c06d85ae.css",
-  "css/layout.css": "css/layout-03c21fe323.css",
+  "css/_chatBox.css": "css/_chatBox-a88432635c.css",
+  "css/_posts.css": "css/_posts-58ec8cface.css",
+  "css/_signin.css": "css/_signin-335a045dca.css",
+  "css/home.css": "css/home-73a0460ead.css",
+  "css/layout.css": "css/layout-559641e647.css",
+  "images/logo.gif": "images/logo-99effea3c0.gif",
+  "images/logo.png": "images/logo-2b7c8949c4.png",
+  "images/logo1.png": "images/logo1-02c3ce2acd.png",
+  "images/logo2.png": "images/logo2-6782b91d87.png",
+  "images/testing.jpg": "images/testing-b85e17ef79.jpg",
+  "images/thumbs-up-filled.png": "images/thumbs-up-filled-22a65fe83b.png",
+  "images/thumbs-up.png": "images/thumbs-up-ff562c7333.png",
+  "js/chatScript.js": "js/chatScript-d41d8cd98f.js",
   "js/chat_engine.js": "js/chat_engine-55cf2e2b92.js",
-  "js/homeScript.js": "js/homeScript-9ad907f123.js"
+  "js/forgotPassword.js": "js/forgotPassword-beec3012cc.js",
+  "js/homeScript.js": "js/homeScript-8f3d5d05b0.js",
+  "js/signUp.js": "js/signUp-c3c11a40c4.js"
 }
