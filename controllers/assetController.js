@@ -17,7 +17,7 @@ module.exports.asset = (req,res) => {
 
     return res.status(200).json({
         data: pathName,
-        message: "got it"
+        message: "Asset Path has been sent"
     });f
 
 
